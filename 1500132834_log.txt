@@ -1,0 +1,1035 @@
+11:33:54:771	488	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 -benchmark 150 
+11:33:54:802	488	
+11:33:54:818	488	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+11:33:54:834	488	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+11:33:54:849	488	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+11:33:54:865	488	
+11:33:55:646	488	OpenCL platform: AMD Accelerated Parallel Processing
+11:33:55:646	488	OpenCL initializing...
+
+11:33:55:662	488	AMD Cards available: 3 
+11:33:55:662	488	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+11:33:56:505	488	GPU #0 recognized as Radeon RX 470/570
+11:33:56:630	488	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+11:33:56:646	488	GPU #1 recognized as Radeon RX 470/570
+11:33:56:662	488	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+11:33:56:677	488	GPU #2 recognized as Radeon RX 470/570
+11:33:56:693	488	POOL/SOLO version
+11:33:56:709	488	b351 
+11:33:56:740	488	Platform: Windows
+11:33:56:834	488	start building OpenCL program for GPU 0...
+11:34:19:326	488	done
+11:34:19:701	488	start building OpenCL program for GPU 1...
+11:34:45:329	488	done
+11:34:45:594	488	start building OpenCL program for GPU 2...
+11:35:05:808	488	done
+11:35:06:472	488	GPU #0: set -etha as 0 (ETH algo for fast cards)
+11:35:06:738	488	GPU #1: set -etha as 0 (ETH algo for fast cards)
+11:35:07:410	488	GPU #2: set -etha as 0 (ETH algo for fast cards)
+11:35:07:425	488	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+11:35:07:425	488	No NVIDIA CUDA GPUs detected.
+11:35:07:425	488	Total cards: 3 
+11:35:07:457	488	No NVIDIA cards in the list, NVML library will not be used.
+11:35:07:894	488	
+11:35:07:925	488	
+BENCHMARK MODE!
+
+11:35:11:066	1640	Setting DAG epoch #150...
+11:35:11:957	488	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:11:988	488	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:35:15:785	488	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:15:785	488	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:35:17:082	1d78	Setting DAG epoch #150 for GPU1
+11:35:17:082	1d78	Create GPU buffer for GPU1
+11:35:23:254	488	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:23:300	488	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:35:27:457	488	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:30:175	488	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:35:35:441	488	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:35:472	488	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:35:39:321	488	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:39:352	488	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:35:39:774	1d78	GPU1 DAG creation time - 14134 ms
+11:35:39:789	1d78	Setting DAG epoch #150 for GPU1 done
+11:35:39:789	1c10	Setting DAG epoch #150 for GPU0
+11:35:39:930	1c10	Create GPU buffer for GPU0
+11:35:43:446	488	ETH - Total Speed: 5.388 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:43:477	488	ETH: GPU0 0.000 Mh/s, GPU1 5.388 Mh/s, GPU2 0.000 Mh/s
+11:35:47:680	488	ETH - Total Speed: 13.184 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:47:696	488	ETH: GPU0 0.000 Mh/s, GPU1 13.184 Mh/s, GPU2 0.000 Mh/s
+11:35:51:852	488	ETH - Total Speed: 17.203 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:51:868	488	ETH: GPU0 0.000 Mh/s, GPU1 17.203 Mh/s, GPU2 0.000 Mh/s
+11:35:56:024	488	ETH - Total Speed: 11.635 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:35:56:055	488	ETH: GPU0 0.000 Mh/s, GPU1 11.635 Mh/s, GPU2 0.000 Mh/s
+11:35:56:618	488	GPU0 t=38C fan=0%, GPU1 t=31C fan=0%, GPU2 t=35C fan=0%
+11:35:56:633	488	
+11:35:56:649	488	watchdog - thread 0 (gpu0), hb time 16860
+11:35:56:664	488	watchdog - thread 1 (gpu0), hb time 16875
+11:35:56:680	488	watchdog - thread 2 (gpu1), hb time 2984
+11:35:56:680	488	watchdog - thread 3 (gpu1), hb time 3359
+11:35:56:696	488	watchdog - thread 4 (gpu2), hb time 16907
+11:35:56:727	488	watchdog - thread 5 (gpu2), hb time 16938
+11:36:03:118	488	ETH - Total Speed: 21.487 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:36:03:164	488	ETH: GPU0 0.000 Mh/s, GPU1 21.487 Mh/s, GPU2 0.000 Mh/s
+11:36:03:227	1c10	GPU0 DAG creation time - 15614 ms
+11:36:04:477	1c10	Setting DAG epoch #150 for GPU0 done
+11:36:04:774	1640	Setting DAG epoch #150 for GPU2
+11:36:05:977	1640	Create GPU buffer for GPU2
+11:36:07:540	488	ETH - Total Speed: 16.937 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:07:556	488	ETH: GPU0 0.000 Mh/s, GPU1 16.937 Mh/s, GPU2 0.000 Mh/s
+11:36:12:087	488	ETH - Total Speed: 17.819 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:12:102	488	ETH: GPU0 0.000 Mh/s, GPU1 17.819 Mh/s, GPU2 0.000 Mh/s
+11:36:16:884	1640	GPU2 DAG creation time - 8845 ms
+11:36:18:598	488	ETH - Total Speed: 21.992 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:18:614	488	ETH: GPU0 0.000 Mh/s, GPU1 21.992 Mh/s, GPU2 0.000 Mh/s
+11:36:18:661	1640	Setting DAG epoch #150 for GPU2 done
+11:36:23:028	488	ETH - Total Speed: 39.766 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:23:246	488	ETH: GPU0 17.942 Mh/s, GPU1 21.824 Mh/s, GPU2 0.000 Mh/s
+11:36:27:764	488	ETH - Total Speed: 33.697 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:27:780	488	ETH: GPU0 19.225 Mh/s, GPU1 14.473 Mh/s, GPU2 0.000 Mh/s
+11:36:31:840	488	ETH - Total Speed: 43.892 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:32:559	488	ETH: GPU0 22.021 Mh/s, GPU1 21.871 Mh/s, GPU2 0.000 Mh/s
+11:36:36:746	488	ETH - Total Speed: 56.176 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:36:762	488	ETH: GPU0 18.592 Mh/s, GPU1 20.017 Mh/s, GPU2 17.567 Mh/s
+11:36:40:756	488	ETH - Total Speed: 47.641 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:40:771	488	ETH: GPU0 16.322 Mh/s, GPU1 15.597 Mh/s, GPU2 15.723 Mh/s
+11:36:45:266	488	ETH - Total Speed: 44.741 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:45:334	488	ETH: GPU0 16.183 Mh/s, GPU1 14.522 Mh/s, GPU2 14.036 Mh/s
+11:36:45:995	488	GPU0 t=51C fan=0%, GPU1 t=43C fan=0%, GPU2 t=45C fan=0%
+11:36:46:009	488	
+11:36:46:020	488	watchdog - thread 0 (gpu0), hb time 656
+11:36:46:035	488	watchdog - thread 1 (gpu0), hb time 1046
+11:36:46:055	488	watchdog - thread 2 (gpu1), hb time 687
+11:36:46:091	488	watchdog - thread 3 (gpu1), hb time 1093
+11:36:46:118	488	watchdog - thread 4 (gpu2), hb time 688
+11:36:46:118	488	watchdog - thread 5 (gpu2), hb time 1125
+11:36:51:497	488	ETH - Total Speed: 65.618 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:51:549	488	ETH: GPU0 21.781 Mh/s, GPU1 21.892 Mh/s, GPU2 21.945 Mh/s
+11:36:57:280	488	ETH - Total Speed: 64.474 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:36:57:468	488	ETH: GPU0 21.249 Mh/s, GPU1 21.233 Mh/s, GPU2 21.992 Mh/s
+11:37:04:163	488	ETH - Total Speed: 41.973 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+11:37:04:178	488	ETH: GPU0 18.702 Mh/s, GPU1 4.458 Mh/s, GPU2 18.813 Mh/s
+11:37:08:266	488	ETH - Total Speed: 29.049 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:08:282	488	ETH: GPU0 10.051 Mh/s, GPU1 9.584 Mh/s, GPU2 9.414 Mh/s
+11:37:12:607	488	ETH - Total Speed: 64.225 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:12:645	488	ETH: GPU0 21.563 Mh/s, GPU1 21.675 Mh/s, GPU2 20.987 Mh/s
+11:37:16:533	488	ETH - Total Speed: 54.372 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:16:565	488	ETH: GPU0 17.848 Mh/s, GPU1 17.729 Mh/s, GPU2 18.795 Mh/s
+11:37:20:768	488	ETH - Total Speed: 34.466 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:20:799	488	ETH: GPU0 9.179 Mh/s, GPU1 16.133 Mh/s, GPU2 9.153 Mh/s
+11:37:24:487	488	ETH - Total Speed: 28.624 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:24:502	488	ETH: GPU0 9.558 Mh/s, GPU1 9.517 Mh/s, GPU2 9.549 Mh/s
+11:37:29:049	488	ETH - Total Speed: 21.635 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:29:065	488	ETH: GPU0 7.209 Mh/s, GPU1 7.215 Mh/s, GPU2 7.211 Mh/s
+11:37:32:502	488	ETH - Total Speed: 66.042 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:35:533	488	ETH: GPU0 22.015 Mh/s, GPU1 22.009 Mh/s, GPU2 22.018 Mh/s
+11:37:35:565	488	GPU0 t=54C fan=47%, GPU1 t=55C fan=45%, GPU2 t=53C fan=50%
+11:37:35:580	488	
+11:37:35:580	488	watchdog - thread 0 (gpu0), hb time 641
+11:37:35:596	488	watchdog - thread 1 (gpu0), hb time 328
+11:37:35:612	488	watchdog - thread 2 (gpu1), hb time 0
+11:37:35:612	488	watchdog - thread 3 (gpu1), hb time 359
+11:37:35:612	488	watchdog - thread 4 (gpu2), hb time 656
+11:37:35:627	488	watchdog - thread 5 (gpu2), hb time 329
+11:37:39:768	488	ETH - Total Speed: 37.062 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:39:955	488	ETH: GPU0 8.206 Mh/s, GPU1 15.516 Mh/s, GPU2 13.341 Mh/s
+11:37:43:522	488	ETH - Total Speed: 65.085 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:43:569	488	ETH: GPU0 21.808 Mh/s, GPU1 21.462 Mh/s, GPU2 21.815 Mh/s
+11:37:47:288	488	ETH - Total Speed: 57.983 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:47:304	488	ETH: GPU0 17.893 Mh/s, GPU1 18.084 Mh/s, GPU2 22.006 Mh/s
+11:37:51:272	488	ETH - Total Speed: 57.611 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:51:288	488	ETH: GPU0 18.273 Mh/s, GPU1 18.267 Mh/s, GPU2 21.071 Mh/s
+11:37:55:210	488	ETH - Total Speed: 19.799 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:55:397	488	ETH: GPU0 11.409 Mh/s, GPU1 3.236 Mh/s, GPU2 5.155 Mh/s
+11:37:58:991	488	ETH - Total Speed: 16.480 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:37:59:085	488	ETH: GPU0 5.196 Mh/s, GPU1 5.604 Mh/s, GPU2 5.679 Mh/s
+11:38:03:194	488	ETH - Total Speed: 65.926 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+11:38:03:429	488	ETH: GPU0 21.997 Mh/s, GPU1 21.988 Mh/s, GPU2 21.941 Mh/s
+11:38:07:664	488	ETH - Total Speed: 42.030 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:07:867	488	ETH: GPU0 19.340 Mh/s, GPU1 17.771 Mh/s, GPU2 4.918 Mh/s
+11:38:12:227	488	ETH - Total Speed: 44.560 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:12:242	488	ETH: GPU0 2.824 Mh/s, GPU1 20.741 Mh/s, GPU2 20.995 Mh/s
+11:38:16:023	488	ETH - Total Speed: 64.076 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:16:070	488	ETH: GPU0 21.151 Mh/s, GPU1 21.037 Mh/s, GPU2 21.888 Mh/s
+11:38:16:445	488	GPU0 t=53C fan=0%, GPU1 t=55C fan=48%, GPU2 t=51C fan=0%
+11:38:16:461	488	
+11:38:16:477	488	watchdog - thread 0 (gpu0), hb time 297
+11:38:16:492	488	watchdog - thread 1 (gpu0), hb time 688
+11:38:16:492	488	watchdog - thread 2 (gpu1), hb time 375
+11:38:16:508	488	watchdog - thread 3 (gpu1), hb time 31
+11:38:16:523	488	watchdog - thread 4 (gpu2), hb time 63
+11:38:16:523	488	watchdog - thread 5 (gpu2), hb time 438
+11:38:20:070	488	ETH - Total Speed: 59.119 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:20:117	488	ETH: GPU0 21.415 Mh/s, GPU1 18.331 Mh/s, GPU2 19.373 Mh/s
+11:38:23:602	488	ETH - Total Speed: 65.983 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:23:617	488	ETH: GPU0 22.017 Mh/s, GPU1 21.960 Mh/s, GPU2 22.006 Mh/s
+11:38:27:039	488	ETH - Total Speed: 63.639 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:27:086	488	ETH: GPU0 21.585 Mh/s, GPU1 20.845 Mh/s, GPU2 21.209 Mh/s
+11:38:30:477	488	ETH - Total Speed: 65.630 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:30:523	488	ETH: GPU0 21.660 Mh/s, GPU1 21.958 Mh/s, GPU2 22.013 Mh/s
+11:38:34:633	488	ETH - Total Speed: 30.069 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:34:758	488	ETH: GPU0 7.441 Mh/s, GPU1 11.308 Mh/s, GPU2 11.320 Mh/s
+11:38:40:867	488	ETH - Total Speed: 31.409 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:41:102	488	ETH: GPU0 10.465 Mh/s, GPU1 10.465 Mh/s, GPU2 10.478 Mh/s
+11:38:46:461	488	ETH - Total Speed: 11.369 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:46:476	488	ETH: GPU0 2.518 Mh/s, GPU1 4.437 Mh/s, GPU2 4.415 Mh/s
+11:38:50:336	488	ETH - Total Speed: 56.013 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:50:351	488	ETH: GPU0 18.586 Mh/s, GPU1 18.756 Mh/s, GPU2 18.672 Mh/s
+11:38:53:820	488	ETH - Total Speed: 66.034 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:53:836	488	ETH: GPU0 22.028 Mh/s, GPU1 22.002 Mh/s, GPU2 22.004 Mh/s
+11:38:57:164	488	ETH - Total Speed: 66.081 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:38:57:211	488	ETH: GPU0 22.034 Mh/s, GPU1 22.010 Mh/s, GPU2 22.036 Mh/s
+11:38:57:289	488	GPU0 t=54C fan=48%, GPU1 t=54C fan=50%, GPU2 t=54C fan=38%
+11:38:57:305	488	
+11:38:57:305	488	watchdog - thread 0 (gpu0), hb time 453
+11:38:57:320	488	watchdog - thread 1 (gpu0), hb time 125
+11:38:57:320	488	watchdog - thread 2 (gpu1), hb time 469
+11:38:57:336	488	watchdog - thread 3 (gpu1), hb time 140
+11:38:57:336	488	watchdog - thread 4 (gpu2), hb time 140
+11:38:57:351	488	watchdog - thread 5 (gpu2), hb time 500
+11:39:00:711	488	ETH - Total Speed: 66.004 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:39:00:711	488	ETH: GPU0 22.008 Mh/s, GPU1 21.992 Mh/s, GPU2 22.003 Mh/s
+11:39:04:055	488	ETH - Total Speed: 66.011 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+11:39:04:070	488	ETH: GPU0 22.029 Mh/s, GPU1 21.985 Mh/s, GPU2 21.996 Mh/s
+11:39:07:414	488	ETH - Total Speed: 66.041 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:07:414	488	ETH: GPU0 22.038 Mh/s, GPU1 21.996 Mh/s, GPU2 22.008 Mh/s
+11:39:10:801	488	ETH - Total Speed: 65.899 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:10:817	488	ETH: GPU0 21.924 Mh/s, GPU1 21.999 Mh/s, GPU2 21.976 Mh/s
+11:39:14:176	488	ETH - Total Speed: 66.021 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:14:192	488	ETH: GPU0 22.010 Mh/s, GPU1 21.998 Mh/s, GPU2 22.013 Mh/s
+11:39:17:520	488	ETH - Total Speed: 65.968 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:17:536	488	ETH: GPU0 22.020 Mh/s, GPU1 21.979 Mh/s, GPU2 21.969 Mh/s
+11:39:20:862	488	ETH - Total Speed: 65.938 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:20:862	488	ETH: GPU0 21.981 Mh/s, GPU1 21.940 Mh/s, GPU2 22.017 Mh/s
+11:39:24:190	488	ETH - Total Speed: 60.210 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:24:212	488	ETH: GPU0 17.739 Mh/s, GPU1 21.044 Mh/s, GPU2 21.428 Mh/s
+11:39:27:554	488	ETH - Total Speed: 66.048 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:27:554	488	ETH: GPU0 22.028 Mh/s, GPU1 22.010 Mh/s, GPU2 22.010 Mh/s
+11:39:30:892	488	ETH - Total Speed: 63.843 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:30:902	488	ETH: GPU0 21.686 Mh/s, GPU1 20.223 Mh/s, GPU2 21.934 Mh/s
+11:39:30:950	488	GPU0 t=57C fan=48%, GPU1 t=60C fan=51%, GPU2 t=54C fan=48%
+11:39:30:961	488	
+11:39:30:969	488	watchdog - thread 0 (gpu0), hb time 609
+11:39:30:978	488	watchdog - thread 1 (gpu0), hb time 281
+11:39:30:986	488	watchdog - thread 2 (gpu1), hb time 625
+11:39:30:995	488	watchdog - thread 3 (gpu1), hb time 282
+11:39:31:003	488	watchdog - thread 4 (gpu2), hb time 110
+11:39:31:012	488	watchdog - thread 5 (gpu2), hb time 469
+11:39:34:588	488	ETH - Total Speed: 64.733 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:34:597	488	ETH: GPU0 22.004 Mh/s, GPU1 20.725 Mh/s, GPU2 22.004 Mh/s
+11:39:37:874	488	ETH - Total Speed: 65.532 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:37:883	488	ETH: GPU0 21.997 Mh/s, GPU1 21.535 Mh/s, GPU2 21.999 Mh/s
+11:39:41:444	488	ETH - Total Speed: 31.634 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:41:446	488	ETH: GPU0 14.654 Mh/s, GPU1 8.497 Mh/s, GPU2 8.482 Mh/s
+11:39:44:890	488	ETH - Total Speed: 56.135 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:44:900	488	ETH: GPU0 17.811 Mh/s, GPU1 18.765 Mh/s, GPU2 19.559 Mh/s
+11:39:48:182	488	ETH - Total Speed: 63.927 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:48:197	488	ETH: GPU0 21.946 Mh/s, GPU1 20.423 Mh/s, GPU2 21.558 Mh/s
+11:39:51:366	488	ETH - Total Speed: 66.036 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:51:366	488	ETH: GPU0 22.026 Mh/s, GPU1 21.998 Mh/s, GPU2 22.012 Mh/s
+11:39:54:594	488	ETH - Total Speed: 66.013 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:54:594	488	ETH: GPU0 22.008 Mh/s, GPU1 21.996 Mh/s, GPU2 22.009 Mh/s
+11:39:58:051	488	ETH - Total Speed: 53.016 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:39:58:072	488	ETH: GPU0 16.544 Mh/s, GPU1 14.491 Mh/s, GPU2 21.981 Mh/s
+11:40:01:612	488	ETH - Total Speed: 62.158 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:40:01:628	488	ETH: GPU0 18.193 Mh/s, GPU1 21.968 Mh/s, GPU2 21.997 Mh/s
+11:40:04:905	488	ETH - Total Speed: 62.337 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+11:40:04:905	488	ETH: GPU0 18.297 Mh/s, GPU1 22.015 Mh/s, GPU2 22.025 Mh/s
+11:40:04:952	488	GPU0 t=59C fan=47%, GPU1 t=62C fan=54%, GPU2 t=53C fan=50%
+11:40:04:952	488	
+11:40:04:967	488	watchdog - thread 0 (gpu0), hb time 500
+11:40:04:967	488	watchdog - thread 1 (gpu0), hb time 62
+11:40:04:983	488	watchdog - thread 2 (gpu1), hb time 641
+11:40:04:983	488	watchdog - thread 3 (gpu1), hb time 297
+11:40:04:998	488	watchdog - thread 4 (gpu2), hb time 47
+11:40:04:998	488	watchdog - thread 5 (gpu2), hb time 375
+11:40:08:296	488	ETH - Total Speed: 62.227 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:08:312	488	ETH: GPU0 18.298 Mh/s, GPU1 21.973 Mh/s, GPU2 21.956 Mh/s
+11:40:11:673	488	ETH - Total Speed: 58.903 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:11:684	488	ETH: GPU0 18.297 Mh/s, GPU1 18.686 Mh/s, GPU2 21.920 Mh/s
+11:40:14:917	488	ETH - Total Speed: 60.421 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:14:928	488	ETH: GPU0 18.212 Mh/s, GPU1 20.206 Mh/s, GPU2 22.003 Mh/s
+11:40:18:114	488	ETH - Total Speed: 62.165 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:18:114	488	ETH: GPU0 18.292 Mh/s, GPU1 21.874 Mh/s, GPU2 21.999 Mh/s
+11:40:21:451	488	ETH - Total Speed: 58.121 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:21:469	488	ETH: GPU0 18.243 Mh/s, GPU1 21.717 Mh/s, GPU2 18.160 Mh/s
+11:40:24:614	488	ETH - Total Speed: 62.334 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:24:623	488	ETH: GPU0 18.298 Mh/s, GPU1 22.009 Mh/s, GPU2 22.027 Mh/s
+11:40:28:020	488	ETH - Total Speed: 61.409 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:28:033	488	ETH: GPU0 18.259 Mh/s, GPU1 21.134 Mh/s, GPU2 22.016 Mh/s
+11:40:31:256	488	ETH - Total Speed: 61.752 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:31:256	488	ETH: GPU0 17.901 Mh/s, GPU1 21.912 Mh/s, GPU2 21.939 Mh/s
+11:40:34:708	488	ETH - Total Speed: 62.337 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:34:723	488	ETH: GPU0 18.298 Mh/s, GPU1 22.014 Mh/s, GPU2 22.025 Mh/s
+11:40:38:028	488	ETH - Total Speed: 61.561 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:38:043	488	ETH: GPU0 18.294 Mh/s, GPU1 21.283 Mh/s, GPU2 21.984 Mh/s
+11:40:38:074	488	GPU0 t=61C fan=46%, GPU1 t=63C fan=54%, GPU2 t=53C fan=49%
+11:40:38:090	488	
+11:40:38:090	488	watchdog - thread 0 (gpu0), hb time 750
+11:40:38:106	488	watchdog - thread 1 (gpu0), hb time 344
+11:40:38:106	488	watchdog - thread 2 (gpu1), hb time 563
+11:40:38:121	488	watchdog - thread 3 (gpu1), hb time 219
+11:40:38:121	488	watchdog - thread 4 (gpu2), hb time 672
+11:40:38:137	488	watchdog - thread 5 (gpu2), hb time 344
+11:40:41:463	488	ETH - Total Speed: 62.326 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:41:463	488	ETH: GPU0 18.300 Mh/s, GPU1 22.011 Mh/s, GPU2 22.014 Mh/s
+11:40:44:777	488	ETH - Total Speed: 57.872 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:44:793	488	ETH: GPU0 14.520 Mh/s, GPU1 21.367 Mh/s, GPU2 21.985 Mh/s
+11:40:48:521	488	ETH - Total Speed: 55.386 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:48:639	488	ETH: GPU0 18.289 Mh/s, GPU1 18.716 Mh/s, GPU2 18.381 Mh/s
+11:40:51:940	488	ETH - Total Speed: 61.588 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:51:940	488	ETH: GPU0 18.302 Mh/s, GPU1 21.955 Mh/s, GPU2 21.331 Mh/s
+11:40:55:563	488	ETH - Total Speed: 59.306 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:55:563	488	ETH: GPU0 18.185 Mh/s, GPU1 19.111 Mh/s, GPU2 22.009 Mh/s
+11:40:58:915	488	ETH - Total Speed: 61.340 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:40:58:927	488	ETH: GPU0 18.288 Mh/s, GPU1 21.047 Mh/s, GPU2 22.005 Mh/s
+11:41:02:245	488	ETH - Total Speed: 62.311 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:41:02:245	488	ETH: GPU0 18.286 Mh/s, GPU1 22.009 Mh/s, GPU2 22.016 Mh/s
+11:41:05:478	488	ETH - Total Speed: 61.812 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+11:41:05:495	488	ETH: GPU0 18.030 Mh/s, GPU1 21.806 Mh/s, GPU2 21.976 Mh/s
+11:41:08:682	488	ETH - Total Speed: 62.155 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:08:707	488	ETH: GPU0 18.292 Mh/s, GPU1 21.971 Mh/s, GPU2 21.892 Mh/s
+11:41:11:979	488	ETH - Total Speed: 62.314 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:11:979	488	ETH: GPU0 18.299 Mh/s, GPU1 21.992 Mh/s, GPU2 22.023 Mh/s
+11:41:12:026	488	GPU0 t=62C fan=47%, GPU1 t=63C fan=53%, GPU2 t=53C fan=49%
+11:41:12:026	488	
+11:41:12:041	488	watchdog - thread 0 (gpu0), hb time 734
+11:41:12:041	488	watchdog - thread 1 (gpu0), hb time 328
+11:41:12:057	488	watchdog - thread 2 (gpu1), hb time 172
+11:41:12:057	488	watchdog - thread 3 (gpu1), hb time 500
+11:41:12:073	488	watchdog - thread 4 (gpu2), hb time 110
+11:41:12:073	488	watchdog - thread 5 (gpu2), hb time 469
+11:41:15:448	488	ETH - Total Speed: 60.859 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:15:457	488	ETH: GPU0 18.299 Mh/s, GPU1 21.931 Mh/s, GPU2 20.629 Mh/s
+11:41:18:668	488	ETH - Total Speed: 62.202 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:18:684	488	ETH: GPU0 18.235 Mh/s, GPU1 21.958 Mh/s, GPU2 22.009 Mh/s
+11:41:21:919	488	ETH - Total Speed: 61.767 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:21:936	488	ETH: GPU0 21.996 Mh/s, GPU1 17.886 Mh/s, GPU2 21.885 Mh/s
+11:41:25:208	488	ETH - Total Speed: 65.609 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:25:218	488	ETH: GPU0 21.946 Mh/s, GPU1 21.645 Mh/s, GPU2 22.018 Mh/s
+11:41:28:529	488	ETH - Total Speed: 65.984 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:28:529	488	ETH: GPU0 22.010 Mh/s, GPU1 21.957 Mh/s, GPU2 22.017 Mh/s
+11:41:31:854	488	ETH - Total Speed: 66.049 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:31:854	488	ETH: GPU0 22.025 Mh/s, GPU1 22.020 Mh/s, GPU2 22.004 Mh/s
+11:41:35:443	488	ETH - Total Speed: 65.888 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:35:458	488	ETH: GPU0 21.953 Mh/s, GPU1 22.021 Mh/s, GPU2 21.915 Mh/s
+11:41:38:833	488	ETH - Total Speed: 65.961 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:38:849	488	ETH: GPU0 22.020 Mh/s, GPU1 21.971 Mh/s, GPU2 21.971 Mh/s
+11:41:42:177	488	ETH - Total Speed: 66.042 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:42:193	488	ETH: GPU0 22.017 Mh/s, GPU1 21.999 Mh/s, GPU2 22.027 Mh/s
+11:41:47:443	488	ETH - Total Speed: 41.133 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:47:521	488	ETH: GPU0 4.504 Mh/s, GPU1 18.317 Mh/s, GPU2 18.312 Mh/s
+11:41:48:068	488	GPU0 t=59C fan=47%, GPU1 t=59C fan=52%, GPU2 t=49C fan=49%
+11:41:48:427	488	
+11:41:48:443	488	watchdog - thread 0 (gpu0), hb time 4360
+11:41:48:443	488	watchdog - thread 1 (gpu0), hb time 2703
+11:41:48:443	488	watchdog - thread 2 (gpu1), hb time 3672
+11:41:48:458	488	watchdog - thread 3 (gpu1), hb time 4093
+11:41:48:458	488	watchdog - thread 4 (gpu2), hb time 4093
+11:41:48:474	488	watchdog - thread 5 (gpu2), hb time 3703
+11:41:52:211	488	ETH - Total Speed: 66.045 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:52:227	488	ETH: GPU0 22.021 Mh/s, GPU1 22.010 Mh/s, GPU2 22.014 Mh/s
+11:41:57:071	488	ETH - Total Speed: 18.910 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:41:57:383	488	ETH: GPU0 5.139 Mh/s, GPU1 4.555 Mh/s, GPU2 9.217 Mh/s
+11:42:03:235	488	ETH - Total Speed: 65.997 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:06
+11:42:04:126	488	ETH: GPU0 22.007 Mh/s, GPU1 21.991 Mh/s, GPU2 21.999 Mh/s
+11:42:09:517	488	ETH - Total Speed: 13.364 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:09:532	488	ETH: GPU0 4.861 Mh/s, GPU1 4.859 Mh/s, GPU2 3.644 Mh/s
+11:42:13:001	488	ETH - Total Speed: 66.037 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:15:626	488	ETH: GPU0 22.042 Mh/s, GPU1 22.000 Mh/s, GPU2 21.995 Mh/s
+11:42:19:100	488	ETH - Total Speed: 62.327 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:19:115	488	ETH: GPU0 22.016 Mh/s, GPU1 22.005 Mh/s, GPU2 18.307 Mh/s
+11:42:22:445	488	ETH - Total Speed: 65.972 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:22:461	488	ETH: GPU0 22.020 Mh/s, GPU1 21.974 Mh/s, GPU2 21.978 Mh/s
+11:42:25:789	488	ETH - Total Speed: 65.932 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:25:805	488	ETH: GPU0 21.925 Mh/s, GPU1 21.998 Mh/s, GPU2 22.009 Mh/s
+11:42:29:133	488	ETH - Total Speed: 66.038 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:29:148	488	ETH: GPU0 22.025 Mh/s, GPU1 21.996 Mh/s, GPU2 22.018 Mh/s
+11:42:32:477	488	ETH - Total Speed: 66.033 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:32:477	488	ETH: GPU0 22.009 Mh/s, GPU1 22.015 Mh/s, GPU2 22.009 Mh/s
+11:42:32:539	488	GPU0 t=62C fan=51%, GPU1 t=63C fan=55%, GPU2 t=55C fan=51%
+11:42:32:539	488	
+11:42:32:555	488	watchdog - thread 0 (gpu0), hb time 172
+11:42:32:555	488	watchdog - thread 1 (gpu0), hb time 516
+11:42:32:570	488	watchdog - thread 2 (gpu1), hb time 141
+11:42:32:570	488	watchdog - thread 3 (gpu1), hb time 485
+11:42:32:586	488	watchdog - thread 4 (gpu2), hb time 468
+11:42:32:586	488	watchdog - thread 5 (gpu2), hb time 109
+11:42:35:906	488	ETH - Total Speed: 66.022 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:35:922	488	ETH: GPU0 22.009 Mh/s, GPU1 21.999 Mh/s, GPU2 22.015 Mh/s
+11:42:39:250	488	ETH - Total Speed: 65.992 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:39:266	488	ETH: GPU0 22.015 Mh/s, GPU1 21.974 Mh/s, GPU2 22.003 Mh/s
+11:42:42:594	488	ETH - Total Speed: 65.800 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:42:609	488	ETH: GPU0 21.824 Mh/s, GPU1 21.977 Mh/s, GPU2 21.999 Mh/s
+11:42:45:937	488	ETH - Total Speed: 66.045 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:45:953	488	ETH: GPU0 22.026 Mh/s, GPU1 21.994 Mh/s, GPU2 22.024 Mh/s
+11:42:49:272	488	ETH - Total Speed: 66.036 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:49:288	488	ETH: GPU0 22.012 Mh/s, GPU1 22.002 Mh/s, GPU2 22.022 Mh/s
+11:42:52:617	488	ETH - Total Speed: 65.125 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:52:633	488	ETH: GPU0 21.168 Mh/s, GPU1 22.006 Mh/s, GPU2 21.951 Mh/s
+11:42:55:976	488	ETH - Total Speed: 66.017 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:55:992	488	ETH: GPU0 22.011 Mh/s, GPU1 21.993 Mh/s, GPU2 22.012 Mh/s
+11:42:59:320	488	ETH - Total Speed: 65.980 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:42:59:336	488	ETH: GPU0 22.004 Mh/s, GPU1 21.982 Mh/s, GPU2 21.994 Mh/s
+11:43:02:664	488	ETH - Total Speed: 65.999 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:43:02:679	488	ETH: GPU0 22.006 Mh/s, GPU1 21.983 Mh/s, GPU2 22.011 Mh/s
+11:43:06:000	488	ETH - Total Speed: 62.314 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:07
+11:43:08:797	488	ETH: GPU0 18.294 Mh/s, GPU1 22.001 Mh/s, GPU2 22.018 Mh/s
+11:43:08:844	488	GPU0 t=63C fan=48%, GPU1 t=65C fan=53%, GPU2 t=55C fan=49%
+11:43:08:844	488	
+11:43:08:859	488	watchdog - thread 0 (gpu0), hb time 484
+11:43:08:859	488	watchdog - thread 1 (gpu0), hb time 141
+11:43:08:875	488	watchdog - thread 2 (gpu1), hb time 500
+11:43:08:875	488	watchdog - thread 3 (gpu1), hb time 172
+11:43:08:890	488	watchdog - thread 4 (gpu2), hb time 187
+11:43:08:890	488	watchdog - thread 5 (gpu2), hb time 531
+11:43:12:219	488	ETH - Total Speed: 66.030 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:12:234	488	ETH: GPU0 22.028 Mh/s, GPU1 21.983 Mh/s, GPU2 22.018 Mh/s
+11:43:15:562	488	ETH - Total Speed: 66.023 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:15:578	488	ETH: GPU0 22.017 Mh/s, GPU1 21.988 Mh/s, GPU2 22.019 Mh/s
+11:43:18:913	488	ETH - Total Speed: 66.022 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:18:928	488	ETH: GPU0 22.013 Mh/s, GPU1 21.987 Mh/s, GPU2 22.021 Mh/s
+11:43:22:257	488	ETH - Total Speed: 66.046 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:22:257	488	ETH: GPU0 22.013 Mh/s, GPU1 22.008 Mh/s, GPU2 22.025 Mh/s
+11:43:25:588	488	ETH - Total Speed: 66.022 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:25:604	488	ETH: GPU0 22.021 Mh/s, GPU1 21.975 Mh/s, GPU2 22.026 Mh/s
+11:43:28:932	488	ETH - Total Speed: 65.811 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:28:948	488	ETH: GPU0 21.943 Mh/s, GPU1 21.979 Mh/s, GPU2 21.889 Mh/s
+11:43:32:258	488	ETH - Total Speed: 63.552 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:34:102	488	ETH: GPU0 21.919 Mh/s, GPU1 19.777 Mh/s, GPU2 21.857 Mh/s
+11:43:37:421	488	ETH - Total Speed: 66.022 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:37:436	488	ETH: GPU0 22.015 Mh/s, GPU1 22.013 Mh/s, GPU2 21.994 Mh/s
+11:43:40:764	488	ETH - Total Speed: 66.044 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:40:780	488	ETH: GPU0 22.012 Mh/s, GPU1 22.016 Mh/s, GPU2 22.015 Mh/s
+11:43:44:108	488	ETH - Total Speed: 66.029 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:44:108	488	ETH: GPU0 22.011 Mh/s, GPU1 22.010 Mh/s, GPU2 22.007 Mh/s
+11:43:44:171	488	GPU0 t=65C fan=47%, GPU1 t=67C fan=51%, GPU2 t=55C fan=49%
+11:43:44:171	488	
+11:43:44:186	488	watchdog - thread 0 (gpu0), hb time 531
+11:43:44:186	488	watchdog - thread 1 (gpu0), hb time 203
+11:43:44:202	488	watchdog - thread 2 (gpu1), hb time 297
+11:43:44:202	488	watchdog - thread 3 (gpu1), hb time 641
+11:43:44:217	488	watchdog - thread 4 (gpu2), hb time 156
+11:43:44:217	488	watchdog - thread 5 (gpu2), hb time 500
+11:43:47:412	488	ETH - Total Speed: 66.027 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:47:427	488	ETH: GPU0 22.015 Mh/s, GPU1 22.004 Mh/s, GPU2 22.008 Mh/s
+11:43:50:726	488	ETH - Total Speed: 66.053 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:50:741	488	ETH: GPU0 22.021 Mh/s, GPU1 22.020 Mh/s, GPU2 22.012 Mh/s
+11:43:54:056	488	ETH - Total Speed: 65.712 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:54:072	488	ETH: GPU0 21.834 Mh/s, GPU1 21.964 Mh/s, GPU2 21.914 Mh/s
+11:43:57:400	488	ETH - Total Speed: 66.044 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:43:57:415	488	ETH: GPU0 22.034 Mh/s, GPU1 22.009 Mh/s, GPU2 22.000 Mh/s
+11:44:00:744	488	ETH - Total Speed: 66.025 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:44:00:759	488	ETH: GPU0 22.031 Mh/s, GPU1 21.981 Mh/s, GPU2 22.012 Mh/s
+11:44:04:090	488	ETH - Total Speed: 66.031 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:08
+11:44:04:106	488	ETH: GPU0 22.007 Mh/s, GPU1 22.007 Mh/s, GPU2 22.017 Mh/s
+11:44:07:434	488	ETH - Total Speed: 66.047 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:07:450	488	ETH: GPU0 22.030 Mh/s, GPU1 21.998 Mh/s, GPU2 22.019 Mh/s
+11:44:10:778	488	ETH - Total Speed: 66.040 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:10:778	488	ETH: GPU0 22.022 Mh/s, GPU1 21.995 Mh/s, GPU2 22.023 Mh/s
+11:44:14:122	488	ETH - Total Speed: 65.955 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:14:137	488	ETH: GPU0 21.957 Mh/s, GPU1 21.987 Mh/s, GPU2 22.011 Mh/s
+11:44:17:465	488	ETH - Total Speed: 66.042 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:17:465	488	ETH: GPU0 22.025 Mh/s, GPU1 21.994 Mh/s, GPU2 22.023 Mh/s
+11:44:17:528	488	GPU0 t=66C fan=47%, GPU1 t=68C fan=51%, GPU2 t=55C fan=49%
+11:44:17:528	488	
+11:44:17:543	488	watchdog - thread 0 (gpu0), hb time 656
+11:44:17:543	488	watchdog - thread 1 (gpu0), hb time 312
+11:44:17:559	488	watchdog - thread 2 (gpu1), hb time 375
+11:44:17:559	488	watchdog - thread 3 (gpu1), hb time 31
+11:44:17:575	488	watchdog - thread 4 (gpu2), hb time 297
+11:44:17:575	488	watchdog - thread 5 (gpu2), hb time 641
+11:44:20:897	488	ETH - Total Speed: 65.979 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:20:913	488	ETH: GPU0 22.008 Mh/s, GPU1 21.992 Mh/s, GPU2 21.979 Mh/s
+11:44:24:226	488	ETH - Total Speed: 66.029 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:24:241	488	ETH: GPU0 22.016 Mh/s, GPU1 22.003 Mh/s, GPU2 22.010 Mh/s
+11:44:27:569	488	ETH - Total Speed: 66.045 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:27:585	488	ETH: GPU0 22.033 Mh/s, GPU1 21.992 Mh/s, GPU2 22.019 Mh/s
+11:44:30:913	488	ETH - Total Speed: 66.037 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:30:929	488	ETH: GPU0 22.023 Mh/s, GPU1 22.009 Mh/s, GPU2 22.004 Mh/s
+11:44:34:261	488	ETH - Total Speed: 66.001 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:34:261	488	ETH: GPU0 22.014 Mh/s, GPU1 21.980 Mh/s, GPU2 22.007 Mh/s
+11:44:37:605	488	ETH - Total Speed: 64.800 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:37:620	488	ETH: GPU0 22.026 Mh/s, GPU1 21.954 Mh/s, GPU2 20.819 Mh/s
+11:44:40:933	488	ETH - Total Speed: 66.031 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:40:948	488	ETH: GPU0 22.011 Mh/s, GPU1 22.009 Mh/s, GPU2 22.011 Mh/s
+11:44:44:277	488	ETH - Total Speed: 66.018 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:44:277	488	ETH: GPU0 22.025 Mh/s, GPU1 21.993 Mh/s, GPU2 22.000 Mh/s
+11:44:47:620	488	ETH - Total Speed: 65.980 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:47:636	488	ETH: GPU0 22.011 Mh/s, GPU1 21.999 Mh/s, GPU2 21.970 Mh/s
+11:44:50:960	488	ETH - Total Speed: 66.014 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:50:975	488	ETH: GPU0 22.006 Mh/s, GPU1 21.980 Mh/s, GPU2 22.027 Mh/s
+11:44:51:022	488	GPU0 t=67C fan=47%, GPU1 t=68C fan=51%, GPU2 t=56C fan=49%
+11:44:51:038	488	
+11:44:51:038	488	watchdog - thread 0 (gpu0), hb time 203
+11:44:51:054	488	watchdog - thread 1 (gpu0), hb time 547
+11:44:51:054	488	watchdog - thread 2 (gpu1), hb time 516
+11:44:51:069	488	watchdog - thread 3 (gpu1), hb time 203
+11:44:51:069	488	watchdog - thread 4 (gpu2), hb time 516
+11:44:51:085	488	watchdog - thread 5 (gpu2), hb time 203
+11:44:54:412	488	ETH - Total Speed: 66.044 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:54:412	488	ETH: GPU0 22.024 Mh/s, GPU1 22.001 Mh/s, GPU2 22.020 Mh/s
+11:44:57:756	488	ETH - Total Speed: 66.048 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:44:57:772	488	ETH: GPU0 22.011 Mh/s, GPU1 22.007 Mh/s, GPU2 22.030 Mh/s
+11:45:01:100	488	ETH - Total Speed: 65.976 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:45:01:115	488	ETH: GPU0 22.025 Mh/s, GPU1 21.972 Mh/s, GPU2 21.979 Mh/s
+11:45:04:446	488	ETH - Total Speed: 66.069 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:09
+11:45:04:446	488	ETH: GPU0 22.021 Mh/s, GPU1 22.019 Mh/s, GPU2 22.029 Mh/s
+11:45:07:790	488	ETH - Total Speed: 64.470 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:07:806	488	ETH: GPU0 20.472 Mh/s, GPU1 21.978 Mh/s, GPU2 22.020 Mh/s
+11:45:11:134	488	ETH - Total Speed: 66.041 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:11:134	488	ETH: GPU0 22.024 Mh/s, GPU1 21.999 Mh/s, GPU2 22.018 Mh/s
+11:45:14:478	488	ETH - Total Speed: 65.982 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:14:493	488	ETH: GPU0 22.015 Mh/s, GPU1 21.995 Mh/s, GPU2 21.973 Mh/s
+11:45:17:821	488	ETH - Total Speed: 65.935 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:17:837	488	ETH: GPU0 21.951 Mh/s, GPU1 21.987 Mh/s, GPU2 21.997 Mh/s
+11:45:21:161	488	ETH - Total Speed: 66.036 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:21:177	488	ETH: GPU0 22.016 Mh/s, GPU1 21.996 Mh/s, GPU2 22.024 Mh/s
+11:45:24:503	488	ETH - Total Speed: 66.006 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:24:503	488	ETH: GPU0 22.021 Mh/s, GPU1 21.977 Mh/s, GPU2 22.008 Mh/s
+11:45:24:566	488	GPU0 t=67C fan=47%, GPU1 t=69C fan=51%, GPU2 t=56C fan=49%
+11:45:24:566	488	
+11:45:24:581	488	watchdog - thread 0 (gpu0), hb time 532
+11:45:24:597	488	watchdog - thread 1 (gpu0), hb time 203
+11:45:24:597	488	watchdog - thread 2 (gpu1), hb time 156
+11:45:24:613	488	watchdog - thread 3 (gpu1), hb time 500
+11:45:24:613	488	watchdog - thread 4 (gpu2), hb time 203
+11:45:24:628	488	watchdog - thread 5 (gpu2), hb time 563
+11:45:27:956	488	ETH - Total Speed: 66.016 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:27:972	488	ETH: GPU0 22.001 Mh/s, GPU1 21.991 Mh/s, GPU2 22.024 Mh/s
+11:45:31:300	488	ETH - Total Speed: 66.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:31:316	488	ETH: GPU0 22.015 Mh/s, GPU1 21.994 Mh/s, GPU2 21.991 Mh/s
+11:45:34:678	488	ETH - Total Speed: 65.533 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:34:678	488	ETH: GPU0 22.005 Mh/s, GPU1 21.529 Mh/s, GPU2 21.999 Mh/s
+11:45:37:948	488	ETH - Total Speed: 66.043 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:37:964	488	ETH: GPU0 21.999 Mh/s, GPU1 22.013 Mh/s, GPU2 22.032 Mh/s
+11:45:41:259	488	ETH - Total Speed: 65.922 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:41:279	488	ETH: GPU0 22.024 Mh/s, GPU1 21.873 Mh/s, GPU2 22.026 Mh/s
+11:45:44:499	488	ETH - Total Speed: 65.758 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:44:515	488	ETH: GPU0 22.014 Mh/s, GPU1 21.995 Mh/s, GPU2 21.750 Mh/s
+11:45:47:843	488	ETH - Total Speed: 65.966 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:47:859	488	ETH: GPU0 22.028 Mh/s, GPU1 21.931 Mh/s, GPU2 22.007 Mh/s
+11:45:51:223	488	ETH - Total Speed: 63.224 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:51:223	488	ETH: GPU0 22.018 Mh/s, GPU1 21.428 Mh/s, GPU2 19.778 Mh/s
+11:45:54:626	488	ETH - Total Speed: 66.011 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:54:641	488	ETH: GPU0 22.017 Mh/s, GPU1 21.991 Mh/s, GPU2 22.002 Mh/s
+11:45:57:969	488	ETH - Total Speed: 66.012 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:45:57:985	488	ETH: GPU0 21.985 Mh/s, GPU1 22.004 Mh/s, GPU2 22.023 Mh/s
+11:45:58:032	488	GPU0 t=68C fan=47%, GPU1 t=69C fan=52%, GPU2 t=56C fan=49%
+11:45:58:048	488	
+11:45:58:048	488	watchdog - thread 0 (gpu0), hb time 656
+11:45:58:063	488	watchdog - thread 1 (gpu0), hb time 328
+11:45:58:079	488	watchdog - thread 2 (gpu1), hb time 32
+11:45:58:079	488	watchdog - thread 3 (gpu1), hb time 375
+11:45:58:079	488	watchdog - thread 4 (gpu2), hb time 407
+11:45:58:094	488	watchdog - thread 5 (gpu2), hb time 62
+11:46:01:501	488	ETH - Total Speed: 65.807 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:46:01:516	488	ETH: GPU0 22.017 Mh/s, GPU1 21.769 Mh/s, GPU2 22.021 Mh/s
+11:46:04:860	488	ETH - Total Speed: 65.925 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:10
+11:46:04:876	488	ETH: GPU0 22.014 Mh/s, GPU1 21.913 Mh/s, GPU2 21.998 Mh/s
+11:46:08:230	488	ETH - Total Speed: 66.020 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:08:246	488	ETH: GPU0 22.015 Mh/s, GPU1 21.997 Mh/s, GPU2 22.008 Mh/s
+11:46:11:539	488	ETH - Total Speed: 63.162 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:11:550	488	ETH: GPU0 21.758 Mh/s, GPU1 19.469 Mh/s, GPU2 21.935 Mh/s
+11:46:14:732	488	ETH - Total Speed: 65.388 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:14:748	488	ETH: GPU0 22.007 Mh/s, GPU1 21.379 Mh/s, GPU2 22.002 Mh/s
+11:46:18:001	488	ETH - Total Speed: 63.974 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:18:014	488	ETH: GPU0 21.835 Mh/s, GPU1 20.122 Mh/s, GPU2 22.016 Mh/s
+11:46:21:465	488	ETH - Total Speed: 45.287 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:21:476	488	ETH: GPU0 17.632 Mh/s, GPU1 17.988 Mh/s, GPU2 9.667 Mh/s
+11:46:25:183	488	ETH - Total Speed: 42.924 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:25:197	488	ETH: GPU0 11.859 Mh/s, GPU1 19.198 Mh/s, GPU2 11.867 Mh/s
+11:46:28:326	488	ETH - Total Speed: 65.026 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:28:341	488	ETH: GPU0 22.013 Mh/s, GPU1 21.007 Mh/s, GPU2 22.005 Mh/s
+11:46:31:813	488	ETH - Total Speed: 66.017 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:31:828	488	ETH: GPU0 22.029 Mh/s, GPU1 21.989 Mh/s, GPU2 21.999 Mh/s
+11:46:31:920	488	GPU0 t=68C fan=47%, GPU1 t=69C fan=51%, GPU2 t=56C fan=49%
+11:46:31:930	488	
+11:46:31:937	488	watchdog - thread 0 (gpu0), hb time 672
+11:46:31:944	488	watchdog - thread 1 (gpu0), hb time 360
+11:46:31:951	488	watchdog - thread 2 (gpu1), hb time 0
+11:46:31:958	488	watchdog - thread 3 (gpu1), hb time 375
+11:46:31:966	488	watchdog - thread 4 (gpu2), hb time 31
+11:46:31:973	488	watchdog - thread 5 (gpu2), hb time 406
+11:46:35:281	488	ETH - Total Speed: 65.997 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:35:297	488	ETH: GPU0 22.014 Mh/s, GPU1 22.019 Mh/s, GPU2 21.964 Mh/s
+11:46:38:610	488	ETH - Total Speed: 66.061 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:38:610	488	ETH: GPU0 22.014 Mh/s, GPU1 22.019 Mh/s, GPU2 22.028 Mh/s
+11:46:41:878	488	ETH - Total Speed: 66.075 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:41:878	488	ETH: GPU0 22.020 Mh/s, GPU1 22.025 Mh/s, GPU2 22.030 Mh/s
+11:46:45:219	488	ETH - Total Speed: 66.040 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:45:219	488	ETH: GPU0 22.011 Mh/s, GPU1 22.007 Mh/s, GPU2 22.022 Mh/s
+11:46:48:521	488	ETH - Total Speed: 66.026 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:48:521	488	ETH: GPU0 22.007 Mh/s, GPU1 22.006 Mh/s, GPU2 22.012 Mh/s
+11:46:51:816	488	ETH - Total Speed: 65.801 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:51:832	488	ETH: GPU0 21.918 Mh/s, GPU1 21.992 Mh/s, GPU2 21.891 Mh/s
+11:46:55:164	488	ETH - Total Speed: 64.507 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:55:180	488	ETH: GPU0 22.031 Mh/s, GPU1 20.494 Mh/s, GPU2 21.981 Mh/s
+11:46:58:496	488	ETH - Total Speed: 65.981 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:46:58:511	488	ETH: GPU0 22.014 Mh/s, GPU1 21.967 Mh/s, GPU2 22.000 Mh/s
+11:47:01:839	488	ETH - Total Speed: 66.023 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:47:01:854	488	ETH: GPU0 22.019 Mh/s, GPU1 21.989 Mh/s, GPU2 22.014 Mh/s
+11:47:05:177	488	ETH - Total Speed: 65.931 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:11
+11:47:05:192	488	ETH: GPU0 22.002 Mh/s, GPU1 21.963 Mh/s, GPU2 21.965 Mh/s
+11:47:05:239	488	GPU0 t=68C fan=47%, GPU1 t=70C fan=53%, GPU2 t=56C fan=49%
+11:47:05:239	488	
+11:47:05:255	488	watchdog - thread 0 (gpu0), hb time 687
+11:47:05:270	488	watchdog - thread 1 (gpu0), hb time 360
+11:47:05:270	488	watchdog - thread 2 (gpu1), hb time 375
+11:47:05:270	488	watchdog - thread 3 (gpu1), hb time 719
+11:47:05:286	488	watchdog - thread 4 (gpu2), hb time 109
+11:47:05:286	488	watchdog - thread 5 (gpu2), hb time 453
+11:47:08:614	488	ETH - Total Speed: 66.029 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:08:614	488	ETH: GPU0 22.020 Mh/s, GPU1 22.000 Mh/s, GPU2 22.010 Mh/s
+11:47:11:955	488	ETH - Total Speed: 65.985 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:11:971	488	ETH: GPU0 22.020 Mh/s, GPU1 21.957 Mh/s, GPU2 22.009 Mh/s
+11:47:15:287	488	ETH - Total Speed: 65.981 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:15:303	488	ETH: GPU0 22.007 Mh/s, GPU1 21.965 Mh/s, GPU2 22.009 Mh/s
+11:47:18:631	488	ETH - Total Speed: 65.964 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:18:647	488	ETH: GPU0 22.020 Mh/s, GPU1 21.981 Mh/s, GPU2 21.964 Mh/s
+11:47:21:955	488	ETH - Total Speed: 65.959 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:21:970	488	ETH: GPU0 22.010 Mh/s, GPU1 21.934 Mh/s, GPU2 22.015 Mh/s
+11:47:25:306	488	ETH - Total Speed: 66.008 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:25:322	488	ETH: GPU0 22.018 Mh/s, GPU1 21.987 Mh/s, GPU2 22.003 Mh/s
+11:47:28:625	488	ETH - Total Speed: 65.874 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:28:636	488	ETH: GPU0 21.974 Mh/s, GPU1 21.880 Mh/s, GPU2 22.021 Mh/s
+11:47:32:098	488	ETH - Total Speed: 66.012 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:32:145	488	ETH: GPU0 21.996 Mh/s, GPU1 22.020 Mh/s, GPU2 21.996 Mh/s
+11:47:35:511	488	ETH - Total Speed: 59.212 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:35:744	488	ETH: GPU0 21.895 Mh/s, GPU1 18.289 Mh/s, GPU2 19.028 Mh/s
+11:47:38:992	488	ETH - Total Speed: 64.075 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:39:006	488	ETH: GPU0 21.978 Mh/s, GPU1 20.090 Mh/s, GPU2 22.006 Mh/s
+11:47:39:062	488	GPU0 t=67C fan=47%, GPU1 t=70C fan=54%, GPU2 t=56C fan=49%
+11:47:39:071	488	
+11:47:39:079	488	watchdog - thread 0 (gpu0), hb time 578
+11:47:39:088	488	watchdog - thread 1 (gpu0), hb time 250
+11:47:39:096	488	watchdog - thread 2 (gpu1), hb time 484
+11:47:39:104	488	watchdog - thread 3 (gpu1), hb time 125
+11:47:39:112	488	watchdog - thread 4 (gpu2), hb time 594
+11:47:39:121	488	watchdog - thread 5 (gpu2), hb time 266
+11:47:42:386	488	ETH - Total Speed: 66.035 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:42:386	488	ETH: GPU0 22.000 Mh/s, GPU1 22.005 Mh/s, GPU2 22.030 Mh/s
+11:47:45:900	488	ETH - Total Speed: 65.384 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:45:910	488	ETH: GPU0 22.014 Mh/s, GPU1 21.338 Mh/s, GPU2 22.032 Mh/s
+11:47:49:492	488	ETH - Total Speed: 63.475 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:49:512	488	ETH: GPU0 22.005 Mh/s, GPU1 19.481 Mh/s, GPU2 21.989 Mh/s
+11:47:53:033	488	ETH - Total Speed: 56.516 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:53:055	488	ETH: GPU0 18.987 Mh/s, GPU1 19.189 Mh/s, GPU2 18.340 Mh/s
+11:47:56:491	488	ETH - Total Speed: 66.037 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:56:506	488	ETH: GPU0 22.003 Mh/s, GPU1 22.011 Mh/s, GPU2 22.023 Mh/s
+11:47:59:850	488	ETH - Total Speed: 66.058 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:47:59:850	488	ETH: GPU0 22.025 Mh/s, GPU1 22.012 Mh/s, GPU2 22.021 Mh/s
+11:48:03:194	488	ETH - Total Speed: 65.990 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:48:03:209	488	ETH: GPU0 21.986 Mh/s, GPU1 21.993 Mh/s, GPU2 22.012 Mh/s
+11:48:06:545	488	ETH - Total Speed: 65.901 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:12
+11:48:06:556	488	ETH: GPU0 21.924 Mh/s, GPU1 21.974 Mh/s, GPU2 22.003 Mh/s
+11:48:09:856	488	ETH - Total Speed: 65.918 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:09:856	488	ETH: GPU0 22.013 Mh/s, GPU1 21.889 Mh/s, GPU2 22.016 Mh/s
+11:48:13:105	488	ETH - Total Speed: 65.918 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:13:121	488	ETH: GPU0 21.963 Mh/s, GPU1 21.946 Mh/s, GPU2 22.009 Mh/s
+11:48:13:168	488	GPU0 t=68C fan=47%, GPU1 t=69C fan=54%, GPU2 t=55C fan=52%
+11:48:13:183	488	
+11:48:13:199	488	watchdog - thread 0 (gpu0), hb time 282
+11:48:13:199	488	watchdog - thread 1 (gpu0), hb time 625
+11:48:13:228	488	watchdog - thread 2 (gpu1), hb time 188
+11:48:13:237	488	watchdog - thread 3 (gpu1), hb time 531
+11:48:13:247	488	watchdog - thread 4 (gpu2), hb time 672
+11:48:13:256	488	watchdog - thread 5 (gpu2), hb time 344
+11:48:16:522	488	ETH - Total Speed: 65.883 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:16:533	488	ETH: GPU0 22.021 Mh/s, GPU1 21.836 Mh/s, GPU2 22.027 Mh/s
+11:48:19:828	488	ETH - Total Speed: 64.593 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:19:846	488	ETH: GPU0 21.743 Mh/s, GPU1 21.226 Mh/s, GPU2 21.624 Mh/s
+11:48:23:096	488	ETH - Total Speed: 57.175 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:23:107	488	ETH: GPU0 14.225 Mh/s, GPU1 20.932 Mh/s, GPU2 22.018 Mh/s
+11:48:26:711	488	ETH - Total Speed: 65.970 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:26:726	488	ETH: GPU0 22.008 Mh/s, GPU1 21.954 Mh/s, GPU2 22.008 Mh/s
+11:48:30:553	488	ETH - Total Speed: 55.174 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:30:679	488	ETH: GPU0 19.431 Mh/s, GPU1 16.166 Mh/s, GPU2 19.578 Mh/s
+11:48:33:947	488	ETH - Total Speed: 65.521 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:33:963	488	ETH: GPU0 22.002 Mh/s, GPU1 21.857 Mh/s, GPU2 21.662 Mh/s
+11:48:37:493	488	ETH - Total Speed: 66.023 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:37:503	488	ETH: GPU0 22.007 Mh/s, GPU1 22.012 Mh/s, GPU2 22.004 Mh/s
+11:48:40:753	488	ETH - Total Speed: 65.906 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:40:768	488	ETH: GPU0 21.939 Mh/s, GPU1 21.966 Mh/s, GPU2 22.001 Mh/s
+11:48:44:207	488	ETH - Total Speed: 66.018 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:44:218	488	ETH: GPU0 22.033 Mh/s, GPU1 21.977 Mh/s, GPU2 22.008 Mh/s
+11:48:47:724	488	ETH - Total Speed: 65.900 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:47:740	488	ETH: GPU0 22.015 Mh/s, GPU1 21.858 Mh/s, GPU2 22.027 Mh/s
+11:48:47:802	488	GPU0 t=68C fan=47%, GPU1 t=69C fan=53%, GPU2 t=54C fan=53%
+11:48:47:818	488	
+11:48:47:818	488	watchdog - thread 0 (gpu0), hb time 219
+11:48:47:834	488	watchdog - thread 1 (gpu0), hb time 562
+11:48:47:834	488	watchdog - thread 2 (gpu1), hb time 15
+11:48:47:849	488	watchdog - thread 3 (gpu1), hb time 391
+11:48:47:865	488	watchdog - thread 4 (gpu2), hb time 422
+11:48:47:865	488	watchdog - thread 5 (gpu2), hb time 63
+11:48:51:110	488	ETH - Total Speed: 66.018 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:51:125	488	ETH: GPU0 22.022 Mh/s, GPU1 21.992 Mh/s, GPU2 22.004 Mh/s
+11:48:54:418	488	ETH - Total Speed: 65.999 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:54:434	488	ETH: GPU0 22.014 Mh/s, GPU1 21.980 Mh/s, GPU2 22.004 Mh/s
+11:48:57:694	488	ETH - Total Speed: 66.019 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:48:57:694	488	ETH: GPU0 22.022 Mh/s, GPU1 21.984 Mh/s, GPU2 22.013 Mh/s
+11:49:00:973	488	ETH - Total Speed: 66.026 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:49:00:988	488	ETH: GPU0 22.022 Mh/s, GPU1 21.997 Mh/s, GPU2 22.007 Mh/s
+11:49:04:296	488	ETH - Total Speed: 66.004 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:13
+11:49:04:312	488	ETH: GPU0 22.002 Mh/s, GPU1 21.990 Mh/s, GPU2 22.012 Mh/s
+11:49:07:558	488	ETH - Total Speed: 65.892 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:07:574	488	ETH: GPU0 21.974 Mh/s, GPU1 21.988 Mh/s, GPU2 21.930 Mh/s
+11:49:10:835	488	ETH - Total Speed: 65.937 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:10:851	488	ETH: GPU0 21.934 Mh/s, GPU1 21.984 Mh/s, GPU2 22.019 Mh/s
+11:49:14:127	488	ETH - Total Speed: 66.035 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:14:143	488	ETH: GPU0 22.015 Mh/s, GPU1 22.000 Mh/s, GPU2 22.019 Mh/s
+11:49:17:500	488	ETH - Total Speed: 66.011 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:17:515	488	ETH: GPU0 22.002 Mh/s, GPU1 21.980 Mh/s, GPU2 22.029 Mh/s
+11:49:20:791	488	ETH - Total Speed: 66.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:20:791	488	ETH: GPU0 21.977 Mh/s, GPU1 22.021 Mh/s, GPU2 22.003 Mh/s
+11:49:20:838	488	GPU0 t=68C fan=47%, GPU1 t=69C fan=53%, GPU2 t=54C fan=52%
+11:49:20:854	488	
+11:49:20:854	488	watchdog - thread 0 (gpu0), hb time 47
+11:49:20:869	488	watchdog - thread 1 (gpu0), hb time 391
+11:49:20:869	488	watchdog - thread 2 (gpu1), hb time 407
+11:49:20:885	488	watchdog - thread 3 (gpu1), hb time 62
+11:49:20:885	488	watchdog - thread 4 (gpu2), hb time 219
+11:49:20:901	488	watchdog - thread 5 (gpu2), hb time 563
+11:49:24:178	488	ETH - Total Speed: 66.031 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:24:178	488	ETH: GPU0 22.013 Mh/s, GPU1 21.994 Mh/s, GPU2 22.024 Mh/s
+11:49:27:470	488	ETH - Total Speed: 65.858 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:27:472	488	ETH: GPU0 21.836 Mh/s, GPU1 22.004 Mh/s, GPU2 22.019 Mh/s
+11:49:30:748	488	ETH - Total Speed: 66.017 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:30:764	488	ETH: GPU0 22.023 Mh/s, GPU1 21.996 Mh/s, GPU2 21.998 Mh/s
+11:49:34:042	488	ETH - Total Speed: 62.294 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:34:057	488	ETH: GPU0 18.295 Mh/s, GPU1 22.001 Mh/s, GPU2 21.997 Mh/s
+11:49:37:332	488	ETH - Total Speed: 65.973 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:37:348	488	ETH: GPU0 22.032 Mh/s, GPU1 21.933 Mh/s, GPU2 22.009 Mh/s
+11:49:40:626	488	ETH - Total Speed: 66.017 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:40:642	488	ETH: GPU0 22.030 Mh/s, GPU1 22.001 Mh/s, GPU2 21.986 Mh/s
+11:49:43:904	488	ETH - Total Speed: 66.028 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:43:920	488	ETH: GPU0 22.011 Mh/s, GPU1 21.991 Mh/s, GPU2 22.026 Mh/s
+11:49:47:222	488	ETH - Total Speed: 66.052 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:47:238	488	ETH: GPU0 22.026 Mh/s, GPU1 22.021 Mh/s, GPU2 22.004 Mh/s
+11:49:50:552	488	ETH - Total Speed: 65.525 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:50:552	488	ETH: GPU0 21.930 Mh/s, GPU1 21.893 Mh/s, GPU2 21.702 Mh/s
+11:49:53:867	488	ETH - Total Speed: 65.801 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:53:882	488	ETH: GPU0 21.815 Mh/s, GPU1 21.995 Mh/s, GPU2 21.991 Mh/s
+11:49:53:945	488	GPU0 t=69C fan=47%, GPU1 t=69C fan=53%, GPU2 t=55C fan=49%
+11:49:53:961	488	
+11:49:53:961	488	watchdog - thread 0 (gpu0), hb time 547
+11:49:53:976	488	watchdog - thread 1 (gpu0), hb time 219
+11:49:53:976	488	watchdog - thread 2 (gpu1), hb time 125
+11:49:53:992	488	watchdog - thread 3 (gpu1), hb time 500
+11:49:53:992	488	watchdog - thread 4 (gpu2), hb time 32
+11:49:54:007	488	watchdog - thread 5 (gpu2), hb time 390
+11:49:57:595	488	ETH - Total Speed: 65.423 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:49:57:595	488	ETH: GPU0 21.922 Mh/s, GPU1 21.489 Mh/s, GPU2 22.012 Mh/s
+11:50:00:857	488	ETH - Total Speed: 66.031 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:50:00:872	488	ETH: GPU0 22.009 Mh/s, GPU1 22.001 Mh/s, GPU2 22.021 Mh/s
+11:50:04:121	488	ETH - Total Speed: 65.972 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:14
+11:50:04:136	488	ETH: GPU0 22.005 Mh/s, GPU1 21.969 Mh/s, GPU2 21.998 Mh/s
+11:50:07:397	488	ETH - Total Speed: 66.002 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:07:397	488	ETH: GPU0 22.026 Mh/s, GPU1 21.973 Mh/s, GPU2 22.002 Mh/s
+11:50:10:689	488	ETH - Total Speed: 66.033 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:10:705	488	ETH: GPU0 22.015 Mh/s, GPU1 21.988 Mh/s, GPU2 22.030 Mh/s
+11:50:13:982	488	ETH - Total Speed: 66.045 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:13:997	488	ETH: GPU0 22.025 Mh/s, GPU1 22.024 Mh/s, GPU2 21.997 Mh/s
+11:50:17:274	488	ETH - Total Speed: 66.012 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:17:290	488	ETH: GPU0 22.026 Mh/s, GPU1 21.982 Mh/s, GPU2 22.004 Mh/s
+11:50:20:569	488	ETH - Total Speed: 65.969 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:20:585	488	ETH: GPU0 21.996 Mh/s, GPU1 21.991 Mh/s, GPU2 21.983 Mh/s
+11:50:23:845	488	ETH - Total Speed: 65.944 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:23:845	488	ETH: GPU0 21.959 Mh/s, GPU1 21.979 Mh/s, GPU2 22.006 Mh/s
+11:50:27:121	488	ETH - Total Speed: 65.953 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:27:137	488	ETH: GPU0 22.006 Mh/s, GPU1 21.985 Mh/s, GPU2 21.962 Mh/s
+11:50:27:184	488	GPU0 t=69C fan=47%, GPU1 t=70C fan=53%, GPU2 t=55C fan=49%
+11:50:27:199	488	
+11:50:27:199	488	watchdog - thread 0 (gpu0), hb time 453
+11:50:27:215	488	watchdog - thread 1 (gpu0), hb time 93
+11:50:27:231	488	watchdog - thread 2 (gpu1), hb time 313
+11:50:27:231	488	watchdog - thread 3 (gpu1), hb time 641
+11:50:27:231	488	watchdog - thread 4 (gpu2), hb time 0
+11:50:27:246	488	watchdog - thread 5 (gpu2), hb time 360
+11:50:30:524	488	ETH - Total Speed: 66.020 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:30:539	488	ETH: GPU0 22.018 Mh/s, GPU1 21.984 Mh/s, GPU2 22.018 Mh/s
+11:50:33:802	488	ETH - Total Speed: 66.005 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:33:802	488	ETH: GPU0 22.003 Mh/s, GPU1 22.007 Mh/s, GPU2 21.996 Mh/s
+11:50:37:079	488	ETH - Total Speed: 65.981 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:37:095	488	ETH: GPU0 21.984 Mh/s, GPU1 21.984 Mh/s, GPU2 22.013 Mh/s
+11:50:40:372	488	ETH - Total Speed: 65.979 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:40:372	488	ETH: GPU0 22.015 Mh/s, GPU1 22.008 Mh/s, GPU2 21.956 Mh/s
+11:50:43:663	488	ETH - Total Speed: 66.025 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:43:663	488	ETH: GPU0 22.018 Mh/s, GPU1 21.988 Mh/s, GPU2 22.019 Mh/s
+11:50:46:941	488	ETH - Total Speed: 66.036 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:46:941	488	ETH: GPU0 22.027 Mh/s, GPU1 21.979 Mh/s, GPU2 22.030 Mh/s
+11:50:50:219	488	ETH - Total Speed: 65.951 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:50:234	488	ETH: GPU0 22.019 Mh/s, GPU1 21.969 Mh/s, GPU2 21.962 Mh/s
+11:50:53:511	488	ETH - Total Speed: 66.039 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:53:527	488	ETH: GPU0 22.021 Mh/s, GPU1 21.999 Mh/s, GPU2 22.019 Mh/s
+11:50:56:806	488	ETH - Total Speed: 66.032 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:50:57:431	488	ETH: GPU0 22.002 Mh/s, GPU1 22.011 Mh/s, GPU2 22.019 Mh/s
+11:51:00:722	488	ETH - Total Speed: 66.006 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:51:00:722	488	ETH: GPU0 21.992 Mh/s, GPU1 21.996 Mh/s, GPU2 22.019 Mh/s
+11:51:00:789	488	GPU0 t=69C fan=47%, GPU1 t=70C fan=54%, GPU2 t=55C fan=49%
+11:51:00:799	488	
+11:51:00:808	488	watchdog - thread 0 (gpu0), hb time 78
+11:51:00:817	488	watchdog - thread 1 (gpu0), hb time 438
+11:51:00:818	488	watchdog - thread 2 (gpu1), hb time 641
+11:51:00:818	488	watchdog - thread 3 (gpu1), hb time 313
+11:51:00:834	488	watchdog - thread 4 (gpu2), hb time 437
+11:51:00:834	488	watchdog - thread 5 (gpu2), hb time 62
+11:51:04:111	488	ETH - Total Speed: 65.999 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:15
+11:51:04:111	488	ETH: GPU0 22.018 Mh/s, GPU1 22.006 Mh/s, GPU2 21.976 Mh/s
+11:51:07:405	488	ETH - Total Speed: 66.007 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:07:420	488	ETH: GPU0 22.013 Mh/s, GPU1 21.985 Mh/s, GPU2 22.009 Mh/s
+11:51:10:696	488	ETH - Total Speed: 65.991 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:10:696	488	ETH: GPU0 21.999 Mh/s, GPU1 21.988 Mh/s, GPU2 22.004 Mh/s
+11:51:13:989	488	ETH - Total Speed: 66.013 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:13:989	488	ETH: GPU0 22.023 Mh/s, GPU1 22.003 Mh/s, GPU2 21.987 Mh/s
+11:51:17:250	488	ETH - Total Speed: 66.057 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:17:266	488	ETH: GPU0 22.019 Mh/s, GPU1 22.014 Mh/s, GPU2 22.024 Mh/s
+11:51:20:544	488	ETH - Total Speed: 66.017 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:20:544	488	ETH: GPU0 22.025 Mh/s, GPU1 21.978 Mh/s, GPU2 22.013 Mh/s
+11:51:23:837	488	ETH - Total Speed: 66.012 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:23:837	488	ETH: GPU0 22.019 Mh/s, GPU1 21.980 Mh/s, GPU2 22.012 Mh/s
+11:51:27:111	488	ETH - Total Speed: 65.995 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:27:127	488	ETH: GPU0 22.001 Mh/s, GPU1 21.978 Mh/s, GPU2 22.016 Mh/s
+11:51:30:405	488	ETH - Total Speed: 65.958 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:30:421	488	ETH: GPU0 22.017 Mh/s, GPU1 21.989 Mh/s, GPU2 21.952 Mh/s
+11:51:33:684	488	ETH - Total Speed: 65.960 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:33:700	488	ETH: GPU0 22.019 Mh/s, GPU1 21.938 Mh/s, GPU2 22.003 Mh/s
+11:51:33:747	488	GPU0 t=69C fan=47%, GPU1 t=69C fan=54%, GPU2 t=56C fan=49%
+11:51:33:762	488	
+11:51:33:762	488	watchdog - thread 0 (gpu0), hb time 500
+11:51:33:778	488	watchdog - thread 1 (gpu0), hb time 172
+11:51:33:778	488	watchdog - thread 2 (gpu1), hb time 297
+11:51:33:794	488	watchdog - thread 3 (gpu1), hb time 640
+11:51:33:794	488	watchdog - thread 4 (gpu2), hb time 109
+11:51:33:809	488	watchdog - thread 5 (gpu2), hb time 469
+11:51:37:085	488	ETH - Total Speed: 66.020 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:37:085	488	ETH: GPU0 21.998 Mh/s, GPU1 22.002 Mh/s, GPU2 22.021 Mh/s
+11:51:40:362	488	ETH - Total Speed: 65.993 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:40:378	488	ETH: GPU0 21.984 Mh/s, GPU1 21.983 Mh/s, GPU2 22.026 Mh/s
+11:51:43:654	488	ETH - Total Speed: 66.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:43:654	488	ETH: GPU0 22.003 Mh/s, GPU1 21.970 Mh/s, GPU2 22.026 Mh/s
+11:51:46:934	488	ETH - Total Speed: 66.009 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:46:949	488	ETH: GPU0 22.017 Mh/s, GPU1 21.988 Mh/s, GPU2 22.005 Mh/s
+11:51:50:226	488	ETH - Total Speed: 66.039 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:51:417	488	ETH: GPU0 22.017 Mh/s, GPU1 22.001 Mh/s, GPU2 22.020 Mh/s
+11:51:54:677	488	ETH - Total Speed: 66.024 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:54:677	488	ETH: GPU0 22.020 Mh/s, GPU1 21.996 Mh/s, GPU2 22.008 Mh/s
+11:51:57:970	488	ETH - Total Speed: 66.049 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:51:57:970	488	ETH: GPU0 22.013 Mh/s, GPU1 22.010 Mh/s, GPU2 22.026 Mh/s
+11:52:01:250	488	ETH - Total Speed: 65.974 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:52:01:265	488	ETH: GPU0 22.023 Mh/s, GPU1 21.971 Mh/s, GPU2 21.980 Mh/s
+11:52:04:525	488	ETH - Total Speed: 66.050 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:16
+11:52:04:525	488	ETH: GPU0 22.006 Mh/s, GPU1 22.021 Mh/s, GPU2 22.023 Mh/s
+11:52:07:818	488	ETH - Total Speed: 65.999 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:07:833	488	ETH: GPU0 22.005 Mh/s, GPU1 21.979 Mh/s, GPU2 22.014 Mh/s
+11:52:07:880	488	GPU0 t=69C fan=47%, GPU1 t=70C fan=54%, GPU2 t=56C fan=49%
+11:52:07:880	488	
+11:52:07:896	488	watchdog - thread 0 (gpu0), hb time 656
+11:52:07:896	488	watchdog - thread 1 (gpu0), hb time 313
+11:52:07:911	488	watchdog - thread 2 (gpu1), hb time 515
+11:52:07:911	488	watchdog - thread 3 (gpu1), hb time 171
+11:52:07:927	488	watchdog - thread 4 (gpu2), hb time 359
+11:52:07:927	488	watchdog - thread 5 (gpu2), hb time 16
+11:52:11:220	488	ETH - Total Speed: 66.057 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:11:236	488	ETH: GPU0 22.028 Mh/s, GPU1 22.012 Mh/s, GPU2 22.017 Mh/s
+11:52:14:515	488	ETH - Total Speed: 65.563 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:14:531	488	ETH: GPU0 22.016 Mh/s, GPU1 21.532 Mh/s, GPU2 22.015 Mh/s
+11:52:17:855	488	ETH - Total Speed: 66.042 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:17:870	488	ETH: GPU0 22.026 Mh/s, GPU1 22.003 Mh/s, GPU2 22.013 Mh/s
+11:52:21:198	488	ETH - Total Speed: 66.041 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:21:214	488	ETH: GPU0 22.014 Mh/s, GPU1 22.009 Mh/s, GPU2 22.017 Mh/s
+11:52:24:542	488	ETH - Total Speed: 66.063 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:24:542	488	ETH: GPU0 22.028 Mh/s, GPU1 21.998 Mh/s, GPU2 22.037 Mh/s
+11:52:27:870	488	ETH - Total Speed: 66.040 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:27:886	488	ETH: GPU0 22.002 Mh/s, GPU1 22.014 Mh/s, GPU2 22.024 Mh/s
+11:52:30:964	488	ETH - Total Speed: 66.013 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:30:996	488	ETH: GPU0 22.012 Mh/s, GPU1 21.990 Mh/s, GPU2 22.010 Mh/s
+11:52:34:197	488	ETH - Total Speed: 65.994 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:34:197	488	ETH: GPU0 22.023 Mh/s, GPU1 21.963 Mh/s, GPU2 22.007 Mh/s
+11:52:37:499	488	ETH - Total Speed: 66.008 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:37:515	488	ETH: GPU0 22.005 Mh/s, GPU1 21.987 Mh/s, GPU2 22.016 Mh/s
+11:52:41:153	488	ETH - Total Speed: 45.756 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:41:165	488	ETH: GPU0 9.323 Mh/s, GPU1 21.263 Mh/s, GPU2 15.171 Mh/s
+11:52:41:215	488	GPU0 t=67C fan=47%, GPU1 t=66C fan=55%, GPU2 t=55C fan=49%
+11:52:41:222	488	
+11:52:41:230	488	watchdog - thread 0 (gpu0), hb time 1094
+11:52:41:236	488	watchdog - thread 1 (gpu0), hb time 297
+11:52:41:243	488	watchdog - thread 2 (gpu1), hb time 1079
+11:52:41:247	488	watchdog - thread 3 (gpu1), hb time 1422
+11:52:41:247	488	watchdog - thread 4 (gpu2), hb time 657
+11:52:41:263	488	watchdog - thread 5 (gpu2), hb time 1219
+11:52:44:633	488	ETH - Total Speed: 65.562 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:44:642	488	ETH: GPU0 22.022 Mh/s, GPU1 21.581 Mh/s, GPU2 21.959 Mh/s
+11:52:48:024	488	ETH - Total Speed: 65.829 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:48:036	488	ETH: GPU0 21.925 Mh/s, GPU1 21.973 Mh/s, GPU2 21.931 Mh/s
+11:52:51:347	488	ETH - Total Speed: 66.044 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:53:823	488	ETH: GPU0 22.026 Mh/s, GPU1 21.990 Mh/s, GPU2 22.027 Mh/s
+11:52:57:064	488	ETH - Total Speed: 66.059 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:52:57:079	488	ETH: GPU0 22.015 Mh/s, GPU1 22.021 Mh/s, GPU2 22.023 Mh/s
+11:53:00:323	488	ETH - Total Speed: 66.024 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:53:02:417	488	ETH: GPU0 22.034 Mh/s, GPU1 21.977 Mh/s, GPU2 22.013 Mh/s
+11:53:05:890	488	ETH - Total Speed: 65.913 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:17
+11:53:05:939	488	ETH: GPU0 21.941 Mh/s, GPU1 21.962 Mh/s, GPU2 22.010 Mh/s
+11:53:09:283	488	ETH - Total Speed: 66.058 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:09:304	488	ETH: GPU0 22.034 Mh/s, GPU1 21.995 Mh/s, GPU2 22.029 Mh/s
+11:53:12:493	488	ETH - Total Speed: 66.013 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:12:505	488	ETH: GPU0 22.022 Mh/s, GPU1 21.988 Mh/s, GPU2 22.003 Mh/s
+11:53:15:794	488	ETH - Total Speed: 66.023 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:15:805	488	ETH: GPU0 22.009 Mh/s, GPU1 22.003 Mh/s, GPU2 22.011 Mh/s
+11:53:19:061	488	ETH - Total Speed: 66.032 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:19:081	488	ETH: GPU0 22.009 Mh/s, GPU1 21.996 Mh/s, GPU2 22.027 Mh/s
+11:53:19:128	488	GPU0 t=69C fan=47%, GPU1 t=69C fan=54%, GPU2 t=56C fan=49%
+11:53:19:128	488	
+11:53:19:143	488	watchdog - thread 0 (gpu0), hb time 297
+11:53:19:159	488	watchdog - thread 1 (gpu0), hb time 641
+11:53:19:159	488	watchdog - thread 2 (gpu1), hb time 235
+11:53:19:175	488	watchdog - thread 3 (gpu1), hb time 593
+11:53:19:175	488	watchdog - thread 4 (gpu2), hb time 515
+11:53:19:175	488	watchdog - thread 5 (gpu2), hb time 171
+11:53:22:439	488	ETH - Total Speed: 66.025 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:22:439	488	ETH: GPU0 22.016 Mh/s, GPU1 21.997 Mh/s, GPU2 22.013 Mh/s
+11:53:25:749	488	ETH - Total Speed: 66.021 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:25:764	488	ETH: GPU0 22.020 Mh/s, GPU1 21.970 Mh/s, GPU2 22.032 Mh/s
+11:53:29:059	488	ETH - Total Speed: 66.030 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:29:074	488	ETH: GPU0 22.013 Mh/s, GPU1 21.989 Mh/s, GPU2 22.028 Mh/s
+11:53:32:368	488	ETH - Total Speed: 66.025 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:32:368	488	ETH: GPU0 22.022 Mh/s, GPU1 21.995 Mh/s, GPU2 22.007 Mh/s
+11:53:35:676	488	ETH - Total Speed: 66.042 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:35:678	488	ETH: GPU0 22.028 Mh/s, GPU1 22.009 Mh/s, GPU2 22.005 Mh/s
+11:53:38:973	488	ETH - Total Speed: 66.003 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:38:973	488	ETH: GPU0 22.007 Mh/s, GPU1 21.974 Mh/s, GPU2 22.022 Mh/s
+11:53:42:284	488	ETH - Total Speed: 66.028 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:42:284	488	ETH: GPU0 22.014 Mh/s, GPU1 22.007 Mh/s, GPU2 22.007 Mh/s
+11:53:45:607	488	ETH - Total Speed: 66.025 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:45:607	488	ETH: GPU0 22.010 Mh/s, GPU1 21.990 Mh/s, GPU2 22.025 Mh/s
+11:53:48:918	488	ETH - Total Speed: 66.036 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:48:918	488	ETH: GPU0 22.028 Mh/s, GPU1 22.002 Mh/s, GPU2 22.006 Mh/s
+11:53:52:224	488	ETH - Total Speed: 66.007 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:52:229	488	ETH: GPU0 22.014 Mh/s, GPU1 21.967 Mh/s, GPU2 22.027 Mh/s
+11:53:52:276	488	GPU0 t=69C fan=47%, GPU1 t=69C fan=55%, GPU2 t=56C fan=49%
+11:53:52:276	488	
+11:53:52:292	488	watchdog - thread 0 (gpu0), hb time 203
+11:53:52:307	488	watchdog - thread 1 (gpu0), hb time 562
+11:53:52:307	488	watchdog - thread 2 (gpu1), hb time 94
+11:53:52:323	488	watchdog - thread 3 (gpu1), hb time 453
+11:53:52:339	488	watchdog - thread 4 (gpu2), hb time 515
+11:53:52:339	488	watchdog - thread 5 (gpu2), hb time 172
+11:53:55:632	488	ETH - Total Speed: 66.036 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:55:632	488	ETH: GPU0 22.015 Mh/s, GPU1 22.002 Mh/s, GPU2 22.019 Mh/s
+11:53:58:924	488	ETH - Total Speed: 66.051 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:53:58:940	488	ETH: GPU0 22.012 Mh/s, GPU1 22.014 Mh/s, GPU2 22.025 Mh/s
+11:54:04:760	488	ETH - Total Speed: 11.642 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:18
+11:54:04:773	488	ETH: GPU0 3.821 Mh/s, GPU1 3.910 Mh/s, GPU2 3.910 Mh/s
+11:54:08:275	488	ETH - Total Speed: 61.975 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:08:343	488	ETH: GPU0 20.326 Mh/s, GPU1 21.327 Mh/s, GPU2 20.322 Mh/s
+11:54:11:885	488	ETH - Total Speed: 65.809 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:11:900	488	ETH: GPU0 22.021 Mh/s, GPU1 21.789 Mh/s, GPU2 22.000 Mh/s
+11:54:15:221	488	ETH - Total Speed: 65.533 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:15:237	488	ETH: GPU0 21.904 Mh/s, GPU1 21.964 Mh/s, GPU2 21.665 Mh/s
+11:54:18:561	488	ETH - Total Speed: 66.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:18:577	488	ETH: GPU0 22.036 Mh/s, GPU1 21.942 Mh/s, GPU2 22.022 Mh/s
+11:54:22:143	488	ETH - Total Speed: 66.037 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:22:158	488	ETH: GPU0 22.020 Mh/s, GPU1 22.016 Mh/s, GPU2 22.001 Mh/s
+11:54:25:420	488	ETH - Total Speed: 66.020 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:25:420	488	ETH: GPU0 22.027 Mh/s, GPU1 21.988 Mh/s, GPU2 22.005 Mh/s
+11:54:28:711	488	ETH - Total Speed: 65.760 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:28:711	488	ETH: GPU0 22.021 Mh/s, GPU1 21.858 Mh/s, GPU2 21.881 Mh/s
+11:54:28:805	488	GPU0 t=68C fan=49%, GPU1 t=68C fan=58%, GPU2 t=55C fan=50%
+11:54:28:805	488	
+11:54:28:821	488	watchdog - thread 0 (gpu0), hb time 407
+11:54:28:836	488	watchdog - thread 1 (gpu0), hb time 47
+11:54:28:852	488	watchdog - thread 2 (gpu1), hb time 47
+11:54:28:852	488	watchdog - thread 3 (gpu1), hb time 391
+11:54:28:867	488	watchdog - thread 4 (gpu2), hb time 610
+11:54:28:883	488	watchdog - thread 5 (gpu2), hb time 297
+11:54:32:186	488	ETH - Total Speed: 65.733 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:32:199	488	ETH: GPU0 22.004 Mh/s, GPU1 21.984 Mh/s, GPU2 21.745 Mh/s
+11:54:35:517	488	ETH - Total Speed: 66.054 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:35:533	488	ETH: GPU0 22.017 Mh/s, GPU1 22.018 Mh/s, GPU2 22.019 Mh/s
+11:54:38:794	488	ETH - Total Speed: 66.046 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:38:794	488	ETH: GPU0 22.023 Mh/s, GPU1 22.002 Mh/s, GPU2 22.021 Mh/s
+11:54:42:102	488	ETH - Total Speed: 66.022 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:42:478	488	ETH: GPU0 22.004 Mh/s, GPU1 21.991 Mh/s, GPU2 22.027 Mh/s
+11:54:45:802	488	ETH - Total Speed: 65.968 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:45:849	488	ETH: GPU0 22.003 Mh/s, GPU1 21.945 Mh/s, GPU2 22.019 Mh/s
+11:54:49:281	488	ETH - Total Speed: 65.483 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:49:297	488	ETH: GPU0 21.682 Mh/s, GPU1 21.868 Mh/s, GPU2 21.932 Mh/s
+11:54:52:852	488	ETH - Total Speed: 45.087 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:52:891	488	ETH: GPU0 17.937 Mh/s, GPU1 17.909 Mh/s, GPU2 9.241 Mh/s
+11:54:56:169	488	ETH - Total Speed: 66.031 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:56:184	488	ETH: GPU0 22.021 Mh/s, GPU1 21.988 Mh/s, GPU2 22.022 Mh/s
+11:54:59:445	488	ETH - Total Speed: 66.013 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:54:59:445	488	ETH: GPU0 22.039 Mh/s, GPU1 22.008 Mh/s, GPU2 21.966 Mh/s
+11:55:02:752	488	ETH - Total Speed: 66.027 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:55:02:752	488	ETH: GPU0 22.019 Mh/s, GPU1 21.988 Mh/s, GPU2 22.020 Mh/s
+11:55:02:815	488	GPU0 t=68C fan=47%, GPU1 t=67C fan=58%, GPU2 t=55C fan=49%
+11:55:02:815	488	
+11:55:02:831	488	watchdog - thread 0 (gpu0), hb time 313
+11:55:02:831	488	watchdog - thread 1 (gpu0), hb time 657
+11:55:02:846	488	watchdog - thread 2 (gpu1), hb time 656
+11:55:02:846	488	watchdog - thread 3 (gpu1), hb time 328
+11:55:02:862	488	watchdog - thread 4 (gpu2), hb time 0
+11:55:02:862	488	watchdog - thread 5 (gpu2), hb time 344
+11:55:06:109	488	ETH - Total Speed: 65.526 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:19
+11:55:06:171	488	ETH: GPU0 21.615 Mh/s, GPU1 21.991 Mh/s, GPU2 21.919 Mh/s
+11:55:09:511	488	ETH - Total Speed: 66.009 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:09:511	488	ETH: GPU0 22.014 Mh/s, GPU1 21.969 Mh/s, GPU2 22.026 Mh/s
+11:55:13:025	488	ETH - Total Speed: 62.199 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:13:103	488	ETH: GPU0 21.994 Mh/s, GPU1 18.226 Mh/s, GPU2 21.978 Mh/s
+11:55:16:741	488	ETH - Total Speed: 63.672 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:16:788	488	ETH: GPU0 22.013 Mh/s, GPU1 21.974 Mh/s, GPU2 19.685 Mh/s
+11:55:20:360	488	ETH - Total Speed: 60.304 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:20:406	488	ETH: GPU0 19.718 Mh/s, GPU1 19.751 Mh/s, GPU2 20.835 Mh/s
+11:55:24:019	488	ETH - Total Speed: 62.943 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:24:066	488	ETH: GPU0 21.857 Mh/s, GPU1 20.568 Mh/s, GPU2 20.518 Mh/s
+11:55:27:639	488	ETH - Total Speed: 62.551 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:27:732	488	ETH: GPU0 21.336 Mh/s, GPU1 21.650 Mh/s, GPU2 19.565 Mh/s
+11:55:31:307	488	ETH - Total Speed: 65.843 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:31:354	488	ETH: GPU0 21.926 Mh/s, GPU1 21.949 Mh/s, GPU2 21.967 Mh/s
+11:55:34:993	488	ETH - Total Speed: 57.614 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:35:024	488	ETH: GPU0 18.994 Mh/s, GPU1 19.805 Mh/s, GPU2 18.816 Mh/s
+11:55:38:959	488	ETH - Total Speed: 38.494 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:39:174	488	ETH: GPU0 6.550 Mh/s, GPU1 14.896 Mh/s, GPU2 17.048 Mh/s
+11:55:39:398	488	GPU0 t=65C fan=47%, GPU1 t=62C fan=57%, GPU2 t=52C fan=49%
+11:55:39:461	488	
+11:55:39:487	488	watchdog - thread 0 (gpu0), hb time 578
+11:55:39:516	488	watchdog - thread 1 (gpu0), hb time 1750
+11:55:39:526	488	watchdog - thread 2 (gpu1), hb time 2094
+11:55:39:558	488	watchdog - thread 3 (gpu1), hb time 1625
+11:55:39:577	488	watchdog - thread 4 (gpu2), hb time 1750
+11:55:39:600	488	watchdog - thread 5 (gpu2), hb time 2172
+11:55:43:110	488	ETH - Total Speed: 58.497 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:43:167	488	ETH: GPU0 19.244 Mh/s, GPU1 21.628 Mh/s, GPU2 17.625 Mh/s
+11:55:47:753	488	ETH - Total Speed: 47.065 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:48:002	488	ETH: GPU0 16.888 Mh/s, GPU1 20.720 Mh/s, GPU2 9.458 Mh/s
+11:55:51:906	488	ETH - Total Speed: 57.517 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:51:939	488	ETH: GPU0 21.491 Mh/s, GPU1 18.788 Mh/s, GPU2 17.239 Mh/s
+11:55:56:215	488	ETH - Total Speed: 57.829 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:56:265	488	ETH: GPU0 21.542 Mh/s, GPU1 21.681 Mh/s, GPU2 14.606 Mh/s
+11:55:59:886	488	ETH - Total Speed: 3.257 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:55:59:945	488	ETH: GPU0 1.697 Mh/s, GPU1 1.559 Mh/s, GPU2 0.000 Mh/s
+11:56:04:228	488	ETH - Total Speed: 60.059 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:20
+11:56:04:257	488	ETH: GPU0 20.869 Mh/s, GPU1 19.598 Mh/s, GPU2 19.591 Mh/s
+11:56:08:022	488	ETH - Total Speed: 4.920 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:21
+11:56:08:085	488	ETH: GPU0 1.795 Mh/s, GPU1 1.563 Mh/s, GPU2 1.563 Mh/s
+11:56:11:818	488	ETH - Total Speed: 23.028 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:21
+11:56:11:912	488	ETH: GPU0 14.118 Mh/s, GPU1 4.614 Mh/s, GPU2 4.296 Mh/s
+11:56:15:908	488	ETH - Total Speed: 64.950 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:21
+11:56:15:944	488	ETH: GPU0 21.520 Mh/s, GPU1 21.763 Mh/s, GPU2 21.667 Mh/s
+11:56:22:979	488	ETH - Total Speed: 3.962 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:21
+11:56:23:731	488	ETH: GPU0 1.321 Mh/s, GPU1 1.321 Mh/s, GPU2 1.321 Mh/s
+11:56:25:428	488	GPU0 t=58C fan=48%, GPU1 t=56C fan=50%, GPU2 t=50C fan=0%
+11:56:25:446	488	
+11:56:25:517	488	watchdog - thread 0 (gpu0), hb time 12844
+11:56:25:559	488	watchdog - thread 1 (gpu0), hb time 2484
+11:56:25:573	488	watchdog - thread 2 (gpu1), hb time 2500
+11:56:25:628	488	watchdog - thread 3 (gpu1), hb time 12954
+11:56:25:675	488	watchdog - thread 4 (gpu2), hb time 13000
+11:56:25:699	488	watchdog - thread 5 (gpu2), hb time 2625
+11:56:30:603	488	ETH - Total Speed: 4.706 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:21
+11:56:30:723	488	ETH: GPU0 1.569 Mh/s, GPU1 1.569 Mh/s, GPU2 1.569 Mh/s
+11:56:34:856	488	ETH - Total Speed: 59.478 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:21
+11:56:35:072	488	ETH: GPU0 20.421 Mh/s, GPU1 18.302 Mh/s, GPU2 20.754 Mh/s
+11:56:38:762	488	ETH - Total Speed: 30.803 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:21
+11:56:38:902	488	ETH: GPU0 12.135 Mh/s, GPU1 14.729 Mh/s, GPU2 3.939 Mh/s

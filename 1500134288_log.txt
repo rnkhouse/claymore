@@ -1,0 +1,83 @@
+11:58:08:110	1ca0	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 -benchmark 150 
+11:58:08:126	1ca0	
+11:58:08:126	1ca0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+11:58:08:173	1ca0	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+11:58:08:267	1ca0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+11:58:08:282	1ca0	
+11:58:09:720	1ca0	OpenCL platform: AMD Accelerated Parallel Processing
+11:58:09:751	1ca0	OpenCL initializing...
+
+11:58:09:767	1ca0	AMD Cards available: 3 
+11:58:09:782	1ca0	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+11:58:09:813	1ca0	GPU #0 recognized as Radeon RX 470/570
+11:58:09:845	1ca0	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+11:58:09:845	1ca0	GPU #1 recognized as Radeon RX 470/570
+11:58:09:876	1ca0	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+11:58:09:892	1ca0	GPU #2 recognized as Radeon RX 470/570
+11:58:09:907	1ca0	POOL/SOLO version
+11:58:09:923	1ca0	b351 
+11:58:09:938	1ca0	Platform: Windows
+11:58:10:188	1ca0	start building OpenCL program for GPU 0...
+11:58:35:954	1ca0	done
+11:58:36:204	1ca0	start building OpenCL program for GPU 1...
+11:58:53:799	1ca0	done
+11:58:54:088	1ca0	start building OpenCL program for GPU 2...
+11:59:27:302	1ca0	done
+11:59:27:583	1ca0	GPU #0: set -etha as 0 (ETH algo for fast cards)
+11:59:27:724	1ca0	GPU #1: set -etha as 0 (ETH algo for fast cards)
+11:59:27:786	1ca0	GPU #2: set -etha as 0 (ETH algo for fast cards)
+11:59:27:802	1ca0	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+11:59:27:802	1ca0	No NVIDIA CUDA GPUs detected.
+11:59:27:802	1ca0	Total cards: 3 
+11:59:27:833	1ca0	No NVIDIA cards in the list, NVML library will not be used.
+11:59:27:974	1ca0	
+11:59:27:974	1ca0	
+BENCHMARK MODE!
+
+11:59:30:536	1be0	Setting DAG epoch #150...
+11:59:32:004	1ca0	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:59:32:004	1ca0	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:59:33:488	1bac	Setting DAG epoch #150 for GPU2
+11:59:33:504	1bac	Create GPU buffer for GPU2
+11:59:35:999	1ca0	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:59:35:999	1ca0	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:59:39:951	1ca0	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:59:39:966	1ca0	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:59:40:810	1bac	GPU2 DAG creation time - 7075 ms
+11:59:40:826	1bac	Setting DAG epoch #150 for GPU2 done
+11:59:40:826	1ba8	Setting DAG epoch #150 for GPU1
+11:59:40:826	1ba8	Create GPU buffer for GPU1
+11:59:43:726	1ca0	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:59:43:726	1ca0	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:59:46:554	1ba8	GPU1 DAG creation time - 5517 ms
+11:59:46:554	1ba8	Setting DAG epoch #150 for GPU1 done
+11:59:46:569	1be0	Setting DAG epoch #150 for GPU0
+11:59:46:647	1be0	Create GPU buffer for GPU0
+11:59:47:687	1ca0	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:59:47:687	1ca0	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s
+11:59:51:452	1ca0	ETH - Total Speed: 21.768 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:59:51:452	1ca0	ETH: GPU0 0.000 Mh/s, GPU1 21.768 Mh/s, GPU2 0.000 Mh/s
+11:59:52:319	1be0	GPU0 DAG creation time - 5547 ms
+11:59:52:335	1be0	Setting DAG epoch #150 for GPU0 done
+11:59:55:295	1ca0	ETH - Total Speed: 65.956 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:59:55:310	1ca0	ETH: GPU0 22.014 Mh/s, GPU1 21.991 Mh/s, GPU2 21.952 Mh/s
+11:59:58:712	1ca0	ETH - Total Speed: 65.001 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:59:58:712	1ca0	ETH: GPU0 21.914 Mh/s, GPU1 22.012 Mh/s, GPU2 21.075 Mh/s
+12:00:02:298	1ca0	ETH - Total Speed: 58.629 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:00:02:423	1ca0	ETH: GPU0 21.434 Mh/s, GPU1 15.803 Mh/s, GPU2 21.393 Mh/s
+12:00:05:798	1ca0	ETH - Total Speed: 65.994 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:00:05:798	1ca0	ETH: GPU0 22.021 Mh/s, GPU1 21.969 Mh/s, GPU2 22.004 Mh/s
+12:00:05:845	1ca0	GPU0 t=58C fan=50%, GPU1 t=58C fan=49%, GPU2 t=54C fan=50%
+12:00:05:861	1ca0	
+12:00:05:876	1ca0	watchdog - thread 0 (gpu0), hb time 375
+12:00:05:876	1ca0	watchdog - thread 1 (gpu0), hb time 32
+12:00:05:876	1ca0	watchdog - thread 2 (gpu1), hb time 375
+12:00:05:892	1ca0	watchdog - thread 3 (gpu1), hb time 47
+12:00:05:892	1ca0	watchdog - thread 4 (gpu2), hb time 312
+12:00:05:908	1ca0	watchdog - thread 5 (gpu2), hb time 656
+12:00:09:369	1ca0	ETH - Total Speed: 66.031 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:00:09:369	1ca0	ETH: GPU0 22.027 Mh/s, GPU1 21.991 Mh/s, GPU2 22.013 Mh/s
+12:00:12:695	1ca0	ETH - Total Speed: 64.945 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:00:12:710	1ca0	ETH: GPU0 21.986 Mh/s, GPU1 20.943 Mh/s, GPU2 22.015 Mh/s
+12:00:16:142	1ca0	ETH - Total Speed: 65.976 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:00:16:163	1ca0	ETH: GPU0 21.971 Mh/s, GPU1 21.985 Mh/s, GPU2 22.020 Mh/s

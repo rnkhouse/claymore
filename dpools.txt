@@ -1,0 +1,3 @@
+# WARNING! Remove "#" characters to enable lines, with "#" they are disabled and will be ignored by miner! Check README for details.
+
+# POOL: stratum+tcp://us-east.siamining.com:7777, WALLET: 4dee8656c982d936a26bc07d5e9763bd8e16799606cdb98acc4643e3a7f9ecbbfe97a05a2a9e

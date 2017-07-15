@@ -1,0 +1,254 @@
+12:00:29:882	1bec	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 
+12:00:29:882	1bec	
+12:00:29:882	1bec	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+12:00:29:897	1bec	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+12:00:29:897	1bec	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+12:00:29:913	1bec	
+12:00:30:139	1bec	ETH: 1 pool is specified
+12:00:30:145	1bec	Main Ethereum pool is ubiq.epicpool.club:8008
+12:00:30:145	1bec	SC: 1 pool is specified
+12:00:30:145	1bec	Main Siacoin pool is us-east.siamining.com:7777
+12:00:30:560	1bec	OpenCL platform: AMD Accelerated Parallel Processing
+12:00:30:560	1bec	OpenCL initializing...
+
+12:00:30:575	1bec	AMD Cards available: 3 
+12:00:30:575	1bec	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+12:00:30:575	1bec	GPU #0 recognized as Radeon RX 470/570
+12:00:30:591	1bec	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+12:00:30:591	1bec	GPU #1 recognized as Radeon RX 470/570
+12:00:30:606	1bec	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+12:00:30:606	1bec	GPU #2 recognized as Radeon RX 470/570
+12:00:30:622	1bec	POOL/SOLO version
+12:00:30:622	1bec	b351 
+12:00:30:638	1bec	Platform: Windows
+12:00:30:731	1bec	start building OpenCL program for GPU 0...
+12:00:47:040	1bec	done
+12:00:47:311	1bec	start building OpenCL program for GPU 1...
+12:01:03:002	1bec	done
+12:01:03:924	1bec	start building OpenCL program for GPU 2...
+12:01:19:477	1bec	done
+12:01:19:727	1bec	GPU #0: set -etha as 0 (ETH algo for fast cards)
+12:01:19:774	1bec	GPU #1: set -etha as 0 (ETH algo for fast cards)
+12:01:19:821	1bec	GPU #2: set -etha as 0 (ETH algo for fast cards)
+12:01:19:821	1bec	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+12:01:19:821	1bec	No NVIDIA CUDA GPUs detected.
+12:01:19:836	1bec	Total cards: 3 
+12:01:19:868	1bec	No NVIDIA cards in the list, NVML library will not be used.
+12:01:19:899	1cfc	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:01:19:993	1bec	DUAL MINING MODE ENABLED: ETHEREUM+SIACOIN
+12:01:19:993	1bec	ETH: eth-proxy stratum mode
+12:01:19:993	1bec	Watchdog enabled
+12:01:20:008	1bec	Remote management (READ-ONLY MODE) is enabled on port 3333
+12:01:20:008	1bec	
+12:01:20:024	1cfc	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:01:20:040	1cfc	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:01:20:055	1bdc	 SC: Stratum - connecting to 'us-east.siamining.com' <45.79.159.167> port 7777
+12:01:20:086	1bdc	send: {"id": 1, "method": "mining.subscribe", "params": []}
+
+12:01:20:102	1bdc	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+12:01:20:102	1bdc	send: {"id": 2, "method": "mining.authorize", "params": ["",""]}
+
+12:01:20:118	1bdc	 SC: Stratum - Connected (us-east.siamining.com:7777)
+12:01:20:149	1bdc	got 182 bytes
+12:01:20:149	1bdc	buf: {"id":1,"result":[[["mining.notify","01018e4599d314b9"],["mining.set_difficulty","01018e4599d314b92"]],"01018e45",4],"error":null}
+{"id":7,"method":"client.get_version","params":[]}
+
+12:01:20:149	1bdc	parse packet: 130
+12:01:20:165	1cfc	got 85 bytes
+12:01:20:165	1cfc	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:01:20:165	1cfc	parse packet: 83
+12:01:20:180	1cfc	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:01:20:180	1cfc	buf was cleared
+12:01:20:165	1bdc	remove first packet 51
+12:01:20:196	1bdc	new buf size: 51
+12:01:20:196	1bdc	parse packet: 50
+12:01:20:196	1bdc	send: {"error": null, "id": 7, "result": "sia 1.0"}
+
+12:01:20:211	1bdc	new buf size: 0
+12:01:20:211	1bdc	got 407 bytes
+12:01:20:211	1bdc	buf: {"id":null,"method":"mining.set_difficulty","params":[7.9998779296875284]}
+{"id":null,"method":"mining.notify","params":["c8f6","0x000000000000002a0b40769eb926dfbaa7cdb05d158a59328d60270fe2e6b75700000000000000003c3c6a590000000070c3e98e7edad22e34f72fd6d6485e7383e84f51f580c47566ad97d8bcc1d05a","0x000000001fffffffffffffffffffffffffffffffffffffffffffffffffffffff",false]}
+{"id":2,"result":false,"error":null}
+
+12:01:20:227	1bdc	parse packet: 74
+12:01:20:227	1bdc	remove first packet 332
+12:01:20:227	1bdc	new buf size: 332
+12:01:20:243	1bdc	parse packet: 294
+12:01:20:243	1bdc	sc: job changed
+12:01:20:243	1bdc	remove first packet 37
+12:01:20:258	1bdc	new buf size: 37
+12:01:20:258	1bdc	parse packet: 36
+12:01:20:258	1bdc	 SC: Authorization failed
+: {"id":2,"result":false,"error":null}
+12:01:20:274	1cfc	Stratum - reading socket failed 10038, disconnect
+12:01:20:274	1bdc	buf was cleared
+12:01:20:274	1bdc	 SC: Connection lost, retry in 20 sec...
+12:01:20:290	1cfc	ETH: Job timeout, disconnect, retry in 20 sec...
+12:01:40:399	1cfc	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:01:40:618	1bdc	 SC: Stratum - connecting to 'us-east.siamining.com' <45.79.159.167> port 7777
+12:01:40:665	1bdc	send: {"id": 1, "method": "mining.subscribe", "params": []}
+
+12:01:40:665	1bdc	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+12:01:40:680	1bdc	send: {"id": 2, "method": "mining.authorize", "params": ["",""]}
+
+12:01:40:696	1bdc	 SC: Stratum - Connected (us-east.siamining.com:7777)
+12:01:40:727	1bdc	got 182 bytes
+12:01:40:727	1bdc	buf: {"id":1,"result":[[["mining.notify","01010bb405146396"],["mining.set_difficulty","01010bb4051463962"]],"01010bb4",4],"error":null}
+{"id":7,"method":"client.get_version","params":[]}
+
+12:01:40:727	1bdc	parse packet: 130
+12:01:40:743	1bdc	remove first packet 51
+12:01:40:743	1bdc	new buf size: 51
+12:01:40:743	1bdc	parse packet: 50
+12:01:40:743	1cfc	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:01:40:759	1bdc	send: {"error": null, "id": 7, "result": "sia 1.0"}
+
+12:01:40:774	1cfc	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:01:40:774	1bdc	new buf size: 0
+12:01:40:774	1bdc	got 407 bytes
+12:01:40:790	1bdc	buf: {"id":null,"method":"mining.set_difficulty","params":[7.9998779296875284]}
+{"id":null,"method":"mining.notify","params":["c8f7","0x000000000000002a0b40769eb926dfbaa7cdb05d158a59328d60270fe2e6b75700000000000000005a3c6a59000000006bd68c37717b955ca0b9f7c275d0b79a308de45246a5898e4ff9543b18c07112","0x000000001fffffffffffffffffffffffffffffffffffffffffffffffffffffff",false]}
+{"id":2,"result":false,"error":null}
+
+12:01:40:790	1bdc	parse packet: 74
+12:01:40:805	1bdc	remove first packet 332
+12:01:40:805	1bdc	new buf size: 332
+12:01:40:805	1bdc	parse packet: 294
+12:01:40:821	1bdc	sc: job changed(2)
+12:01:40:837	1bdc	remove first packet 37
+12:01:40:837	1bdc	new buf size: 37
+12:01:40:852	1bdc	parse packet: 36
+12:01:40:852	1bdc	 SC: Authorization failed
+: {"id":2,"result":false,"error":null}
+12:01:40:868	1bdc	buf was cleared
+12:01:40:884	1bdc	 SC: Connection lost, retry in 20 sec...
+12:01:40:899	1cfc	got 85 bytes
+12:01:40:899	1cfc	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:01:40:899	1cfc	parse packet: 83
+12:01:40:915	1cfc	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:01:40:915	1cfc	buf was cleared
+12:01:40:946	1cfc	Stratum - reading socket failed 10038, disconnect
+12:01:40:946	1cfc	ETH: Job timeout, disconnect, retry in 20 sec...
+12:01:57:855	1bec	GPU0 t=49C fan=0%, GPU1 t=45C fan=0%, GPU2 t=40C fan=0%
+12:01:57:855	1bec	em hbt: 17453, dm hbt: 17422, fm hbt: 94, 
+12:01:57:855	1bec	watchdog - thread 0 (gpu0), hb time 125
+12:01:57:871	1bec	watchdog - thread 1 (gpu0), hb time 141
+12:01:57:871	1bec	watchdog - thread 2 (gpu1), hb time 141
+12:01:57:871	1bec	watchdog - thread 3 (gpu1), hb time 141
+12:01:57:887	1bec	watchdog - thread 4 (gpu2), hb time 156
+12:01:57:887	1bec	watchdog - thread 5 (gpu2), hb time 156
+12:02:00:914	1bdc	 SC: Stratum - connecting to 'us-east.siamining.com' <45.79.159.167> port 7777
+12:02:00:946	1bdc	send: {"id": 1, "method": "mining.subscribe", "params": []}
+
+12:02:00:946	1bdc	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+12:02:00:961	1bdc	send: {"id": 2, "method": "mining.authorize", "params": ["",""]}
+
+12:02:00:977	1bdc	 SC: Stratum - Connected (us-east.siamining.com:7777)
+12:02:00:977	1cfc	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:02:01:008	1bdc	got 182 bytes
+12:02:01:008	1bdc	buf: {"id":1,"result":[[["mining.notify","010012a0dfca1168"],["mining.set_difficulty","010012a0dfca11682"]],"010012a0",4],"error":null}
+{"id":7,"method":"client.get_version","params":[]}
+
+12:02:01:008	1bdc	parse packet: 130
+12:02:01:024	1bdc	remove first packet 51
+12:02:01:024	1bdc	new buf size: 51
+12:02:01:024	1bdc	parse packet: 50
+12:02:01:039	1bdc	send: {"error": null, "id": 7, "result": "sia 1.0"}
+
+12:02:01:039	1bdc	new buf size: 0
+12:02:01:039	1bdc	got 407 bytes
+12:02:01:055	1bdc	buf: {"id":null,"method":"mining.set_difficulty","params":[7.9998779296875284]}
+{"id":null,"method":"mining.notify","params":["c8f8","0x000000000000002a0b40769eb926dfbaa7cdb05d158a59328d60270fe2e6b7570000000000000000783c6a5900000000e4a92fd86ce522f41467090c81360c3c7753895e64b423a2a001739d368791fe","0x000000001fffffffffffffffffffffffffffffffffffffffffffffffffffffff",false]}
+{"id":2,"result":false,"error":null}
+
+12:02:01:055	1bdc	parse packet: 74
+12:02:01:055	1bdc	remove first packet 332
+12:02:01:071	1bdc	new buf size: 332
+12:02:01:071	1bdc	parse packet: 294
+12:02:01:071	1bdc	sc: job changed(2)
+12:02:01:086	1bdc	remove first packet 37
+12:02:01:086	1bdc	new buf size: 37
+12:02:01:086	1bdc	parse packet: 36
+12:02:01:102	1bdc	 SC: Authorization failed
+: {"id":2,"result":false,"error":null}
+12:02:01:102	1bdc	buf was cleared
+12:02:01:117	1bdc	 SC: Connection lost, retry in 20 sec...
+12:02:01:117	1cfc	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:02:01:133	1cfc	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:02:01:258	1cfc	got 85 bytes
+12:02:01:258	1cfc	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:02:01:258	1cfc	parse packet: 83
+12:02:01:274	1cfc	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:02:01:274	1cfc	buf was cleared
+12:02:01:305	1cfc	Stratum - reading socket failed 10038, disconnect
+12:02:01:305	1cfc	ETH: Job timeout, disconnect, retry in 20 sec...
+12:02:21:145	1bdc	 SC: Stratum - connecting to 'us-east.siamining.com' <45.79.159.167> port 7777
+12:02:21:192	1bdc	send: {"id": 1, "method": "mining.subscribe", "params": []}
+
+12:02:21:192	1bdc	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+12:02:21:192	1bdc	send: {"id": 2, "method": "mining.authorize", "params": ["",""]}
+
+12:02:21:208	1bdc	 SC: Stratum - Connected (us-east.siamining.com:7777)
+12:02:21:239	1bdc	got 182 bytes
+12:02:21:239	1bdc	buf: {"id":1,"result":[[["mining.notify","01004ccb3bc77a3e"],["mining.set_difficulty","01004ccb3bc77a3e2"]],"01004ccb",4],"error":null}
+{"id":7,"method":"client.get_version","params":[]}
+
+12:02:21:239	1bdc	parse packet: 130
+12:02:21:255	1bdc	remove first packet 51
+12:02:21:255	1bdc	new buf size: 51
+12:02:21:255	1bdc	parse packet: 50
+12:02:21:270	1bdc	send: {"error": null, "id": 7, "result": "sia 1.0"}
+
+12:02:21:270	1bdc	new buf size: 0
+12:02:21:270	1bdc	got 407 bytes
+12:02:21:286	1bdc	buf: {"id":null,"method":"mining.set_difficulty","params":[7.9998779296875284]}
+{"id":null,"method":"mining.notify","params":["c8f8","0x000000000000002a0b40769eb926dfbaa7cdb05d158a59328d60270fe2e6b7570000000000000000783c6a590000000077d55b0ed9109710e0abf259927ab75a815abb45b9457f23fed132ea6ee48928","0x000000001fffffffffffffffffffffffffffffffffffffffffffffffffffffff",false]}
+{"id":2,"result":false,"error":null}
+
+12:02:21:302	1bdc	parse packet: 74
+12:02:21:317	1bdc	remove first packet 332
+12:02:21:317	1bdc	new buf size: 332
+12:02:21:317	1bdc	parse packet: 294
+12:02:21:333	1cfc	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:02:21:333	1bdc	sc: job is the same
+12:02:21:349	1bdc	remove first packet 37
+12:02:21:364	1bdc	new buf size: 37
+12:02:21:364	1bdc	parse packet: 36
+12:02:21:364	1bdc	 SC: Authorization failed
+: {"id":2,"result":false,"error":null}
+12:02:21:380	1bdc	buf was cleared
+12:02:21:505	1cfc	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:02:21:520	1cfc	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:02:21:536	1bdc	Stratum - reading socket failed 10038, disconnect
+12:02:21:536	1bdc	 SC: Job timeout, disconnect, retry in 20 sec...
+12:02:21:645	1cfc	got 85 bytes
+12:02:21:645	1cfc	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:02:21:661	1cfc	parse packet: 83
+12:02:21:661	1cfc	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:02:21:677	1cfc	buf was cleared
+12:02:21:708	1cfc	Stratum - reading socket failed 10038, disconnect
+12:02:21:708	1cfc	ETH: Job timeout, disconnect, retry in 20 sec...
+12:02:36:413	1bec	GPU0 t=48C fan=0%, GPU1 t=44C fan=0%, GPU2 t=41C fan=0%
+12:02:36:413	1bec	em hbt: 15078, dm hbt: 15265, fm hbt: 15, 
+12:02:36:429	1bec	watchdog - thread 0 (gpu0), hb time 31
+12:02:36:429	1bec	watchdog - thread 1 (gpu0), hb time 31
+12:02:36:429	1bec	watchdog - thread 2 (gpu1), hb time 31
+12:02:36:444	1bec	watchdog - thread 3 (gpu1), hb time 47
+12:02:36:444	1bec	watchdog - thread 4 (gpu2), hb time 47
+12:02:36:460	1bec	watchdog - thread 5 (gpu2), hb time 62

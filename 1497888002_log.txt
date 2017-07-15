@@ -1,0 +1,106 @@
+12:00:02:115	b54	args: -r 1 -ethi 8 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 30 -benchmark 150 
+12:00:02:115	b54	
+12:00:02:115	b54	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+12:00:02:115	b54	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+12:00:02:115	b54	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+12:00:02:131	b54	
+12:00:03:115	b54	OpenCL platform: AMD Accelerated Parallel Processing
+12:00:03:209	b54	OpenCL initializing...
+
+12:00:03:209	b54	AMD Cards available: 5 
+12:00:03:209	b54	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+12:00:03:224	b54	GPU #0 recognized as Radeon RX 470/570
+12:00:03:224	b54	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+12:00:03:224	b54	GPU #1 recognized as Radeon RX 470/570
+12:00:03:224	b54	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+12:00:03:240	b54	GPU #2 recognized as Radeon RX 470/570
+12:00:03:240	b54	GPU #3: Ellesmere, 4096 MB available, 32 compute units
+12:00:03:240	b54	GPU #3 recognized as Radeon RX 470/570
+12:00:03:256	b54	GPU #4: Ellesmere, 4096 MB available, 32 compute units
+12:00:03:256	b54	GPU #4 recognized as Radeon RX 470/570
+12:00:03:256	b54	POOL/SOLO version
+12:00:03:271	b54	b351 
+12:00:03:271	b54	Platform: Windows
+12:00:03:334	b54	start building OpenCL program for GPU 0...
+12:00:15:646	b54	done
+12:00:15:896	b54	start building OpenCL program for GPU 1...
+12:00:28:068	b54	done
+12:00:28:302	b54	start building OpenCL program for GPU 2...
+12:00:40:334	b54	done
+12:00:40:568	b54	start building OpenCL program for GPU 3...
+12:00:52:584	b54	done
+12:00:52:834	b54	start building OpenCL program for GPU 4...
+12:01:04:943	b54	done
+12:01:05:224	b54	GPU #0: set -etha as 0 (ETH algo for fast cards)
+12:01:05:255	b54	GPU #1: set -etha as 0 (ETH algo for fast cards)
+12:01:05:302	b54	GPU #2: set -etha as 0 (ETH algo for fast cards)
+12:01:05:334	b54	GPU #3: set -etha as 0 (ETH algo for fast cards)
+12:01:05:365	b54	GPU #4: set -etha as 0 (ETH algo for fast cards)
+12:01:05:365	b54	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+12:01:05:365	b54	No NVIDIA CUDA GPUs detected.
+12:01:05:380	b54	Total cards: 5 
+12:01:05:427	b54	No NVIDIA cards in the list, NVML library will not be used.
+12:01:05:552	b54	
+12:01:05:552	b54	
+BENCHMARK MODE!
+
+12:01:05:568	1914	Setting DAG epoch #150...
+12:01:07:927	1914	Setting DAG epoch #150 for GPU3
+12:01:07:943	1914	Create GPU buffer for GPU3
+12:01:09:021	b54	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:09:037	b54	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s
+12:01:12:505	b54	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:12:521	b54	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s
+12:01:13:130	1914	GPU3 DAG creation time - 5078 ms
+12:01:13:130	1914	Setting DAG epoch #150 for GPU3 done
+12:01:13:130	d68	Setting DAG epoch #150 for GPU4
+12:01:13:130	d68	Create GPU buffer for GPU4
+12:01:15:849	b54	ETH - Total Speed: 22.027 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:15:849	b54	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 22.027 Mh/s, GPU4 0.000 Mh/s
+12:01:18:349	d68	GPU4 DAG creation time - 5081 ms
+12:01:18:365	d68	Setting DAG epoch #150 for GPU4 done
+12:01:18:365	1adc	Setting DAG epoch #150 for GPU2
+12:01:18:365	1adc	Create GPU buffer for GPU2
+12:01:19:193	b54	ETH - Total Speed: 44.039 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:19:193	b54	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 22.024 Mh/s, GPU4 22.015 Mh/s
+12:01:22:537	b54	ETH - Total Speed: 44.044 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:22:537	b54	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 22.012 Mh/s, GPU4 22.032 Mh/s
+12:01:23:599	1adc	GPU2 DAG creation time - 5088 ms
+12:01:23:599	1adc	Setting DAG epoch #150 for GPU2 done
+12:01:23:599	1a50	Setting DAG epoch #150 for GPU0
+12:01:23:615	1a50	Create GPU buffer for GPU0
+12:01:25:880	b54	ETH - Total Speed: 66.055 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:25:896	b54	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 21.985 Mh/s, GPU3 22.032 Mh/s, GPU4 22.038 Mh/s
+12:01:28:849	1a50	GPU0 DAG creation time - 5081 ms
+12:01:28:865	1a50	Setting DAG epoch #150 for GPU0 done
+12:01:28:865	114c	Setting DAG epoch #150 for GPU1
+12:01:28:865	114c	Create GPU buffer for GPU1
+12:01:29:255	b54	ETH - Total Speed: 65.974 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:29:255	b54	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 21.984 Mh/s, GPU3 22.000 Mh/s, GPU4 21.989 Mh/s
+12:01:32:599	b54	ETH - Total Speed: 66.019 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:32:599	b54	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 21.979 Mh/s, GPU3 22.018 Mh/s, GPU4 22.022 Mh/s
+12:01:34:115	114c	GPU1 DAG creation time - 5084 ms
+12:01:34:130	114c	Setting DAG epoch #150 for GPU1 done
+12:01:35:943	b54	ETH - Total Speed: 87.981 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:35:943	b54	ETH: GPU0 0.000 Mh/s, GPU1 22.007 Mh/s, GPU2 21.951 Mh/s, GPU3 22.006 Mh/s, GPU4 22.017 Mh/s
+12:01:39:287	b54	ETH - Total Speed: 87.982 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:39:302	b54	ETH: GPU0 0.000 Mh/s, GPU1 21.991 Mh/s, GPU2 21.950 Mh/s, GPU3 22.017 Mh/s, GPU4 22.024 Mh/s
+12:01:39:365	b54	GPU0 t=56C fan=49%, GPU1 t=55C fan=77%, GPU2 t=48C fan=69%, GPU3 t=61C fan=81%, GPU4 t=44C fan=73%
+12:01:39:365	b54	
+12:01:39:365	b54	watchdog - thread 0 (gpu0), hb time 5235
+12:01:39:365	b54	watchdog - thread 1 (gpu0), hb time 5235
+12:01:39:380	b54	watchdog - thread 2 (gpu1), hb time 203
+12:01:39:380	b54	watchdog - thread 3 (gpu1), hb time 0
+12:01:39:380	b54	watchdog - thread 4 (gpu2), hb time 46
+12:01:39:380	b54	watchdog - thread 5 (gpu2), hb time 234
+12:01:39:396	b54	watchdog - thread 6 (gpu3), hb time 219
+12:01:39:396	b54	watchdog - thread 7 (gpu3), hb time 16
+12:01:39:396	b54	watchdog - thread 8 (gpu4), hb time 266
+12:01:39:396	b54	watchdog - thread 9 (gpu4), hb time 62
+12:01:42:740	b54	ETH - Total Speed: 110.064 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:42:755	b54	ETH: GPU0 21.998 Mh/s, GPU1 22.019 Mh/s, GPU2 21.983 Mh/s, GPU3 22.018 Mh/s, GPU4 22.046 Mh/s
+12:01:46:084	b54	ETH - Total Speed: 110.099 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:46:099	b54	ETH: GPU0 22.007 Mh/s, GPU1 22.032 Mh/s, GPU2 21.996 Mh/s, GPU3 22.034 Mh/s, GPU4 22.031 Mh/s
+12:01:49:427	b54	ETH - Total Speed: 109.955 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+12:01:49:443	b54	ETH: GPU0 22.000 Mh/s, GPU1 22.008 Mh/s, GPU2 21.914 Mh/s, GPU3 22.011 Mh/s, GPU4 22.022 Mh/s
+12:01:49:927	1818	Quit...

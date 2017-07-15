@@ -1,0 +1,67 @@
+12:16:15:741	11fc	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 
+12:16:15:741	11fc	
+12:16:15:741	11fc	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+12:16:15:756	11fc	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+12:16:15:756	11fc	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+12:16:15:756	11fc	
+12:16:15:991	11fc	ETH: 1 pool is specified
+12:16:16:006	11fc	Main Ethereum pool is ubiq.epicpool.club:8008
+12:16:16:022	11fc	SC: 0 pool is specified
+12:16:16:381	11fc	OpenCL platform: AMD Accelerated Parallel Processing
+12:16:16:381	11fc	OpenCL initializing...
+
+12:16:16:397	11fc	AMD Cards available: 3 
+12:16:16:397	11fc	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+12:16:16:397	11fc	GPU #0 recognized as Radeon RX 470/570
+12:16:16:413	11fc	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+12:16:16:413	11fc	GPU #1 recognized as Radeon RX 470/570
+12:16:16:413	11fc	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+12:16:16:428	11fc	GPU #2 recognized as Radeon RX 470/570
+12:16:16:428	11fc	POOL/SOLO version
+12:16:16:444	11fc	b351 
+12:16:16:444	11fc	Platform: Windows
+12:16:16:538	11fc	start building OpenCL program for GPU 0...
+12:16:34:422	11fc	done
+12:16:34:683	11fc	start building OpenCL program for GPU 1...
+12:16:51:269	11fc	done
+12:16:51:528	11fc	start building OpenCL program for GPU 2...
+12:17:10:722	11fc	done
+12:17:10:987	11fc	GPU #0: set -etha as 0 (ETH algo for fast cards)
+12:17:11:050	11fc	GPU #1: set -etha as 0 (ETH algo for fast cards)
+12:17:11:096	11fc	GPU #2: set -etha as 0 (ETH algo for fast cards)
+12:17:11:096	11fc	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+12:17:11:096	11fc	No NVIDIA CUDA GPUs detected.
+12:17:11:112	11fc	Total cards: 3 
+12:17:11:143	11fc	No NVIDIA cards in the list, NVML library will not be used.
+12:17:11:159	122c	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:17:11:261	11fc	No pool specified for Siacoin! Ethereum-only mining mode is enabled
+12:17:11:267	11fc	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+12:17:11:279	11fc	ETH: eth-proxy stratum mode
+12:17:11:285	11fc	Watchdog enabled
+12:17:11:293	11fc	Remote management (READ-ONLY MODE) is enabled on port 3333
+12:17:11:300	11fc	
+12:17:11:306	122c	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "X"], "id": 2, "method": "eth_submitLogin"}
+
+12:17:11:306	122c	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:17:11:431	122c	got 85 bytes
+12:17:11:436	122c	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:17:11:438	122c	parse packet: 83
+12:17:11:438	122c	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:17:11:454	122c	buf was cleared
+12:17:11:485	122c	Stratum - reading socket failed 10038, disconnect
+12:17:11:485	122c	ETH: Job timeout, disconnect, retry in 20 sec...
+12:17:31:501	122c	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:17:31:630	122c	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "X"], "id": 2, "method": "eth_submitLogin"}
+
+12:17:31:630	122c	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:17:31:771	122c	got 85 bytes
+12:17:31:771	122c	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:17:31:771	122c	parse packet: 83
+12:17:31:786	122c	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:17:31:786	122c	buf was cleared
+12:17:31:818	122c	Stratum - reading socket failed 10038, disconnect
+12:17:31:818	122c	ETH: Job timeout, disconnect, retry in 20 sec...

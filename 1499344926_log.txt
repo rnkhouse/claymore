@@ -1,0 +1,265 @@
+08:42:06:988	184	args: -r 1 -ethi 8 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 
+08:42:06:988	184	
+08:42:06:988	184	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+08:42:07:003	184	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+08:42:07:003	184	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+08:42:07:003	184	
+08:42:07:722	184	ETH: 1 pool is specified
+08:42:07:738	184	Main Ethereum pool is us1.ethermine.org:4444
+08:42:07:738	184	SC: 1 pool is specified
+08:42:07:738	184	Main Siacoin pool is us-east.siamining.com:7777
+08:42:08:894	184	OpenCL platform: AMD Accelerated Parallel Processing
+08:42:08:910	184	OpenCL initializing...
+
+08:42:08:910	184	AMD Cards available: 5 
+08:42:08:910	184	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+08:42:08:910	184	GPU #0 recognized as Radeon RX 470/570
+08:42:08:925	184	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+08:42:08:925	184	GPU #1 recognized as Radeon RX 470/570
+08:42:08:925	184	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+08:42:08:925	184	GPU #2 recognized as Radeon RX 470/570
+08:42:08:941	184	GPU #3: Ellesmere, 4096 MB available, 32 compute units
+08:42:08:941	184	GPU #3 recognized as Radeon RX 470/570
+08:42:08:941	184	GPU #4: Ellesmere, 4096 MB available, 32 compute units
+08:42:08:941	184	GPU #4 recognized as Radeon RX 470/570
+08:42:08:956	184	POOL/SOLO version
+08:42:08:956	184	b351 
+08:42:08:956	184	Platform: Windows
+08:42:09:035	184	start building OpenCL program for GPU 0...
+08:42:22:113	184	done
+08:42:22:363	184	start building OpenCL program for GPU 1...
+08:42:34:628	184	done
+08:42:34:878	184	start building OpenCL program for GPU 2...
+08:42:46:972	184	done
+08:42:47:222	184	start building OpenCL program for GPU 3...
+08:42:59:347	184	done
+08:42:59:597	184	start building OpenCL program for GPU 4...
+08:43:11:691	184	done
+08:43:11:941	184	GPU #0: set -etha as 0 (ETH algo for fast cards)
+08:43:11:988	184	GPU #1: set -etha as 0 (ETH algo for fast cards)
+08:43:12:019	184	GPU #2: set -etha as 0 (ETH algo for fast cards)
+08:43:12:050	184	GPU #3: set -etha as 0 (ETH algo for fast cards)
+08:43:12:082	184	GPU #4: set -etha as 0 (ETH algo for fast cards)
+08:43:12:082	184	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+08:43:12:097	184	No NVIDIA CUDA GPUs detected.
+08:43:12:097	184	Total cards: 5 
+08:43:12:144	184	No NVIDIA cards in the list, NVML library will not be used.
+08:43:12:207	758	ETH: Stratum - connecting to 'us1.ethermine.org' <192.95.30.210> port 4444
+08:43:12:238	758	send: {"id":2,"jsonrpc":"2.0","method":"eth_login","params":["0x8312A7cF40175479D668448716ab62a804E2150b.valhalla1","EthereumAsdf12#$5"]}
+
+08:43:12:253	758	ETH: Stratum - Connected (us1.ethermine.org:4444)
+08:43:12:269	184	DUAL MINING MODE ENABLED: ETHEREUM+SIACOIN
+08:43:12:269	184	ETH: qtminer stratum mode
+08:43:12:269	184	Watchdog enabled
+08:43:12:269	184	Remote management (READ-ONLY MODE) is enabled on port 3333
+08:43:12:285	184	
+08:43:12:300	758	got 39 bytes
+08:43:12:300	758	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+08:43:12:300	758	parse packet: 38
+08:43:12:300	758	ETH: Authorized
+08:43:12:300	758	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+08:43:12:316	758	new buf size: 0
+08:43:12:316	7cc	 SC: Stratum - connecting to 'us-east.siamining.com' <45.79.159.167> port 7777
+08:43:12:347	758	got 248 bytes
+08:43:12:347	7cc	send: {"id": 1, "method": "mining.subscribe", "params": []}
+
+08:43:12:347	758	buf: {"id":3,"jsonrpc":"2.0","result":["0x92ce60a380c21daabe123bbbdb80fcecf664d50b9c30d192aac2f003aade5749","0x39c5f107628ba618a6a867dd78baf80d6d04ace84c3835886f198872e48f084a","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3cc6bd"]}
+
+08:43:12:347	7cc	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+08:43:12:347	758	parse packet: 247
+08:43:12:363	7cc	send: {"id": 2, "method": "mining.authorize", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1",""]}
+
+08:43:12:363	758	ETH: job changed
+08:43:12:363	7cc	 SC: Stratum - Connected (us-east.siamining.com:7777)
+08:43:12:363	758	new buf size: 0
+08:43:12:378	7cc	got 182 bytes
+08:43:12:378	7cc	buf: {"id":1,"result":[[["mining.notify","0100407a9531bc3b"],["mining.set_difficulty","0100407a9531bc3b2"]],"0100407a",4],"error":null}
+{"id":7,"method":"client.get_version","params":[]}
+
+08:43:12:378	7cc	parse packet: 130
+08:43:12:394	7cc	remove first packet 51
+08:43:12:394	7cc	new buf size: 51
+08:43:12:394	7cc	parse packet: 50
+08:43:12:394	7cc	send: {"error": null, "id": 7, "result": "sia 1.0"}
+
+08:43:12:410	7cc	new buf size: 0
+08:43:12:410	7ec	Setting DAG epoch #132...
+08:43:12:410	7cc	got 406 bytes
+08:43:12:410	7cc	buf: {"id":null,"method":"mining.set_difficulty","params":[7.9998779296875284]}
+{"id":null,"method":"mining.notify","params":["4e3b","0x000000000000003176a42c15bb56aa1d356bdbb38b6800be36d2d55d74e466d1000000000000000056305e5900000000e75e621ad4b77b82e2c6388e028973d44f23ba6e96f65d12ebbb4f83898e943c","0x000000001fffffffffffffffffffffffffffffffffffffffffffffffffffffff",false]}
+{"id":2,"result":true,"error":null}
+
+08:43:12:425	7cc	parse packet: 74
+08:43:12:425	7cc	remove first packet 331
+08:43:12:425	7cc	new buf size: 331
+08:43:12:425	7cc	parse packet: 294
+08:43:12:441	7cc	sc: job changed
+08:43:12:441	7cc	remove first packet 36
+08:43:12:441	7cc	new buf size: 36
+08:43:12:441	7cc	parse packet: 35
+08:43:12:457	7cc	 SC: Authorized
+08:43:12:457	7cc	new buf size: 0
+08:43:14:628	7ec	Setting DAG epoch #132 for GPU3
+08:43:14:644	7ec	Create GPU buffer for GPU3
+08:43:18:082	758	got 248 bytes
+08:43:18:082	758	buf: {"id":0,"jsonrpc":"2.0","result":["0xb66008a5c459cda9a857976b9ddf15b23375e75e8309920a8914f55f7a3e834c","0x39c5f107628ba618a6a867dd78baf80d6d04ace84c3835886f198872e48f084a","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3cc6be"]}
+
+08:43:18:082	758	parse packet: 247
+08:43:18:082	758	ETH: job changed
+08:43:18:097	758	new buf size: 0
+08:43:18:097	758	ETH: 07/06/17-08:43:18 - New job from us1.ethermine.org:4444
+08:43:18:097	758	target: 0x0000000112e0be82 (diff: 4000MH), epoch #132
+08:43:18:097	758	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+08:43:18:113	758	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s
+08:43:18:113	758	 SC - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0
+08:43:18:113	758	 SC: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s
+08:43:19:472	7ec	GPU3 DAG creation time - 4730 ms
+08:43:19:472	7ec	Setting DAG epoch #132 for GPU3 done
+08:43:19:488	1ef4	Setting DAG epoch #132 for GPU2
+08:43:19:488	1ef4	Create GPU buffer for GPU2
+08:43:21:472	758	got 248 bytes
+08:43:21:472	758	buf: {"id":0,"jsonrpc":"2.0","result":["0x05d071bab2a8a24ae0071939aabcac7d7c4b950c4752dd22072ccab9b51f554f","0x39c5f107628ba618a6a867dd78baf80d6d04ace84c3835886f198872e48f084a","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3cc6bf"]}
+
+08:43:21:472	758	parse packet: 247
+08:43:21:472	758	ETH: job changed
+08:43:21:488	758	new buf size: 0
+08:43:21:488	758	ETH: 07/06/17-08:43:21 - New job from us1.ethermine.org:4444
+08:43:21:488	758	target: 0x0000000112e0be82 (diff: 4000MH), epoch #132
+08:43:21:503	758	ETH - Total Speed: 27.189 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+08:43:21:503	758	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 27.189 Mh/s, GPU4 0.000 Mh/s
+08:43:21:503	758	 SC - Total Speed: 271.892 Mh/s, Total Shares: 0, Rejected: 0
+08:43:21:503	758	 SC: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 271.892 Mh/s, GPU4 0.000 Mh/s
+08:43:24:410	1ef4	GPU2 DAG creation time - 4786 ms
+08:43:24:425	1ef4	Setting DAG epoch #132 for GPU2 done
+08:43:24:425	4bc	Setting DAG epoch #132 for GPU4
+08:43:24:425	4bc	Create GPU buffer for GPU4
+08:43:28:488	758	got 248 bytes
+08:43:28:488	758	buf: {"id":0,"jsonrpc":"2.0","result":["0x0f6872a4a7956dbf692d9d7fc8c815225773753c6f8cdd6a3def2cdea3fc8fe6","0x39c5f107628ba618a6a867dd78baf80d6d04ace84c3835886f198872e48f084a","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3cc6c0"]}
+
+08:43:28:488	758	parse packet: 247
+08:43:28:488	758	ETH: job changed
+08:43:28:503	758	new buf size: 0
+08:43:28:503	758	ETH: 07/06/17-08:43:28 - New job from us1.ethermine.org:4444
+08:43:28:503	758	target: 0x0000000112e0be82 (diff: 4000MH), epoch #132
+08:43:28:503	758	ETH - Total Speed: 54.328 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+08:43:28:519	758	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 27.126 Mh/s, GPU3 27.202 Mh/s, GPU4 0.000 Mh/s
+08:43:28:519	758	 SC - Total Speed: 543.276 Mh/s, Total Shares: 0, Rejected: 0
+08:43:28:519	758	 SC: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 271.258 Mh/s, GPU3 272.018 Mh/s, GPU4 0.000 Mh/s
+08:43:29:300	4bc	GPU4 DAG creation time - 4729 ms
+08:43:29:316	4bc	Setting DAG epoch #132 for GPU4 done
+08:43:29:316	1ee8	Setting DAG epoch #132 for GPU0
+08:43:29:316	1ee8	Create GPU buffer for GPU0
+08:43:32:394	758	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x43e5c81", "0x000000000000000000000000000000000000000000000000000000004a71668e"]}
+
+08:43:32:441	758	got 39 bytes
+08:43:32:441	758	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+08:43:32:441	758	parse packet: 38
+08:43:32:441	758	new buf size: 0
+08:43:33:691	7ec	ETH: put share nonce e560208c05e20014
+08:43:33:691	7ec	ETH round found 1 shares
+08:43:33:707	758	ETH: 07/06/17-08:43:33 - SHARE FOUND - (GPU 3)
+08:43:33:707	758	send: {"id":4,"method":"eth_submitWork","params":["0xe560208c05e20014","0x0f6872a4a7956dbf692d9d7fc8c815225773753c6f8cdd6a3def2cdea3fc8fe6","0x29d99b0e6dfd16e315fecb2b811306a847d6dd9d0001d4893d4e9e97ec8c25ad"]}
+
+08:43:33:753	758	got 39 bytes
+08:43:33:753	758	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+08:43:33:753	758	parse packet: 38
+08:43:33:753	758	ETH: Share accepted (47 ms)!
+08:43:33:769	758	new buf size: 0
+08:43:34:160	1ee8	GPU0 DAG creation time - 4729 ms
+08:43:34:175	1ee8	Setting DAG epoch #132 for GPU0 done
+08:43:34:175	7f0	Setting DAG epoch #132 for GPU1
+08:43:34:175	7f0	Create GPU buffer for GPU1
+08:43:35:019	758	got 248 bytes
+08:43:35:019	758	buf: {"id":0,"jsonrpc":"2.0","result":["0x88bef8857389a4778d49546627347928a9f1db0f8a4fa05fb2a8b0d3d3eb8a5d","0x39c5f107628ba618a6a867dd78baf80d6d04ace84c3835886f198872e48f084a","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3cc6c1"]}
+
+08:43:35:019	758	parse packet: 247
+08:43:35:019	758	ETH: job changed
+08:43:35:035	758	new buf size: 0
+08:43:35:035	758	ETH: 07/06/17-08:43:35 - New job from us1.ethermine.org:4444
+08:43:35:035	758	target: 0x0000000112e0be82 (diff: 4000MH), epoch #132
+08:43:35:050	758	ETH - Total Speed: 107.861 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+08:43:35:050	758	ETH: GPU0 27.196 Mh/s, GPU1 0.000 Mh/s, GPU2 26.258 Mh/s, GPU3 27.207 Mh/s, GPU4 27.201 Mh/s
+08:43:35:050	758	 SC - Total Speed: 1078.613 Mh/s, Total Shares: 0, Rejected: 0
+08:43:35:050	758	 SC: GPU0 271.955 Mh/s, GPU1 0.000 Mh/s, GPU2 262.581 Mh/s, GPU3 272.070 Mh/s, GPU4 272.007 Mh/s
+08:43:35:957	f18	SC: put share nonce 174f765 enonce 3e2f003d
+08:43:35:957	f18	SC round found 1 shares
+08:43:35:972	7cc	 SC: 07/06/17-08:43:35 - SHARE FOUND - (GPU 0)
+08:43:35:972	7cc	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","4e3b","0x000000000000003176a42c15bb56aa1d356bdbb38b6800be36d2d55d74e466d165f774013d002f3e56305e5900000000e75e621ad4b77b82e2c6388e028973d44f23ba6e96f65d12ebbb4f83898e943c"]}
+
+08:43:36:019	7cc	got 36 bytes
+08:43:36:019	7cc	buf: {"id":4,"result":true,"error":null}
+
+08:43:36:019	7cc	parse packet: 35
+08:43:36:019	7cc	 SC: Share accepted (47 ms)!
+08:43:36:035	7cc	new buf size: 0
+08:43:37:019	758	got 248 bytes
+08:43:37:019	758	buf: {"id":0,"jsonrpc":"2.0","result":["0x0fd1543f38352a8499d00b237476588b7ae37321473114c99e55fafe70c4f23f","0x39c5f107628ba618a6a867dd78baf80d6d04ace84c3835886f198872e48f084a","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3cc6c2"]}
+
+08:43:37:019	758	parse packet: 247
+08:43:37:019	758	ETH: job changed
+08:43:37:035	758	new buf size: 0
+08:43:37:035	758	ETH: 07/06/17-08:43:37 - New job from us1.ethermine.org:4444
+08:43:37:035	758	target: 0x0000000112e0be82 (diff: 4000MH), epoch #132
+08:43:37:050	758	ETH - Total Speed: 103.869 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+08:43:37:050	758	ETH: GPU0 27.201 Mh/s, GPU1 0.000 Mh/s, GPU2 22.289 Mh/s, GPU3 27.177 Mh/s, GPU4 27.203 Mh/s
+08:43:37:050	758	 SC - Total Speed: 1038.693 Mh/s, Total Shares: 1, Rejected: 0
+08:43:37:050	758	 SC: GPU0 272.005 Mh/s, GPU1 0.000 Mh/s, GPU2 222.887 Mh/s, GPU3 271.773 Mh/s, GPU4 272.028 Mh/s
+08:43:39:019	7f0	GPU1 DAG creation time - 4732 ms
+08:43:39:035	7f0	Setting DAG epoch #132 for GPU1 done
+08:43:42:394	758	ETH: checking pool connection...
+08:43:42:394	758	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+08:43:42:425	758	got 248 bytes
+08:43:42:425	758	buf: {"id":3,"jsonrpc":"2.0","result":["0x0fd1543f38352a8499d00b237476588b7ae37321473114c99e55fafe70c4f23f","0x39c5f107628ba618a6a867dd78baf80d6d04ace84c3835886f198872e48f084a","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3cc6c2"]}
+
+08:43:42:425	758	parse packet: 247
+08:43:42:425	758	ETH: job is the same
+08:43:42:441	758	new buf size: 0
+08:43:43:175	758	got 248 bytes
+08:43:43:175	758	buf: {"id":0,"jsonrpc":"2.0","result":["0xb6e658d3b3bacadce2d172fed62cafa9ffac5ee7eac953c614eb3ab4d864e64c","0x39c5f107628ba618a6a867dd78baf80d6d04ace84c3835886f198872e48f084a","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3cc6c3"]}
+
+08:43:43:175	758	parse packet: 247
+08:43:43:175	758	ETH: job changed
+08:43:43:191	758	new buf size: 0
+08:43:43:191	758	ETH: 07/06/17-08:43:43 - New job from us1.ethermine.org:4444
+08:43:43:191	758	target: 0x0000000112e0be82 (diff: 4000MH), epoch #132
+08:43:43:191	758	ETH - Total Speed: 136.090 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+08:43:43:207	758	ETH: GPU0 27.214 Mh/s, GPU1 27.228 Mh/s, GPU2 27.215 Mh/s, GPU3 27.228 Mh/s, GPU4 27.205 Mh/s
+08:43:43:207	758	 SC - Total Speed: 1360.898 Mh/s, Total Shares: 1, Rejected: 0
+08:43:43:207	758	 SC: GPU0 272.138 Mh/s, GPU1 272.284 Mh/s, GPU2 272.151 Mh/s, GPU3 272.276 Mh/s, GPU4 272.049 Mh/s
+08:43:48:941	1808	SC: put share nonce 2e8fbe8 enonce 921401c4
+08:43:48:957	1808	SC round found 1 shares
+08:43:48:972	7cc	 SC: 07/06/17-08:43:48 - SHARE FOUND - (GPU 1)
+08:43:48:972	7cc	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","4e3b","0x000000000000003176a42c15bb56aa1d356bdbb38b6800be36d2d55d74e466d1e8fbe802c401149256305e5900000000e75e621ad4b77b82e2c6388e028973d44f23ba6e96f65d12ebbb4f83898e943c"]}
+
+08:43:49:004	7cc	got 36 bytes
+08:43:49:004	7cc	buf: {"id":4,"result":true,"error":null}
+
+08:43:49:004	7cc	parse packet: 35
+08:43:49:004	7cc	 SC: Share accepted (31 ms)!
+08:43:49:019	7cc	new buf size: 0
+08:43:52:082	184	GPU0 t=56C fan=44%, GPU1 t=54C fan=26%, GPU2 t=53C fan=0%, GPU3 t=57C fan=49%, GPU4 t=54C fan=39%
+08:43:52:082	184	em hbt: 0, dm hbt: 0, fm hbt: 93, 
+08:43:52:082	184	watchdog - thread 0 (gpu0), hb time 171
+08:43:52:082	184	watchdog - thread 1 (gpu0), hb time 62
+08:43:52:097	184	watchdog - thread 2 (gpu1), hb time 16
+08:43:52:097	184	watchdog - thread 3 (gpu1), hb time 125
+08:43:52:097	184	watchdog - thread 4 (gpu2), hb time 47
+08:43:52:113	184	watchdog - thread 5 (gpu2), hb time 172
+08:43:52:113	184	watchdog - thread 6 (gpu3), hb time 78
+08:43:52:113	184	watchdog - thread 7 (gpu3), hb time 188
+08:43:52:113	184	watchdog - thread 8 (gpu4), hb time 63
+08:43:52:129	184	watchdog - thread 9 (gpu4), hb time 172
+08:43:52:410	758	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x80898ca", "0x000000000000000000000000000000000000000000000000000000004a71668e"]}
+
+08:43:52:441	758	got 39 bytes
+08:43:52:441	758	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+08:43:52:441	758	parse packet: 38
+08:43:52:441	758	new buf size: 0
+08:44:03:582	434	Quit...

@@ -1,0 +1,36 @@
+19:06:13:488	18ac	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 -benchmark 150 
+19:06:13:488	18ac	
+19:06:13:488	18ac	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:06:13:503	18ac	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+19:06:13:503	18ac	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:06:13:519	18ac	
+19:06:13:738	18ac	ETH: cannot find any specified wallet address!
+19:06:13:738	18ac	ETH: cannot find any specified wallet address!
+19:06:13:753	18ac	Pool us1.ethermine.org removed from the list
+19:06:15:222	18ac	OpenCL platform: AMD Accelerated Parallel Processing
+19:06:15:222	18ac	OpenCL initializing...
+
+19:06:15:238	18ac	AMD Cards available: 5 
+19:06:15:253	18ac	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+19:06:15:253	18ac	GPU #0 recognized as Radeon RX 470/570
+19:06:15:269	18ac	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+19:06:15:269	18ac	GPU #1 recognized as Radeon RX 470/570
+19:06:15:269	18ac	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+19:06:15:285	18ac	GPU #2 recognized as Radeon RX 470/570
+19:06:15:285	18ac	GPU #3: Ellesmere, 4096 MB available, 32 compute units
+19:06:15:300	18ac	GPU #3 recognized as Radeon RX 470/570
+19:06:15:300	18ac	GPU #4: Ellesmere, 4096 MB available, 32 compute units
+19:06:15:316	18ac	GPU #4 recognized as Radeon RX 470/570
+19:06:15:316	18ac	POOL/SOLO version
+19:06:15:331	18ac	b351 
+19:06:15:331	18ac	Platform: Windows
+19:06:15:425	18ac	start building OpenCL program for GPU 0...
+19:06:32:425	18ac	done
+19:06:32:691	18ac	start building OpenCL program for GPU 1...
+19:06:49:206	18ac	done
+19:06:49:456	18ac	start building OpenCL program for GPU 2...
+19:07:05:925	18ac	done
+19:07:06:191	18ac	start building OpenCL program for GPU 3...
+19:07:21:878	18ac	done
+19:07:22:144	18ac	start building OpenCL program for GPU 4...
+19:07:38:082	18ac	done

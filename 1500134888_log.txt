@@ -1,0 +1,190 @@
+12:08:08:949	1b3c	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 
+12:08:08:949	1b3c	
+12:08:08:949	1b3c	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+12:08:08:965	1b3c	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+12:08:08:965	1b3c	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+12:08:08:965	1b3c	
+12:08:09:184	1b3c	ETH: 1 pool is specified
+12:08:09:184	1b3c	Main Ethereum pool is ubiq.epicpool.club:8008
+12:08:09:184	1b3c	SC: 0 pool is specified
+12:08:09:528	1b3c	OpenCL platform: AMD Accelerated Parallel Processing
+12:08:09:528	1b3c	OpenCL initializing...
+
+12:08:09:543	1b3c	AMD Cards available: 3 
+12:08:09:543	1b3c	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+12:08:09:559	1b3c	GPU #0 recognized as Radeon RX 470/570
+12:08:09:559	1b3c	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+12:08:09:574	1b3c	GPU #1 recognized as Radeon RX 470/570
+12:08:09:574	1b3c	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+12:08:09:574	1b3c	GPU #2 recognized as Radeon RX 470/570
+12:08:09:590	1b3c	POOL/SOLO version
+12:08:09:590	1b3c	b351 
+12:08:09:590	1b3c	Platform: Windows
+12:08:09:668	1b3c	start building OpenCL program for GPU 0...
+12:08:25:559	1b3c	done
+12:08:25:816	1b3c	start building OpenCL program for GPU 1...
+12:08:41:500	1b3c	done
+12:08:41:758	1b3c	start building OpenCL program for GPU 2...
+12:08:57:798	1b3c	done
+12:08:58:063	1b3c	GPU #0: set -etha as 0 (ETH algo for fast cards)
+12:08:58:110	1b3c	GPU #1: set -etha as 0 (ETH algo for fast cards)
+12:08:58:162	1b3c	GPU #2: set -etha as 0 (ETH algo for fast cards)
+12:08:58:305	1b3c	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+12:08:58:321	1b3c	No NVIDIA CUDA GPUs detected.
+12:08:58:321	1b3c	Total cards: 3 
+12:08:58:368	1b3c	No NVIDIA cards in the list, NVML library will not be used.
+12:08:58:383	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:08:58:493	1b3c	No pool specified for Siacoin! Ethereum-only mining mode is enabled
+12:08:58:493	1b3c	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+12:08:58:493	1b3c	ETH: eth-proxy stratum mode
+12:08:58:508	1b3c	Watchdog enabled
+12:08:58:508	1b3c	Remote management (READ-ONLY MODE) is enabled on port 3333
+12:08:58:524	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:08:58:524	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:08:58:540	1b3c	
+12:08:58:665	100	got 85 bytes
+12:08:58:665	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:08:58:665	100	parse packet: 83
+12:08:58:680	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:08:58:680	100	buf was cleared
+12:08:58:711	100	Stratum - reading socket failed 10038, disconnect
+12:08:58:711	100	ETH: Job timeout, disconnect, retry in 20 sec...
+12:09:20:557	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:09:20:697	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:09:20:697	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:09:20:822	100	got 85 bytes
+12:09:20:822	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:09:20:838	100	parse packet: 83
+12:09:20:838	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:09:20:854	100	buf was cleared
+12:09:20:885	100	Stratum - reading socket failed 10038, disconnect
+12:09:20:885	100	ETH: Job timeout, disconnect, retry in 20 sec...
+12:09:36:395	1b3c	GPU0 t=47C fan=0%, GPU1 t=46C fan=0%, GPU2 t=43C fan=0%
+12:09:36:402	1b3c	em hbt: 17672, fm hbt: 78, 
+12:09:36:412	1b3c	watchdog - thread 0 (gpu0), hb time 93
+12:09:36:418	1b3c	watchdog - thread 1 (gpu0), hb time 93
+12:09:36:429	1b3c	watchdog - thread 2 (gpu1), hb time 109
+12:09:36:434	1b3c	watchdog - thread 3 (gpu1), hb time 109
+12:09:36:441	1b3c	watchdog - thread 4 (gpu2), hb time 125
+12:09:36:446	1b3c	watchdog - thread 5 (gpu2), hb time 125
+12:09:40:924	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:09:41:055	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:09:41:124	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:09:41:234	100	got 85 bytes
+12:09:41:246	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:09:41:255	100	parse packet: 83
+12:09:41:543	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:09:41:664	100	buf was cleared
+12:09:41:809	100	Stratum - reading socket failed 10038, disconnect
+12:09:41:849	100	ETH: Job timeout, disconnect, retry in 20 sec...
+12:10:01:901	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:10:02:041	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:10:02:041	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:10:02:186	100	got 85 bytes
+12:10:02:186	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:10:02:186	100	parse packet: 83
+12:10:02:202	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:10:02:202	100	buf was cleared
+12:10:02:233	100	Stratum - reading socket failed 10038, disconnect
+12:10:02:233	100	ETH: Job timeout, disconnect, retry in 20 sec...
+12:10:14:787	1b3c	GPU0 t=47C fan=0%, GPU1 t=45C fan=0%, GPU2 t=42C fan=0%
+12:10:14:796	1b3c	em hbt: 12921, fm hbt: 15, 
+12:10:14:801	1b3c	watchdog - thread 0 (gpu0), hb time 47
+12:10:14:809	1b3c	watchdog - thread 1 (gpu0), hb time 47
+12:10:14:814	1b3c	watchdog - thread 2 (gpu1), hb time 47
+12:10:14:820	1b3c	watchdog - thread 3 (gpu1), hb time 63
+12:10:14:827	1b3c	watchdog - thread 4 (gpu2), hb time 63
+12:10:14:832	1b3c	watchdog - thread 5 (gpu2), hb time 78
+12:10:22:261	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:10:22:386	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:10:22:386	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:10:22:527	100	got 85 bytes
+12:10:22:527	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:10:22:527	100	parse packet: 83
+12:10:22:542	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:10:22:542	100	buf was cleared
+12:10:22:574	100	Stratum - reading socket failed 10038, disconnect
+12:10:22:574	100	ETH: Job timeout, disconnect, retry in 20 sec...
+12:10:42:596	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:10:42:721	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:10:42:736	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:10:42:861	100	got 85 bytes
+12:10:42:861	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:10:42:861	100	parse packet: 83
+12:10:42:877	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:10:42:877	100	buf was cleared
+12:10:42:908	100	Stratum - reading socket failed 10038, disconnect
+12:10:42:908	100	ETH: Job timeout, disconnect, retry in 20 sec...
+12:10:51:566	1b3c	GPU0 t=46C fan=0%, GPU1 t=45C fan=0%, GPU2 t=42C fan=0%
+12:10:51:566	1b3c	em hbt: 8969, fm hbt: 78, 
+12:10:51:602	1b3c	watchdog - thread 0 (gpu0), hb time 109
+12:10:51:608	1b3c	watchdog - thread 1 (gpu0), hb time 109
+12:10:51:613	1b3c	watchdog - thread 2 (gpu1), hb time 125
+12:10:51:619	1b3c	watchdog - thread 3 (gpu1), hb time 125
+12:10:51:625	1b3c	watchdog - thread 4 (gpu2), hb time 125
+12:10:51:631	1b3c	watchdog - thread 5 (gpu2), hb time 140
+12:11:03:004	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:11:03:135	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:11:03:135	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:11:03:276	100	got 85 bytes
+12:11:03:276	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:11:03:276	100	parse packet: 83
+12:11:03:291	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:11:03:291	100	buf was cleared
+12:11:03:323	100	Stratum - reading socket failed 10038, disconnect
+12:11:03:323	100	ETH: Job timeout, disconnect, retry in 20 sec...
+12:11:23:341	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:11:23:466	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:11:23:466	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:11:23:607	100	got 85 bytes
+12:11:23:607	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:11:23:607	100	parse packet: 83
+12:11:23:622	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:11:23:622	100	buf was cleared
+12:11:23:654	100	Stratum - reading socket failed 10038, disconnect
+12:11:23:654	100	ETH: Job timeout, disconnect, retry in 20 sec...
+12:11:28:442	1b3c	GPU0 t=45C fan=0%, GPU1 t=45C fan=0%, GPU2 t=42C fan=0%
+12:11:28:442	1b3c	em hbt: 5110, fm hbt: 0, 
+12:11:28:442	1b3c	watchdog - thread 0 (gpu0), hb time 110
+12:11:28:458	1b3c	watchdog - thread 1 (gpu0), hb time 125
+12:11:28:458	1b3c	watchdog - thread 2 (gpu1), hb time 125
+12:11:28:474	1b3c	watchdog - thread 3 (gpu1), hb time 141
+12:11:28:474	1b3c	watchdog - thread 4 (gpu2), hb time 141
+12:11:28:474	1b3c	watchdog - thread 5 (gpu2), hb time 141
+12:11:43:679	100	ETH: Stratum - connecting to 'ubiq.epicpool.club' <45.63.119.80> port 8008
+12:11:43:819	100	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xebefbcdc0de1b31b84b90fe1b07b4c85d895d3cd/g1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+12:11:43:819	100	ETH: Stratum - Connected (ubiq.epicpool.club:8008)
+12:11:43:960	100	got 85 bytes
+12:11:43:960	100	buf: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalid login"}}
+
+12:11:43:960	100	parse packet: 83
+12:11:43:976	100	ETH: Authorization failed
+: {"id":2,"jsonrpc":"2.0","result":null,"error":{"code":-1,"message":"Invalidlogin"}}
+12:11:43:976	100	buf was cleared
+12:11:44:007	100	Stratum - reading socket failed 10038, disconnect
+12:11:44:007	100	ETH: Job timeout, disconnect, retry in 20 sec...

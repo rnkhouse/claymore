@@ -1,0 +1,34 @@
+19:43:23:339	177c	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 -benchmark 150 
+19:43:23:339	177c	
+19:43:23:355	177c	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:43:23:355	177c	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+19:43:23:355	177c	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:43:23:370	177c	
+19:43:23:589	177c	ETH: cannot find any specified wallet address!
+19:43:23:589	177c	ETH: cannot find any specified wallet address!
+19:43:23:605	177c	Pool us1.ethermine.org removed from the list
+19:43:24:308	177c	OpenCL platform: AMD Accelerated Parallel Processing
+19:43:24:323	177c	OpenCL initializing...
+
+19:43:24:323	177c	AMD Cards available: 3 
+19:43:24:355	177c	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+19:43:24:355	177c	GPU #0 recognized as Radeon RX 470/570
+19:43:24:370	177c	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+19:43:24:386	177c	GPU #1 recognized as Radeon RX 470/570
+19:43:24:386	177c	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+19:43:24:402	177c	GPU #2 recognized as Radeon RX 470/570
+19:43:24:402	177c	POOL/SOLO version
+19:43:24:402	177c	b351 
+19:43:24:417	177c	Platform: Windows
+19:43:24:527	177c	start building OpenCL program for GPU 0...
+19:43:42:402	177c	done
+19:43:42:667	177c	start building OpenCL program for GPU 1...
+19:44:01:464	177c	done
+19:44:01:730	177c	start building OpenCL program for GPU 2...
+19:44:17:714	177c	done
+19:44:17:995	177c	GPU #0: set -etha as 0 (ETH algo for fast cards)
+19:44:18:073	177c	GPU #1: set -etha as 0 (ETH algo for fast cards)
+19:44:18:167	177c	GPU #2: set -etha as 0 (ETH algo for fast cards)
+19:44:18:167	177c	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+19:44:18:167	177c	No NVIDIA CUDA GPUs detected.
+19:44:18:183	177c	Total cards: 3 

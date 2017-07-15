@@ -1,0 +1,44 @@
+18:59:19:847	ea8	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 -benchmark 150 
+18:59:19:847	ea8	
+18:59:19:847	ea8	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+18:59:19:862	ea8	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+18:59:19:862	ea8	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+18:59:19:862	ea8	
+18:59:20:097	ea8	ETH: cannot find any specified wallet address!
+18:59:20:097	ea8	ETH: cannot find any specified wallet address!
+18:59:20:097	ea8	Pool us1.ethermine.org removed from the list
+18:59:21:144	ea8	OpenCL platform: AMD Accelerated Parallel Processing
+18:59:21:159	ea8	OpenCL initializing...
+
+18:59:21:159	ea8	AMD Cards available: 5 
+18:59:21:159	ea8	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+18:59:21:175	ea8	GPU #0 recognized as Radeon RX 470/570
+18:59:21:175	ea8	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+18:59:21:191	ea8	GPU #1 recognized as Radeon RX 470/570
+18:59:21:191	ea8	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+18:59:21:206	ea8	GPU #2 recognized as Radeon RX 470/570
+18:59:21:206	ea8	GPU #3: Ellesmere, 4096 MB available, 32 compute units
+18:59:21:222	ea8	GPU #3 recognized as Radeon RX 470/570
+18:59:21:222	ea8	GPU #4: Ellesmere, 4096 MB available, 32 compute units
+18:59:21:237	ea8	GPU #4 recognized as Radeon RX 470/570
+18:59:21:237	ea8	POOL/SOLO version
+18:59:21:237	ea8	b351 
+18:59:21:253	ea8	Platform: Windows
+18:59:21:331	ea8	start building OpenCL program for GPU 0...
+18:59:37:347	ea8	done
+18:59:37:613	ea8	start building OpenCL program for GPU 1...
+18:59:53:347	ea8	done
+18:59:53:613	ea8	start building OpenCL program for GPU 2...
+19:00:09:285	ea8	done
+19:00:09:550	ea8	start building OpenCL program for GPU 3...
+19:00:25:331	ea8	done
+19:00:25:597	ea8	start building OpenCL program for GPU 4...
+19:00:41:425	ea8	done
+19:00:41:691	ea8	GPU #0: set -etha as 0 (ETH algo for fast cards)
+19:00:41:738	ea8	GPU #1: set -etha as 0 (ETH algo for fast cards)
+19:00:41:785	ea8	GPU #2: set -etha as 0 (ETH algo for fast cards)
+19:00:41:832	ea8	GPU #3: set -etha as 0 (ETH algo for fast cards)
+19:00:41:878	ea8	GPU #4: set -etha as 0 (ETH algo for fast cards)
+19:00:41:878	ea8	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+19:00:41:894	ea8	No NVIDIA CUDA GPUs detected.
+19:00:41:894	ea8	Total cards: 5 

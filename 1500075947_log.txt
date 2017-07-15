@@ -1,0 +1,23 @@
+19:45:47:558	13cc	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 -benchmark 150 
+19:45:47:558	13cc	
+19:45:47:558	13cc	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+19:45:47:573	13cc	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+19:45:47:573	13cc	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+19:45:47:573	13cc	
+19:45:47:792	13cc	ETH: cannot find any specified wallet address!
+19:45:47:792	13cc	ETH: cannot find any specified wallet address!
+19:45:47:792	13cc	Pool us1.ethermine.org removed from the list
+19:45:48:136	13cc	OpenCL platform: AMD Accelerated Parallel Processing
+19:45:48:151	13cc	OpenCL initializing...
+
+19:45:48:151	13cc	AMD Cards available: 3 
+19:45:48:151	13cc	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+19:45:48:167	13cc	GPU #0 recognized as Radeon RX 470/570
+19:45:48:167	13cc	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+19:45:48:167	13cc	GPU #1 recognized as Radeon RX 470/570
+19:45:48:183	13cc	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+19:45:48:183	13cc	GPU #2 recognized as Radeon RX 470/570
+19:45:48:183	13cc	POOL/SOLO version
+19:45:48:198	13cc	b351 
+19:45:48:198	13cc	Platform: Windows
+19:45:48:292	13cc	start building OpenCL program for GPU 0...

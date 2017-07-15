@@ -1,0 +1,622 @@
+18:51:11:418	7b4	args: -r 1 -ethi 14 -etha 0 -mode 0 -gser 2 -esm 0 -asm 0 -dcoin sc -dcri 20 
+18:51:11:418	7b4	
+18:51:11:433	7b4	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+18:51:11:433	7b4	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+18:51:11:433	7b4	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+18:51:11:449	7b4	
+18:51:11:668	7b4	ETH: 1 pool is specified
+18:51:11:668	7b4	Main Ethereum pool is us1.ethermine.org:4444
+18:51:11:683	7b4	SC: 1 pool is specified
+18:51:11:683	7b4	Main Siacoin pool is us-east.siamining.com:7777
+18:51:13:480	7b4	OpenCL platform: AMD Accelerated Parallel Processing
+18:51:13:496	7b4	OpenCL initializing...
+
+18:51:13:496	7b4	AMD Cards available: 5 
+18:51:13:496	7b4	GPU #0: Ellesmere, 4096 MB available, 32 compute units
+18:51:13:511	7b4	GPU #0 recognized as Radeon RX 470/570
+18:51:13:511	7b4	GPU #1: Ellesmere, 4096 MB available, 32 compute units
+18:51:13:527	7b4	GPU #1 recognized as Radeon RX 470/570
+18:51:13:527	7b4	GPU #2: Ellesmere, 4096 MB available, 32 compute units
+18:51:13:543	7b4	GPU #2 recognized as Radeon RX 470/570
+18:51:13:543	7b4	GPU #3: Ellesmere, 4096 MB available, 32 compute units
+18:51:13:543	7b4	GPU #3 recognized as Radeon RX 470/570
+18:51:13:558	7b4	GPU #4: Ellesmere, 4096 MB available, 32 compute units
+18:51:13:558	7b4	GPU #4 recognized as Radeon RX 470/570
+18:51:13:574	7b4	POOL/SOLO version
+18:51:13:574	7b4	b351 
+18:51:13:589	7b4	Platform: Windows
+18:51:13:683	7b4	start building OpenCL program for GPU 0...
+18:51:30:824	7b4	done
+18:51:31:121	7b4	start building OpenCL program for GPU 1...
+18:51:49:652	7b4	done
+18:51:49:918	7b4	start building OpenCL program for GPU 2...
+18:52:07:183	7b4	done
+18:52:07:449	7b4	start building OpenCL program for GPU 3...
+18:52:24:152	7b4	done
+18:52:24:402	7b4	start building OpenCL program for GPU 4...
+18:52:40:746	7b4	done
+18:52:41:012	7b4	GPU #0: set -etha as 0 (ETH algo for fast cards)
+18:52:41:058	7b4	GPU #1: set -etha as 0 (ETH algo for fast cards)
+18:52:41:105	7b4	GPU #2: set -etha as 0 (ETH algo for fast cards)
+18:52:41:152	7b4	GPU #3: set -etha as 0 (ETH algo for fast cards)
+18:52:41:199	7b4	GPU #4: set -etha as 0 (ETH algo for fast cards)
+18:52:41:215	7b4	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+18:52:41:215	7b4	No NVIDIA CUDA GPUs detected.
+18:52:41:230	7b4	Total cards: 5 
+18:52:41:293	7b4	No NVIDIA cards in the list, NVML library will not be used.
+18:52:41:371	f8c	ETH: Stratum - connecting to 'us1.ethermine.org' <192.95.30.210> port 4444
+18:52:41:402	f8c	send: {"id":2,"jsonrpc":"2.0","method":"eth_login","params":["0x8312A7cF40175479D668448716ab62a804E2150b.valhalla1","EthereumAsdf12#$5"]}
+
+18:52:41:402	f8c	ETH: Stratum - Connected (us1.ethermine.org:4444)
+18:52:41:418	7b4	DUAL MINING MODE ENABLED: ETHEREUM+SIACOIN
+18:52:41:418	7b4	ETH: qtminer stratum mode
+18:52:41:433	7b4	Watchdog enabled
+18:52:41:449	7b4	Remote management (READ-ONLY MODE) is enabled on port 3333
+18:52:41:449	7b4	
+18:52:41:449	f8c	got 39 bytes
+18:52:41:465	f8c	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+18:52:41:480	f8c	parse packet: 38
+18:52:41:480	f8c	ETH: Authorized
+18:52:41:496	f8c	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+18:52:41:496	f8c	new buf size: 0
+18:52:41:496	10d4	 SC: Stratum - connecting to 'us-east.siamining.com' <45.79.159.167> port 7777
+18:52:41:527	f8c	got 248 bytes
+18:52:41:527	f8c	buf: {"id":3,"jsonrpc":"2.0","result":["0x4362dc316b08e02cfc0897140a7f68ac823d838216142a1123176fedfb5e9f82","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2d8"]}
+
+18:52:41:527	10d4	send: {"id": 1, "method": "mining.subscribe", "params": []}
+
+18:52:41:543	10d4	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+18:52:41:543	10d4	send: {"id": 2, "method": "mining.authorize", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1",""]}
+
+18:52:41:543	10d4	 SC: Stratum - Connected (us-east.siamining.com:7777)
+18:52:41:527	f8c	parse packet: 247
+18:52:41:558	f8c	ETH: job changed
+18:52:41:558	f8c	new buf size: 0
+18:52:41:590	10d4	got 182 bytes
+18:52:41:590	10d4	buf: {"id":1,"result":[[["mining.notify","0100d647020205b1"],["mining.set_difficulty","0100d647020205b12"]],"0100d647",4],"error":null}
+{"id":7,"method":"client.get_version","params":[]}
+
+18:52:41:590	10d4	parse packet: 130
+18:52:41:590	10d4	remove first packet 51
+18:52:41:605	10d4	new buf size: 51
+18:52:41:605	10d4	parse packet: 50
+18:52:41:605	10d4	send: {"error": null, "id": 7, "result": "sia 1.0"}
+
+18:52:41:621	10d4	new buf size: 0
+18:52:41:621	10d4	got 406 bytes
+18:52:41:621	10d4	buf: {"id":null,"method":"mining.set_difficulty","params":[7.9998779296875284]}
+{"id":null,"method":"mining.notify","params":["5e8a","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d580000000000000000a710605900000000208230b67bcdf9e736d5c4c1119b597b28329297a7d32de70efb4aacc1b870b6","0x000000001fffffffffffffffffffffffffffffffffffffffffffffffffffffff",false]}
+{"id":2,"result":true,"error":null}
+
+18:52:41:637	10d4	parse packet: 74
+18:52:41:637	10d4	remove first packet 331
+18:52:41:637	10d4	new buf size: 331
+18:52:41:652	10d4	parse packet: 294
+18:52:41:652	10d4	sc: job changed
+18:52:41:652	10d4	remove first packet 36
+18:52:41:668	10d4	new buf size: 36
+18:52:41:668	10d4	parse packet: 35
+18:52:41:683	10d4	 SC: Authorized
+18:52:41:683	10d4	new buf size: 0
+18:52:41:699	efc	Setting DAG epoch #133...
+18:52:45:293	10c0	Setting DAG epoch #133 for GPU3
+18:52:45:293	10c0	Create GPU buffer for GPU3
+18:52:49:527	f8c	got 248 bytes
+18:52:49:527	f8c	buf: {"id":0,"jsonrpc":"2.0","result":["0x07291f1da0cab7b2c7fc0112ad1f26f7f9d486d26ef4587c015f3dccc7d601e7","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2d9"]}
+
+18:52:49:543	f8c	parse packet: 247
+18:52:49:543	f8c	ETH: job changed
+18:52:49:543	f8c	new buf size: 0
+18:52:49:558	f8c	ETH: 07/07/17-18:52:49 - New job from us1.ethermine.org:4444
+18:52:49:558	f8c	target: 0x0000000112e0be82 (diff: 4000MH), epoch #133
+18:52:49:574	f8c	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+18:52:49:574	f8c	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s
+18:52:49:574	f8c	 SC - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0
+18:52:49:590	f8c	 SC: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s
+18:52:50:246	10c0	GPU3 DAG creation time - 4817 ms
+18:52:50:246	10c0	Setting DAG epoch #133 for GPU3 done
+18:52:50:246	1754	Setting DAG epoch #133 for GPU0
+18:52:50:262	1754	Create GPU buffer for GPU0
+18:52:55:168	1754	GPU0 DAG creation time - 4769 ms
+18:52:55:168	1754	Setting DAG epoch #133 for GPU0 done
+18:52:55:184	1748	Setting DAG epoch #133 for GPU1
+18:52:55:184	1748	Create GPU buffer for GPU1
+18:52:57:934	f8c	got 248 bytes
+18:52:57:934	f8c	buf: {"id":0,"jsonrpc":"2.0","result":["0x32d4adcb003e3f72af55a33644920f987b8b75f27254835fdaaa0a7476c9003b","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2da"]}
+
+18:52:57:934	f8c	parse packet: 247
+18:52:57:949	f8c	ETH: job changed
+18:52:57:949	f8c	new buf size: 0
+18:52:57:949	f8c	ETH: 07/07/17-18:52:57 - New job from us1.ethermine.org:4444
+18:52:57:965	f8c	target: 0x0000000112e0be82 (diff: 4000MH), epoch #133
+18:52:57:965	f8c	ETH - Total Speed: 53.267 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+18:52:57:965	f8c	ETH: GPU0 26.123 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 27.144 Mh/s, GPU4 0.000 Mh/s
+18:52:57:980	f8c	 SC - Total Speed: 532.665 Mh/s, Total Shares: 0, Rejected: 0
+18:52:57:980	f8c	 SC: GPU0 261.226 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 271.439 Mh/s, GPU4 0.000 Mh/s
+18:53:00:074	1748	GPU1 DAG creation time - 4756 ms
+18:53:00:074	1748	Setting DAG epoch #133 for GPU1 done
+18:53:00:090	1744	Setting DAG epoch #133 for GPU2
+18:53:00:090	1744	Create GPU buffer for GPU2
+18:53:01:590	f8c	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x4db2916", "0x00000000000000000000000000000000000000000000000000000000b3fb4a8c"]}
+
+18:53:01:621	f8c	got 39 bytes
+18:53:01:621	f8c	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+18:53:01:621	f8c	parse packet: 38
+18:53:01:637	f8c	new buf size: 0
+18:53:05:090	1744	GPU2 DAG creation time - 4761 ms
+18:53:05:090	1744	Setting DAG epoch #133 for GPU2 done
+18:53:05:090	efc	Setting DAG epoch #133 for GPU4
+18:53:05:105	efc	Create GPU buffer for GPU4
+18:53:09:996	efc	GPU4 DAG creation time - 4754 ms
+18:53:09:996	efc	Setting DAG epoch #133 for GPU4 done
+18:53:11:590	f8c	ETH: checking pool connection...
+18:53:11:590	f8c	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+18:53:11:621	f8c	got 248 bytes
+18:53:11:621	f8c	buf: {"id":3,"jsonrpc":"2.0","result":["0x32d4adcb003e3f72af55a33644920f987b8b75f27254835fdaaa0a7476c9003b","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2da"]}
+
+18:53:11:621	f8c	parse packet: 247
+18:53:11:637	f8c	ETH: job is the same
+18:53:11:637	f8c	new buf size: 0
+18:53:12:590	d9c	ETH: put share nonce acb255c802810a13
+18:53:12:590	d9c	ETH round found 1 shares
+18:53:12:605	f8c	ETH: 07/07/17-18:53:12 - SHARE FOUND - (GPU 4)
+18:53:12:605	f8c	send: {"id":4,"method":"eth_submitWork","params":["0xacb255c802810a13","0x32d4adcb003e3f72af55a33644920f987b8b75f27254835fdaaa0a7476c9003b","0xbfa35a0bfc55b4ffffa64956a2904f5c3ec96cf452e21defc639f57f019dccc2"]}
+
+18:53:12:637	f8c	got 39 bytes
+18:53:12:637	f8c	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+18:53:12:637	f8c	parse packet: 38
+18:53:12:652	f8c	ETH: Share accepted (47 ms)!
+18:53:12:652	f8c	new buf size: 0
+18:53:17:371	7b4	GPU0 t=62C fan=53%, GPU1 t=59C fan=49%, GPU2 t=62C fan=52%, GPU3 t=63C fan=50%, GPU4 t=65C fan=60%
+18:53:17:371	7b4	em hbt: 0, dm hbt: 0, fm hbt: 94, 
+18:53:17:387	7b4	watchdog - thread 0 (gpu0), hb time 110
+18:53:17:387	7b4	watchdog - thread 1 (gpu0), hb time 313
+18:53:17:387	7b4	watchdog - thread 2 (gpu1), hb time 328
+18:53:17:402	7b4	watchdog - thread 3 (gpu1), hb time 515
+18:53:17:402	7b4	watchdog - thread 4 (gpu2), hb time 47
+18:53:17:418	7b4	watchdog - thread 5 (gpu2), hb time 344
+18:53:17:418	7b4	watchdog - thread 6 (gpu3), hb time 344
+18:53:17:418	7b4	watchdog - thread 7 (gpu3), hb time 141
+18:53:17:434	7b4	watchdog - thread 8 (gpu4), hb time 63
+18:53:17:434	7b4	watchdog - thread 9 (gpu4), hb time 282
+18:53:17:434	1748	SC: put share nonce 4711a8d enonce f28501cf
+18:53:17:449	1748	SC round found 1 shares
+18:53:17:465	10d4	 SC: 07/07/17-18:53:17 - SHARE FOUND - (GPU 1)
+18:53:17:465	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8a","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d588d1a7104cf0185f2a710605900000000208230b67bcdf9e736d5c4c1119b597b28329297a7d32de70efb4aacc1b870b6"]}
+
+18:53:17:512	10d4	got 36 bytes
+18:53:17:512	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:17:512	10d4	parse packet: 35
+18:53:17:527	10d4	 SC: Share accepted (62 ms)!
+18:53:17:527	10d4	new buf size: 0
+18:53:17:730	1750	ETH: put share nonce 87f498940e3dd83b
+18:53:17:730	1750	ETH round found 1 shares
+18:53:17:746	f8c	ETH: 07/07/17-18:53:17 - SHARE FOUND - (GPU 2)
+18:53:17:746	f8c	send: {"id":4,"method":"eth_submitWork","params":["0x87f498940e3dd83b","0x32d4adcb003e3f72af55a33644920f987b8b75f27254835fdaaa0a7476c9003b","0xbf6fabbb0b2798c53990a81e91d92f69b140237d0754aa5154e667876b45f05f"]}
+
+18:53:17:793	f8c	got 39 bytes
+18:53:17:793	f8c	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+18:53:17:793	f8c	parse packet: 38
+18:53:17:809	f8c	ETH: Share accepted (47 ms)!
+18:53:17:809	f8c	new buf size: 0
+18:53:21:605	f8c	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8169782", "0x00000000000000000000000000000000000000000000000000000000b3fb4a8c"]}
+
+18:53:21:637	f8c	got 39 bytes
+18:53:21:637	f8c	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+18:53:21:637	f8c	parse packet: 38
+18:53:21:652	f8c	new buf size: 0
+18:53:23:934	10d4	got 371 bytes
+18:53:23:934	10d4	buf: {"id":null,"method":"mining.set_difficulty","params":[0.99998474121094105]}
+{"id":null,"method":"mining.notify","params":["5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d580000000000000000e3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff",false]}
+
+18:53:23:934	10d4	parse packet: 75
+18:53:23:949	10d4	remove first packet 295
+18:53:23:949	10d4	new buf size: 295
+18:53:23:949	10d4	parse packet: 294
+18:53:23:965	10d4	sc: job changed(2)
+18:53:23:965	10d4	new buf size: 0
+18:53:23:965	10d4	 SC: 07/07/17-18:53:23 - New job from us-east.siamining.com:7777
+18:53:23:980	10d4	target: 0x00000000ffffffff (diff: 4294MH)
+18:53:24:684	10c0	SC: put share nonce 34ea181 enonce 736a0007
+18:53:24:684	10c0	SC round found 1 shares
+18:53:24:699	10d4	 SC: 07/07/17-18:53:24 - SHARE FOUND - (GPU 3)
+18:53:24:699	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d5881a14e0307006a73e3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:24:809	10d4	got 36 bytes
+18:53:24:809	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:24:809	10d4	parse packet: 35
+18:53:24:824	10d4	 SC: Share accepted (125 ms)!
+18:53:24:824	10d4	new buf size: 0
+18:53:26:715	efc	SC: put share nonce 1d1fe8e enonce ddeb0045
+18:53:26:730	efc	SC round found 1 shares
+18:53:26:746	10d4	 SC: 07/07/17-18:53:26 - SHARE FOUND - (GPU 4)
+18:53:26:746	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d588efed1014500ebdde3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:26:793	10d4	got 36 bytes
+18:53:26:793	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:26:793	10d4	parse packet: 35
+18:53:26:809	10d4	 SC: Share accepted (63 ms)!
+18:53:26:809	10d4	new buf size: 0
+18:53:28:387	d9c	SC: put share nonce 8ade349 enonce dbec0076
+18:53:28:402	d9c	SC round found 1 shares
+18:53:28:418	10d4	 SC: 07/07/17-18:53:28 - SHARE FOUND - (GPU 4)
+18:53:28:418	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d5849e3ad087600ecdbe3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:28:465	10d4	got 36 bytes
+18:53:28:465	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:28:465	10d4	parse packet: 35
+18:53:28:480	10d4	 SC: Share accepted (62 ms)!
+18:53:28:480	10d4	new buf size: 0
+18:53:28:590	f8c	got 248 bytes
+18:53:28:590	f8c	buf: {"id":0,"jsonrpc":"2.0","result":["0x2cfcff2bb6714de45e4f52c238bb1b357aba49dbf77a02cb4cdf4346b8a5fd22","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2db"]}
+
+18:53:28:590	f8c	parse packet: 247
+18:53:28:605	f8c	ETH: job changed
+18:53:28:605	f8c	new buf size: 0
+18:53:28:605	f8c	ETH: 07/07/17-18:53:28 - New job from us1.ethermine.org:4444
+18:53:28:621	f8c	target: 0x0000000112e0be82 (diff: 4000MH), epoch #133
+18:53:28:621	f8c	ETH - Total Speed: 134.026 Mh/s, Total Shares: 2, Rejected: 0, Time: 00:00
+18:53:28:637	f8c	ETH: GPU0 27.153 Mh/s, GPU1 27.155 Mh/s, GPU2 25.432 Mh/s, GPU3 27.152 Mh/s, GPU4 27.135 Mh/s
+18:53:28:637	f8c	 SC - Total Speed: 1340.257 Mh/s, Total Shares: 4, Rejected: 0
+18:53:28:637	f8c	 SC: GPU0 271.527 Mh/s, GPU1 271.545 Mh/s, GPU2 254.324 Mh/s, GPU3 271.515 Mh/s, GPU4 271.346 Mh/s
+18:53:30:824	1754	SC: put share nonce 5244d1 enonce ccd400ab
+18:53:30:824	1754	SC round found 1 shares
+18:53:30:840	10d4	 SC: 07/07/17-18:53:30 - SHARE FOUND - (GPU 0)
+18:53:30:840	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58d1445200ab00d4cce3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:30:887	10d4	got 36 bytes
+18:53:30:887	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:30:887	10d4	parse packet: 35
+18:53:30:902	10d4	 SC: Share accepted (62 ms)!
+18:53:30:902	10d4	new buf size: 0
+18:53:33:559	d9c	SC: put share nonce 3bab63b enonce dbec0102
+18:53:33:574	d9c	SC round found 1 shares
+18:53:33:590	10d4	 SC: 07/07/17-18:53:33 - SHARE FOUND - (GPU 4)
+18:53:33:590	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d583bb6ba030201ecdbe3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:33:637	10d4	got 36 bytes
+18:53:33:637	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:33:637	10d4	parse packet: 35
+18:53:33:652	10d4	 SC: Share accepted (62 ms)!
+18:53:33:652	10d4	new buf size: 0
+18:53:36:902	1740	SC: put share nonce 6e3acd2 enonce cf1a014c
+18:53:36:918	1740	SC round found 1 shares
+18:53:36:934	10d4	 SC: 07/07/17-18:53:36 - SHARE FOUND - (GPU 1)
+18:53:36:934	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58d2ace3064c011acfe3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:36:981	10d4	got 36 bytes
+18:53:36:981	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:36:981	10d4	parse packet: 35
+18:53:36:996	10d4	 SC: Share accepted (62 ms)!
+18:53:36:996	10d4	new buf size: 0
+18:53:37:277	10c0	SC: put share nonce 4240471 enonce 736a015b
+18:53:37:277	10c0	SC round found 1 shares
+18:53:37:293	10d4	 SC: 07/07/17-18:53:37 - SHARE FOUND - (GPU 3)
+18:53:37:293	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58710424045b016a73e3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:37:340	10d4	got 36 bytes
+18:53:37:340	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:37:340	10d4	parse packet: 35
+18:53:37:356	10d4	 SC: Share accepted (62 ms)!
+18:53:37:356	10d4	new buf size: 0
+18:53:37:512	f8c	got 248 bytes
+18:53:37:512	f8c	buf: {"id":0,"jsonrpc":"2.0","result":["0x1ee1f32e0c7c16f05b2817b140625b5824abce846487333bbc7392d65e1e91a1","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2dc"]}
+
+18:53:37:527	f8c	parse packet: 247
+18:53:37:527	f8c	ETH: job changed
+18:53:37:527	f8c	new buf size: 0
+18:53:37:543	f8c	ETH: 07/07/17-18:53:37 - New job from us1.ethermine.org:4444
+18:53:37:543	f8c	target: 0x0000000112e0be82 (diff: 4000MH), epoch #133
+18:53:37:543	f8c	ETH - Total Speed: 118.976 Mh/s, Total Shares: 2, Rejected: 0, Time: 00:00
+18:53:37:559	f8c	ETH: GPU0 27.159 Mh/s, GPU1 22.231 Mh/s, GPU2 26.847 Mh/s, GPU3 21.080 Mh/s, GPU4 21.659 Mh/s
+18:53:37:559	f8c	 SC - Total Speed: 1189.757 Mh/s, Total Shares: 8, Rejected: 0
+18:53:37:574	f8c	 SC: GPU0 271.592 Mh/s, GPU1 222.313 Mh/s, GPU2 268.467 Mh/s, GPU3 210.796 Mh/s, GPU4 216.589 Mh/s
+18:53:39:168	1740	SC: put share nonce 2c2494a enonce cf1a0188
+18:53:39:168	1740	SC round found 1 shares
+18:53:39:184	10d4	 SC: 07/07/17-18:53:39 - SHARE FOUND - (GPU 1)
+18:53:39:184	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d584a49c20288011acfe3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:39:215	10d4	got 36 bytes
+18:53:39:215	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:39:215	10d4	parse packet: 35
+18:53:39:231	10d4	 SC: Share accepted (46 ms)!
+18:53:39:231	10d4	new buf size: 0
+18:53:39:246	16a4	SC: put share nonce 8b832b5 enonce ade80186
+18:53:39:246	16a4	SC round found 1 shares
+18:53:39:262	10d4	 SC: 07/07/17-18:53:39 - SHARE FOUND - (GPU 0)
+18:53:39:262	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58b532b8088601e8ade3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:39:293	10d4	got 36 bytes
+18:53:39:293	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:39:293	10d4	parse packet: 35
+18:53:39:309	10d4	 SC: Share accepted (47 ms)!
+18:53:39:309	10d4	new buf size: 0
+18:53:41:606	f8c	ETH: checking pool connection...
+18:53:41:606	f8c	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+18:53:41:621	f8c	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x81675b5", "0x00000000000000000000000000000000000000000000000000000000b3fb4a8c"]}
+
+18:53:41:637	f8c	got 248 bytes
+18:53:41:637	f8c	buf: {"id":3,"jsonrpc":"2.0","result":["0x1ee1f32e0c7c16f05b2817b140625b5824abce846487333bbc7392d65e1e91a1","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2dc"]}
+
+18:53:41:637	f8c	parse packet: 247
+18:53:41:652	f8c	ETH: job is the same
+18:53:41:652	f8c	new buf size: 0
+18:53:41:668	f8c	got 39 bytes
+18:53:41:668	f8c	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+18:53:41:668	f8c	parse packet: 38
+18:53:41:684	f8c	new buf size: 0
+18:53:43:043	1748	SC: put share nonce 8765538 enonce ed0301f7
+18:53:43:059	1748	SC round found 1 shares
+18:53:43:074	10d4	 SC: 07/07/17-18:53:43 - SHARE FOUND - (GPU 1)
+18:53:43:074	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d5838557608f70103ede3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:43:121	10d4	got 36 bytes
+18:53:43:121	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:43:121	10d4	parse packet: 35
+18:53:43:137	10d4	 SC: Share accepted (63 ms)!
+18:53:43:137	10d4	new buf size: 0
+18:53:48:777	10c0	SC: put share nonce 3ba96bb enonce 736a0291
+18:53:48:793	10c0	SC round found 1 shares
+18:53:48:809	10d4	 SC: 07/07/17-18:53:48 - SHARE FOUND - (GPU 3)
+18:53:48:809	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58bb96ba0391026a73e3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:48:840	10d4	got 36 bytes
+18:53:48:840	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:48:840	10d4	parse packet: 35
+18:53:48:856	10d4	 SC: Share accepted (46 ms)!
+18:53:48:856	10d4	new buf size: 0
+18:53:49:887	d9c	SC: put share nonce 75abf67 enonce dbec02ba
+18:53:49:887	d9c	SC round found 1 shares
+18:53:49:902	10d4	 SC: 07/07/17-18:53:49 - SHARE FOUND - (GPU 4)
+18:53:49:902	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d5867bf5a07ba02ecdbe3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:49:949	10d4	got 36 bytes
+18:53:49:949	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:49:949	10d4	parse packet: 35
+18:53:49:965	10d4	 SC: Share accepted (47 ms)!
+18:53:49:965	10d4	new buf size: 0
+18:53:50:074	173c	SC: put share nonce 6330464 enonce 94dc02b8
+18:53:50:074	173c	SC round found 1 shares
+18:53:50:090	10d4	 SC: 07/07/17-18:53:50 - SHARE FOUND - (GPU 3)
+18:53:50:090	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d5864043306b802dc94e3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:50:137	10d4	got 36 bytes
+18:53:50:137	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:50:137	10d4	parse packet: 35
+18:53:50:152	10d4	 SC: Share accepted (62 ms)!
+18:53:50:152	10d4	new buf size: 0
+18:53:51:043	7b4	GPU0 t=62C fan=50%, GPU1 t=66C fan=63%, GPU2 t=64C fan=56%, GPU3 t=69C fan=72%, GPU4 t=67C fan=69%
+18:53:51:059	7b4	em hbt: 0, dm hbt: 0, fm hbt: 94, 
+18:53:51:059	7b4	watchdog - thread 0 (gpu0), hb time 47
+18:53:51:059	7b4	watchdog - thread 1 (gpu0), hb time 250
+18:53:51:074	7b4	watchdog - thread 2 (gpu1), hb time 328
+18:53:51:074	7b4	watchdog - thread 3 (gpu1), hb time 62
+18:53:51:074	7b4	watchdog - thread 4 (gpu2), hb time 31
+18:53:51:090	7b4	watchdog - thread 5 (gpu2), hb time 266
+18:53:51:090	7b4	watchdog - thread 6 (gpu3), hb time 281
+18:53:51:090	7b4	watchdog - thread 7 (gpu3), hb time 78
+18:53:51:106	7b4	watchdog - thread 8 (gpu4), hb time 93
+18:53:51:106	7b4	watchdog - thread 9 (gpu4), hb time 312
+18:53:57:059	1754	SC: put share nonce 67e29f4 enonce ccd40371
+18:53:57:059	1754	SC round found 1 shares
+18:53:57:074	10d4	 SC: 07/07/17-18:53:57 - SHARE FOUND - (GPU 0)
+18:53:57:074	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58f4297e067103d4cce3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:53:57:121	10d4	got 36 bytes
+18:53:57:121	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:53:57:121	10d4	parse packet: 35
+18:53:57:137	10d4	 SC: Share accepted (63 ms)!
+18:53:57:137	10d4	new buf size: 0
+18:53:58:996	16a4	ETH: put share nonce d437d9819266f6a
+18:53:58:996	16a4	ETH round found 1 shares
+18:53:59:012	f8c	ETH: 07/07/17-18:53:59 - SHARE FOUND - (GPU 0)
+18:53:59:012	f8c	send: {"id":4,"method":"eth_submitWork","params":["0x0d437d9819266f6a","0x1ee1f32e0c7c16f05b2817b140625b5824abce846487333bbc7392d65e1e91a1","0xea9abfb1671b5a50344dfb0f37cc9af5ff2a1026b68ae4ee747891db66a9a9c1"]}
+
+18:53:59:059	f8c	got 39 bytes
+18:53:59:059	f8c	buf: {"id":4,"jsonrpc":"2.0","result":true}
+
+18:53:59:059	f8c	parse packet: 38
+18:53:59:074	f8c	ETH: Share accepted (47 ms)!
+18:53:59:074	f8c	new buf size: 0
+18:54:01:637	f8c	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x81502ff", "0x00000000000000000000000000000000000000000000000000000000b3fb4a8c"]}
+
+18:54:01:668	f8c	got 39 bytes
+18:54:01:668	f8c	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+18:54:01:668	f8c	parse packet: 38
+18:54:01:684	f8c	new buf size: 0
+18:54:03:559	1754	SC: put share nonce 7517b38 enonce ccd40425
+18:54:03:574	1754	SC round found 1 shares
+18:54:03:590	10d4	 SC: 07/07/17-18:54:03 - SHARE FOUND - (GPU 0)
+18:54:03:590	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58387b51072504d4cce3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:54:03:637	10d4	got 36 bytes
+18:54:03:637	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:03:637	10d4	parse packet: 35
+18:54:03:652	10d4	 SC: Share accepted (62 ms)!
+18:54:03:652	10d4	new buf size: 0
+18:54:05:043	1744	SC: put share nonce 7694475 enonce 68c00447
+18:54:05:043	1744	SC round found 1 shares
+18:54:05:059	10d4	 SC: 07/07/17-18:54:05 - SHARE FOUND - (GPU 2)
+18:54:05:059	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58754469074704c068e3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:54:05:106	10d4	got 36 bytes
+18:54:05:106	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:05:106	10d4	parse packet: 35
+18:54:05:121	10d4	 SC: Share accepted (47 ms)!
+18:54:05:121	10d4	new buf size: 0
+18:54:05:949	16a4	SC: put share nonce 4f0928c enonce ade80460
+18:54:05:965	16a4	SC round found 1 shares
+18:54:05:981	10d4	 SC: 07/07/17-18:54:05 - SHARE FOUND - (GPU 0)
+18:54:05:981	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d588c92f0046004e8ade3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:54:06:027	10d4	got 36 bytes
+18:54:06:027	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:06:027	10d4	parse packet: 35
+18:54:06:043	10d4	 SC: Share accepted (63 ms)!
+18:54:06:043	10d4	new buf size: 0
+18:54:08:387	10c0	SC: put share nonce 2133f79 enonce 736a04a3
+18:54:08:387	10c0	SC round found 1 shares
+18:54:08:402	10d4	 SC: 07/07/17-18:54:08 - SHARE FOUND - (GPU 3)
+18:54:08:402	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58793f1302a3046a73e3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:54:08:449	10d4	got 36 bytes
+18:54:08:449	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:08:449	10d4	parse packet: 35
+18:54:08:465	10d4	 SC: Share accepted (47 ms)!
+18:54:08:465	10d4	new buf size: 0
+18:54:08:715	1754	SC: put share nonce 2501e65 enonce ccd404b1
+18:54:08:715	1754	SC round found 1 shares
+18:54:08:731	10d4	 SC: 07/07/17-18:54:08 - SHARE FOUND - (GPU 0)
+18:54:08:731	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58651e5002b104d4cce3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:54:08:777	10d4	got 36 bytes
+18:54:08:777	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:08:777	10d4	parse packet: 35
+18:54:08:793	10d4	 SC: Share accepted (47 ms)!
+18:54:08:793	10d4	new buf size: 0
+18:54:11:621	f8c	ETH: checking pool connection...
+18:54:11:621	f8c	send: {"id":3,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+18:54:11:653	f8c	got 248 bytes
+18:54:11:653	f8c	buf: {"id":3,"jsonrpc":"2.0","result":["0x1ee1f32e0c7c16f05b2817b140625b5824abce846487333bbc7392d65e1e91a1","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2dc"]}
+
+18:54:11:653	f8c	parse packet: 247
+18:54:11:668	f8c	ETH: job is the same
+18:54:11:668	f8c	new buf size: 0
+18:54:12:262	efc	SC: put share nonce 89f823 enonce ddeb0513
+18:54:12:340	efc	SC round found 1 shares
+18:54:12:356	10d4	 SC: 07/07/17-18:54:12 - SHARE FOUND - (GPU 4)
+18:54:12:356	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d5823f889001305ebdde3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:54:12:403	10d4	got 36 bytes
+18:54:12:403	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:12:403	10d4	parse packet: 35
+18:54:12:418	10d4	 SC: Share accepted (63 ms)!
+18:54:12:418	10d4	new buf size: 0
+18:54:12:746	1754	SC: put share nonce 588cff9 enonce ccd4051f
+18:54:12:746	1754	SC round found 1 shares
+18:54:12:762	10d4	 SC: 07/07/17-18:54:12 - SHARE FOUND - (GPU 0)
+18:54:12:762	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8c","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58f9cf88051f05d4cce3106059000000003a5055dc89313965f6da411ec9429971ea1ae69b709818568696c9beed7f6531"]}
+
+18:54:12:809	10d4	got 36 bytes
+18:54:12:809	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:12:809	10d4	parse packet: 35
+18:54:12:824	10d4	 SC: Share accepted (62 ms)!
+18:54:12:824	10d4	new buf size: 0
+18:54:18:934	10d4	got 295 bytes
+18:54:18:934	10d4	buf: {"id":null,"method":"mining.notify","params":["5e8d","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d580000000000000000011160590000000062527e17396430389222241ff14b7b2a7a32114256d5b23aafe1f27a2fc1997f","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff",false]}
+
+18:54:18:934	10d4	parse packet: 294
+18:54:18:949	10d4	sc: job changed(2)
+18:54:18:949	10d4	new buf size: 0
+18:54:18:949	10d4	 SC: 07/07/17-18:54:18 - New job from us-east.siamining.com:7777
+18:54:18:965	10d4	target: 0x00000000ffffffff (diff: 4294MH)
+18:54:21:653	f8c	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8173114", "0x00000000000000000000000000000000000000000000000000000000b3fb4a8c"]}
+
+18:54:21:684	f8c	got 39 bytes
+18:54:21:684	f8c	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+18:54:21:684	f8c	parse packet: 38
+18:54:21:699	f8c	new buf size: 0
+18:54:24:621	f8c	got 248 bytes
+18:54:24:621	7b4	GPU0 t=63C fan=48%, GPU1 t=67C fan=65%, GPU2 t=67C fan=56%, GPU3 t=73C fan=83%, GPU4 t=69C fan=70%
+18:54:24:637	7b4	em hbt: 16, dm hbt: 0, fm hbt: 0, 
+18:54:24:637	7b4	watchdog - thread 0 (gpu0), hb time 235
+18:54:24:637	7b4	watchdog - thread 1 (gpu0), hb time 16
+18:54:24:653	7b4	watchdog - thread 2 (gpu1), hb time 328
+18:54:24:653	7b4	watchdog - thread 3 (gpu1), hb time 125
+18:54:24:668	7b4	watchdog - thread 4 (gpu2), hb time 94
+18:54:24:668	7b4	watchdog - thread 5 (gpu2), hb time 344
+18:54:24:668	7b4	watchdog - thread 6 (gpu3), hb time 141
+18:54:24:684	7b4	watchdog - thread 7 (gpu3), hb time 360
+18:54:24:684	7b4	watchdog - thread 8 (gpu4), hb time 360
+18:54:24:684	7b4	watchdog - thread 9 (gpu4), hb time 157
+18:54:24:621	f8c	buf: {"id":0,"jsonrpc":"2.0","result":["0x61382008d85f9aebf337e3a2786b707c8aa76546cb9a9effc00dd908e8a7d17d","0x9e9724706b96cf93985fa8f097f4c1a687ebc3c5fc93d50a68d8e51211a723e0","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x3ce2dd"]}
+
+18:54:24:699	f8c	parse packet: 247
+18:54:24:699	f8c	ETH: job changed
+18:54:24:715	f8c	new buf size: 0
+18:54:24:715	f8c	ETH: 07/07/17-18:54:24 - New job from us1.ethermine.org:4444
+18:54:24:715	f8c	target: 0x0000000112e0be82 (diff: 4000MH), epoch #133
+18:54:24:731	f8c	ETH - Total Speed: 117.656 Mh/s, Total Shares: 3, Rejected: 0, Time: 00:01
+18:54:24:731	f8c	ETH: GPU0 21.605 Mh/s, GPU1 25.324 Mh/s, GPU2 21.067 Mh/s, GPU3 24.439 Mh/s, GPU4 25.221 Mh/s
+18:54:24:746	f8c	 SC - Total Speed: 1176.557 Mh/s, Total Shares: 22, Rejected: 0
+18:54:24:746	f8c	 SC: GPU0 216.051 Mh/s, GPU1 253.237 Mh/s, GPU2 210.668 Mh/s, GPU3 244.392 Mh/s, GPU4 252.209 Mh/s
+18:54:27:684	d9c	SC: put share nonce 1840f9d enonce ef1d00e4
+18:54:27:699	d9c	SC round found 1 shares
+18:54:27:715	10d4	 SC: 07/07/17-18:54:27 - SHARE FOUND - (GPU 4)
+18:54:27:715	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8d","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d589d0f8401e4001def011160590000000062527e17396430389222241ff14b7b2a7a32114256d5b23aafe1f27a2fc1997f"]}
+
+18:54:27:762	10d4	got 36 bytes
+18:54:27:762	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:27:762	10d4	parse packet: 35
+18:54:27:778	10d4	 SC: Share accepted (62 ms)!
+18:54:27:778	10d4	new buf size: 0
+18:54:30:840	1754	SC: put share nonce 115bbe3 enonce 87930137
+18:54:30:856	1754	SC round found 1 shares
+18:54:30:871	10d4	 SC: 07/07/17-18:54:30 - SHARE FOUND - (GPU 0)
+18:54:30:871	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8d","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58e3bb150137019387011160590000000062527e17396430389222241ff14b7b2a7a32114256d5b23aafe1f27a2fc1997f"]}
+
+18:54:30:918	10d4	got 36 bytes
+18:54:30:918	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:30:918	10d4	parse packet: 35
+18:54:30:934	10d4	 SC: Share accepted (63 ms)!
+18:54:30:934	10d4	new buf size: 0
+18:54:31:903	173c	SC: put share nonce 4ff3ae enonce 13ba015a
+18:54:31:903	173c	SC round found 1 shares
+18:54:31:918	10d4	 SC: 07/07/17-18:54:31 - SHARE FOUND - (GPU 3)
+18:54:31:918	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8d","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d58aef34f005a01ba13011160590000000062527e17396430389222241ff14b7b2a7a32114256d5b23aafe1f27a2fc1997f"]}
+
+18:54:31:965	10d4	got 36 bytes
+18:54:31:965	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:31:965	10d4	parse packet: 35
+18:54:31:981	10d4	 SC: Share accepted (62 ms)!
+18:54:31:981	10d4	new buf size: 0
+18:54:39:840	d9c	SC: put share nonce 6f9a9f enonce ef1d022e
+18:54:39:840	d9c	SC round found 1 shares
+18:54:39:856	10d4	 SC: 07/07/17-18:54:39 - SHARE FOUND - (GPU 4)
+18:54:39:856	10d4	send: {"id": 4, "method": "mining.submit", "params": ["9b6c5be0933974f23c3322db83117ce8621937f06eb1d486337873154a499083aa6d05f2b02c.Fenrisulfir.valhalla1","5e8d","0x000000000000003449deb6de05ac6b91955a5a3d690998f19b4feb47512a2d589f9a6f002e021def011160590000000062527e17396430389222241ff14b7b2a7a32114256d5b23aafe1f27a2fc1997f"]}
+
+18:54:39:903	10d4	got 36 bytes
+18:54:39:903	10d4	buf: {"id":4,"result":true,"error":null}
+
+18:54:39:903	10d4	parse packet: 35
+18:54:39:918	10d4	 SC: Share accepted (63 ms)!
+18:54:39:918	10d4	new buf size: 0
+18:54:41:028	1618	Quit...
